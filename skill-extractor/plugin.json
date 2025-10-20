@@ -1,0 +1,15 @@
+{
+  "name": "skill-extractor",
+  "description": "Extracts skills and reusable components from a Specified Claude Code command or agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["skills", "reusable", "components", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}
