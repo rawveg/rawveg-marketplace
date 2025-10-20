@@ -152,7 +152,26 @@ function main() {
     try {
       const asciiArt = generateAsciiArt(replacement.text, replacement.font);
       const formatted = formatWithComments(asciiArt, replacement.commentStyle);
-      content = content.replace(replacement.tag, formatted);
+
+      // If there's a comment style and the tag is preceded by that comment on the same line,
+      // we need to replace the comment prefix + tag together (not just the tag).
+      // This prevents double comment prefixes (e.g., "# #" instead of "#")
+      if (replacement.commentStyle) {
+        const escapedComment = replacement.commentStyle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const escapedTag = replacement.tag.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        // Match optional leading whitespace, the comment prefix, optional space, then the tag
+        const commentPrefixPattern = new RegExp(`(^|\\n)\\s*${escapedComment}\\s*${escapedTag}`);
+        if (commentPrefixPattern.test(content)) {
+          // Replace both the comment prefix and tag with the formatted ASCII art
+          content = content.replace(commentPrefixPattern, `$1${formatted}`);
+        } else {
+          // No leading comment prefix, just replace the tag
+          content = content.replace(replacement.tag, formatted);
+        }
+      } else {
+        // No comment style, just replace the tag
+        content = content.replace(replacement.tag, formatted);
+      }
     } catch (err) {
       console.error(`❌ Error generating ASCII art for "${replacement.text}": ${err.message}`);
       process.exit(1);
