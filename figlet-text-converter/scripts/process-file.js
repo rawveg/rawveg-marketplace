@@ -16,7 +16,9 @@ function getAvailableFonts() {
 // Generate ASCII art via npx figlet
 function generateAsciiArt(text, font) {
   try {
-    const output = execSync(`npx figlet -f "${font}" "${text}"`, { encoding: 'utf-8' });
+    // If no font specified, let figlet use its default (standard)
+    const fontFlag = font ? `-f "${font}"` : '';
+    const output = execSync(`npx figlet ${fontFlag} "${text}"`, { encoding: 'utf-8' });
     return output;
   } catch (error) {
     throw new Error(`Failed to generate ASCII art: ${error.message}`);
@@ -32,7 +34,7 @@ function parseArguments() {
     console.error('This script processes <figlet> tags in files and replaces them with ASCII art.');
     console.error('');
     console.error('Syntax: <figlet font="font-name">Text to convert</figlet>');
-    console.error('        <figlet>Text to convert</figlet>  (uses DOS Rebel font by default)');
+    console.error('        <figlet>Text to convert</figlet>  (uses standard font by default)');
     process.exit(1);
   }
   return args[0];
@@ -113,14 +115,17 @@ function main() {
   let match;
   const replacements = [];
 
+  // Add 'standard' to available fonts since figlet always accepts it as the default
+  const validFonts = new Set([...availableFonts, 'standard']);
+
   while ((match = tagRegex.exec(content)) !== null) {
     const fullTag = match[0];
-    const fontName = match[1] || 'DOS Rebel';
+    const fontName = match[1] || null; // null means use figlet's default
     const textToConvert = match[2];
     const tagIndex = match.index;
 
-    // Validate font
-    if (!availableFonts.includes(fontName)) {
+    // Validate font if specified
+    if (fontName && !validFonts.has(fontName)) {
       console.error(`❌ Error: Invalid font "${fontName}" in tag: ${fullTag}`);
       console.error(`   Run 'node list-fonts.js' to see available fonts.`);
       process.exit(1);

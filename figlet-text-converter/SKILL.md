@@ -1,6 +1,6 @@
 ---
 name: figlet-text-converter
-description: This skill processes files containing figlet tags and replaces them with ASCII art representations. It detects and preserves comment styles (forward slash forward slash, hash, double-dash, forward slash asterisk), automatically manages Node.js dependencies, and supports 400+ fonts (defaulting to 'DOS Rebel'). The skill should be used when a user requests converting marked text in a file to ASCII art using figlet tag syntax, or when they want to list available fonts.
+description: This skill processes files containing figlet tags and replaces them with ASCII art representations. It detects and preserves comment styles (forward slash forward slash, hash, double-dash, forward slash asterisk), automatically manages Node.js dependencies, and supports 400+ fonts (defaulting to the standard font). The skill should be used when a user requests converting marked text in a file to ASCII art using figlet tag syntax, or when they want to list available fonts.
 ---
 
 # Figlet Text Converter
@@ -28,7 +28,7 @@ Insert `<figlet>` tags anywhere in a file to mark text for ASCII art conversion:
 <figlet font="3-D">Text to Convert</figlet>
 ```
 
-**Using default font (DOS Rebel):**
+**Using default font (standard):**
 ```
 <figlet>Text to Convert</figlet>
 ```
@@ -87,7 +87,7 @@ When a user requests ASCII art conversion:
 1. Read the file containing `<figlet>` tags
 2. Validate all font names (error immediately if invalid)
 3. For each tag:
-   - Extract the font name (or use 'DOS Rebel' if omitted)
+   - Extract the font name (or use 'standard' if omitted)
    - Generate ASCII art for the text
    - Detect comment style from the surrounding line (// # -- /*)
    - Format output with appropriate comment prefixes
@@ -144,7 +144,7 @@ Outputs raw ASCII art without formatting.
 
 ### Default Font
 
-If no font is specified, 'DOS Rebel' is used:
+If no font is specified, 'standard' is used:
 ```
 <figlet>Default Font Example</figlet>
 ```
@@ -166,11 +166,10 @@ When user requests to list available fonts, run the font discovery script to sho
 - Font names for use in tags
 
 Popular fonts:
-- DOS Rebel (default)
+- standard (default)
 - 3-D
 - Block
 - Big
-- Standard
 - Shadow
 - Slant
 - Graffiti
@@ -213,5 +212,5 @@ The skill validates fonts before processing:
 - **Figlet Package**: v1.7.0 or higher (auto-installed on first use)
 - **Tag Format**: `<figlet font="font-name">text</figlet>` or `<figlet>text</figlet>`
 - **Comment Styles Supported**: //, #, --, /*, or none
-- **Default Font**: DOS Rebel
+- **Default Font**: standard
 - **File Processing**: In-place modification

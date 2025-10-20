@@ -36,7 +36,7 @@ Then ask Claude to process the file:
 <figlet>Welcome</figlet>
 ```
 
-Uses 'DOS Rebel' font (default).
+Uses 'standard' font (default).
 
 ### Tag with Custom Font
 
@@ -226,11 +226,10 @@ This will show:
 
 ### Popular Fonts
 
-- **DOS Rebel** - Default, bold and clean
+- **standard** - Default, traditional figlet style
 - **3-D** - 3D effect with shading
 - **Block** - Large, blocky characters
 - **Big** - Large and simple
-- **Standard** - Traditional figlet style
 - **Shadow** - Shadowed appearance
 - **Slant** - Slanted characters
 - **Graffiti** - Artistic style

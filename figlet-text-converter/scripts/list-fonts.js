@@ -48,7 +48,7 @@ function main() {
   });
 
   console.log('\n💡 Tip: Use font="font-name" in figlet tags');
-  console.log('   Default font: "DOS Rebel"\n');
+  console.log('   Default font: "standard"\n');
 }
 
 main();
