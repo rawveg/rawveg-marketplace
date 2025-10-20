@@ -1,14 +1,25 @@
-import figlet from 'figlet';
+import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 
-// Ensure dependencies are installed
-async function ensureDependencies() {
+// Get available fonts via npx figlet
+function getAvailableFonts() {
   try {
-    await import('figlet');
+    const output = execSync('npx figlet --list', { encoding: 'utf-8' });
+    // Skip the "Available fonts:" header and filter out empty lines
+    return output.trim().split('\n').slice(1).map(line => line.trim()).filter(line => line);
   } catch (error) {
-    console.error('Dependencies not installed. Please run: npm install');
-    process.exit(1);
+    throw new Error(`Failed to fetch available fonts: ${error.message}`);
+  }
+}
+
+// Generate ASCII art via npx figlet
+function generateAsciiArt(text, font) {
+  try {
+    const output = execSync(`npx figlet -f "${font}" "${text}"`, { encoding: 'utf-8' });
+    return output;
+  } catch (error) {
+    throw new Error(`Failed to generate ASCII art: ${error.message}`);
   }
 }
 
@@ -76,9 +87,7 @@ function formatWithComments(asciiArt, commentStyle) {
 }
 
 // Main function
-async function main() {
-  await ensureDependencies();
-
+function main() {
   const filePath = parseArguments();
 
   // Verify file exists
@@ -93,7 +102,7 @@ async function main() {
   // Get available fonts for validation
   let availableFonts;
   try {
-    availableFonts = await figlet.fonts();
+    availableFonts = getAvailableFonts();
   } catch (err) {
     console.error(`❌ Error fetching available fonts: ${err.message}`);
     process.exit(1);
@@ -141,9 +150,7 @@ async function main() {
   // Process each replacement
   for (const replacement of replacements) {
     try {
-      const asciiArt = figlet.textSync(replacement.text, {
-        font: replacement.font
-      });
+      const asciiArt = generateAsciiArt(replacement.text, replacement.font);
       const formatted = formatWithComments(asciiArt, replacement.commentStyle);
       content = content.replace(replacement.tag, formatted);
     } catch (err) {
@@ -158,7 +165,4 @@ async function main() {
   console.log(`✅ Successfully processed ${replacements.length} figlet tag(s) in: ${filePath}`);
 }
 
-main().catch(err => {
-  console.error(`❌ Fatal error: ${err.message}`);
-  process.exit(1);
-});
+main();
