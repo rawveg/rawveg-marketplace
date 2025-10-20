@@ -1,0 +1,40 @@
+{
+  "name": "claude-skills-marketplace",
+  "id": "claude-skills-marketplace",
+  "owner": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Skills Marketplace - A centralized repository for Claude Code skills and plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-extractor",
+      "source": "./skill-extractor",
+      "description": "Extracts skills and reusable components from a Specified Claude Code command or agent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["skills", "reusable", "components", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "word-count-checker",
+      "source": "./word-count-checker",
+      "description": "Automatically checks word counts of documents when the user mentions word count in relation to a file. Prevents Claude from estimating word count of a document based on the tokens used to generate it.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["word count", "document", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    }
+  ]
+}
