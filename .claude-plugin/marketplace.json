@@ -24,6 +24,19 @@
       "strict": false
     },
     {
+      "name": "figlet-text-converter",
+      "source": "./figlet-text-converter",
+      "description": "Converts marked text in files to ASCII art using figlet tag syntax.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["figlet", "text", "converter", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
       "name": "word-count-checker",
       "source": "./word-count-checker",
       "description": "Automatically checks word counts of documents when the user mentions word count in relation to a file. Prevents Claude from estimating word count of a document based on the tokens used to generate it.",

@@ -1,0 +1,16 @@
+{
+  "name": "figlet-text-converter",
+  "version": "1.0.0",
+  "description": "Node.js figlet text converter for Claude Code skill",
+  "type": "module",
+  "scripts": {
+    "process": "node process-file.js",
+    "list": "node list-fonts.js"
+  },
+  "dependencies": {
+    "figlet": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
