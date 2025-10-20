@@ -27,7 +27,7 @@
       "name": "figlet-text-converter",
       "source": "./figlet-text-converter",
       "description": "Converts marked text in files to ASCII art using figlet tag syntax.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Tim Green",
         "email": "rawveg@gmail.com"
