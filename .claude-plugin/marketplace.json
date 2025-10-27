@@ -97,6 +97,15 @@
       ]
     },
     {
+      "name": "midjourney-replicate-flux",
+      "description": "Interacts with the Replicate MCP server to create Midjourney-style prompts and images using Blackforest Labs Flux 1.1 Pro Model.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./midjourney-replicate-flux"
+      ]
+    },
+    {
       "name": "openrouter",
       "description": "Interacts with the OpenRouter API.",
       "source": "./",

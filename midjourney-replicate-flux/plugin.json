@@ -1,0 +1,15 @@
+{
+  "name": "midjourney-replicate-flux",
+  "description": "Interacts with the Replicate MCP server to create Midjourney-style pro,pts and images using Blackforest Labs Flux 1.1 Pro Model.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["midjourney-replicate-flux", "midjourney", "replicate", "blackforest-labs", "flux", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}
