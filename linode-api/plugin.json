@@ -1,0 +1,15 @@
+{
+  "name": "linode-api",
+  "description": "Interacts with the Linode API.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["linode-api", "linode", "akamai", "api","Claude Code"],
+  "category": "productivity",
+  "strict": false
+}
