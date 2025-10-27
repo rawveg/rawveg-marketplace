@@ -115,6 +115,15 @@
       ]
     },
     {
+      "name": "vastai-api",
+      "description": "Interacts with the VastAI API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./vastai-api"
+      ]
+    },
+    {
       "name": "word-count-checker",
       "description": "Checks the word count of a file.",
       "source": "./",
