@@ -1,0 +1,15 @@
+{
+  "name": "laravel",
+  "description": "Provides Laravel integration for Claude Code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["laravel", "laravel", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}
