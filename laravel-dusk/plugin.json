@@ -1,0 +1,15 @@
+{
+  "name": "laravel-dusk",
+  "description": "Interacts with the Laravel Dusk Package for Laravel.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["laravel-dusk", "laravel", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}
