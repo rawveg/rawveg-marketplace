@@ -81,6 +81,15 @@
       "skills": [
         "./openrouter"
       ]
+    },
+    {
+      "name": "Coding Standards",
+      "description": "Collection of skills used to enhance code quality and maintainability",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./tdd-methodology-expert"
+      ]
     }
   ]
 }

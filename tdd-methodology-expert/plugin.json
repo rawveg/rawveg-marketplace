@@ -1,0 +1,15 @@
+{
+  "name": "tdd-methodology-expert",
+  "description": "Provides TDD methodology expert integration for Claude Code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["tdd", "tdd-methodology-expert", "coding standards", "code quality", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}
