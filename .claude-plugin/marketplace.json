@@ -11,19 +11,6 @@
   },
   "plugins": [
     {
-      "name": "skill-extractor",
-      "source": "./skill-extractor",
-      "description": "Extracts skills and reusable components from a Specified Claude Code command or agent.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Tim Green",
-        "email": "rawveg@gmail.com"
-      },
-      "keywords": ["skills", "reusable", "components", "Claude Code"],
-      "category": "productivity",
-      "strict": false
-    },
-    {
       "name": "figlet-text-converter",
       "source": "./figlet-text-converter",
       "description": "Converts marked text in files to ASCII art using figlet tag syntax.",
@@ -33,6 +20,145 @@
         "email": "rawveg@gmail.com"
       },
       "keywords": ["figlet", "text", "converter", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "forem-api",
+      "source": "./forem-api",
+      "description": "Interacts with the Forem API. Allowing you to create, update, and delete articles, as well as manage your profile.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+      "repository": "https://github.com/rawveg/claude-skills-marketplace",
+      "license": "MIT",
+      "keywords": ["forem", "forem-api", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "github-issue-checker",
+      "source": "./github-issue-checker",
+      "description": "Interacts with the GitHub API. Allowing you to create, update, and delete issues, as well as manage your profile.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+      "repository": "https://github.com/rawveg/claude-skills-marketplace",
+      "license": "MIT",
+      "keywords": ["github", "github-api", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "hashnode-api",
+      "source": "./hashnode-api",
+      "description": "Interacts with the Hashnode API. Allowing you to create, update, and delete articles, as well as manage your profile.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+      "repository": "https://github.com/rawveg/claude-skills-marketplace",
+      "license": "MIT",
+      "keywords": ["hashnode", "hashnode-api", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "laravel",
+      "source": "./laravel",
+      "description": "Provides Laravel integration for Claude Code.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["laravel", "laravel", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "laravel-cashier-paddle",
+      "source": "./laravel-cashier-paddle",
+      "description": "Interacts with the Laravel Cashier Paddle Package for Laravel.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["laravel-cashier-paddle", "laravel", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "laravel-cashier-stripe",
+      "source": "./laravel-cashier-stripe",
+      "description": "Interacts with the Laravel Cashier Stripe Package for Laravel.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["laravel-cashier-stripe", "laravel", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "laravel-dusk",
+      "source": "./laravel-dusk",
+      "description": "Interacts with the Laravel Dusk Package for Laravel.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["laravel-dusk", "laravel", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "laravel-mcp",
+      "source": "./laravel-mcp",
+      "description": "Interacts with the Laravel MCP Package for Laravel.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["laravel-prompts", "laravel", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "laravel-prompts",
+      "source": "./laravel-prompts",
+      "description": "Interacts with the Laravel Prompts Package for Laravel.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["laravel-prompts", "laravel", "Claude Code"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "openrouter",
+      "source": "./openrouter",
+      "description": "Interacts with the OpenRouter API.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tim Green",
+        "email": "rawveg@gmail.com"
+      },
+      "keywords": ["openrouter", "Claude Code"],
       "category": "productivity",
       "strict": false
     },

@@ -1,0 +1,15 @@
+{
+  "name": "forem-api",
+  "description": "Interacts with the Forem API. Allowing you to create, update, and delete articles, as well as manage your profile.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["forem-api", "forem", "dev.to", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}
