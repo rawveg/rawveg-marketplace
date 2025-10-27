@@ -104,6 +104,8 @@
       "source": "./",
       "strict": false,
       "skills": [
+        "./linode-api",
+        "./linode-cli",
         "./openrouter"
       ]
     },
