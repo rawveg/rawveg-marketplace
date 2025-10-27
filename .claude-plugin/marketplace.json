@@ -11,30 +11,25 @@
   },
   "plugins": [
     {
-      "name": "writing",
-      "description": "Collection of skills used to work with writing",
+      "name": "article-title-optimizer",
+      "description": "Optimizes article titles for search engines.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./article-title-optimizer",
-        "./forem-api",
-        "./hashnode-api",
-        "./word-count-checker",
-        "./writeas"
+        "./article-title-optimizer"
       ]
     },
     {
-      "name": "text",
+      "name": "figlet-text-converter",
       "description": "Converts marked text in files to ASCII art using figlet tag syntax.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./figlet-text-converter",
-        "./word-count-checker"
+        "./figlet-text-converter"
       ]
     },
     {
-      "name": "forem",
+      "name": "forem-api",
       "description": "Interacts with the Forem API.",
       "source": "./",
       "strict": false,
@@ -43,8 +38,17 @@
       ]
     },
     {
-      "name": "github",
-      "description": "Fetches GitHub issues for specific keywords and sends notifications.",
+      "name": "frankenphp",
+      "description": "Interacts with the FrankenPHP App Server.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./frankenphp"
+      ]
+    },
+    {
+      "name": "github-issue-fetcher",
+      "description": "Fetches GitHub issues for a repository.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -52,21 +56,12 @@
       ]
     },
     {
-      "name": "hashnode",
+      "name": "hashnode-api",
       "description": "Interacts with the Hashnode API.",
       "source": "./",
       "strict": false,
       "skills": [
         "./hashnode-api"
-      ]
-    },
-    {
-      "name": "writeas",
-      "description": "Interacts with the Write.as API.",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./writeas"
       ]
     },
     {
@@ -84,38 +79,57 @@
       ]
     },
     {
-      "name": "php",
-      "description": "Collection of skills used to work with PHP",
+      "name": "linode-api",
+      "description": "Interacts with the Linode API.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./frankenphp",
-        "./laravel",
-        "./laravel-cashier-paddle",
-        "./laravel-cashier-stripe",
-        "./laravel-dusk",
-        "./laravel-mcp",
-        "./laravel-prompts"
+        "./linode-api"
       ]
     },
     {
-      "name": "provider",
+      "name": "linode-cli",
+      "description": "Interacts with the Linode CLI.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./linode-cli"
+      ]
+    },
+    {
+      "name": "openrouter",
       "description": "Interacts with the OpenRouter API.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./linode-api",
-        "./linode-cli",
         "./openrouter"
       ]
     },
     {
-      "name": "coding-standards",
-      "description": "Collection of skills used to enhance code quality and maintainability",
+      "name": "tdd-methodology-expert",
+      "description": "Expertise in Test-Driven Development (TDD) methodology.",
       "source": "./",
       "strict": false,
       "skills": [
         "./tdd-methodology-expert"
+      ]
+    },
+    {
+      "name": "word-count-checker",
+      "description": "Checks the word count of a file.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./word-count-checker"
+      ]
+    },
+    {
+      "name": "writeas",
+      "description": "Interacts with the Write.as API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./writeas"
       ]
     }
   ]
