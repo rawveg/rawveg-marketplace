@@ -19,7 +19,8 @@
         "./article-title-optimizer",
         "./forem-api",
         "./hashnode-api",
-        "./word-count-checker"
+        "./word-count-checker",
+        "./writeas"
       ]
     },
     {
@@ -57,6 +58,15 @@
       "strict": false,
       "skills": [
         "./hashnode-api"
+      ]
+    },
+    {
+      "name": "writeas",
+      "description": "Interacts with the Write.as API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./writeas"
       ]
     },
     {
