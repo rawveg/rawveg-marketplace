@@ -11,8 +11,8 @@
   },
   "plugins": [
     {
-      "name": "article-skills",
-      "description": "Collection of skills used to work with articles",
+      "name": "writing",
+      "description": "Collection of skills used to work with writing",
       "source": "./",
       "strict": false,
       "skills": [
@@ -23,16 +23,17 @@
       ]
     },
     {
-      "name": "figlet-text-converter",
+      "name": "text",
       "description": "Converts marked text in files to ASCII art using figlet tag syntax.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./figlet-text-converter"
+        "./figlet-text-converter",
+        "./word-count-checker"
       ]
     },
     {
-      "name": "forem-api",
+      "name": "forem",
       "description": "Interacts with the Forem API.",
       "source": "./",
       "strict": false,
@@ -41,7 +42,7 @@
       ]
     },
     {
-      "name": "github-issue-fetcher",
+      "name": "github",
       "description": "Fetches GitHub issues for specific keywords and sends notifications.",
       "source": "./",
       "strict": false,
@@ -50,7 +51,7 @@
       ]
     },
     {
-      "name": "hashnode-api",
+      "name": "hashnode",
       "description": "Interacts with the Hashnode API.",
       "source": "./",
       "strict": false,
@@ -59,7 +60,7 @@
       ]
     },
     {
-      "name": "laravel-skills",
+      "name": "laravel",
       "description": "Collection of skills used to work with Laravel",
       "source": "./",
       "strict": false,
@@ -73,21 +74,12 @@
       ]
     },
     {
-      "name": "openrouter",
+      "name": "provider",
       "description": "Interacts with the OpenRouter API.",
       "source": "./",
       "strict": false,
       "skills": [
         "./openrouter"
-      ]
-    },
-    {
-      "name": "word-count-checker",
-      "description": "Checks the word count of a file and sends notifications.",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./word-count-checker"
       ]
     }
   ]
