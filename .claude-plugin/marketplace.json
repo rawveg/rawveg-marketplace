@@ -74,6 +74,21 @@
       ]
     },
     {
+      "name": "php",
+      "description": "Collection of skills used to work with PHP",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./frankenphp",
+        "./laravel",
+        "./laravel-cashier-paddle",
+        "./laravel-cashier-stripe",
+        "./laravel-dusk",
+        "./laravel-mcp",
+        "./laravel-prompts"
+      ]
+    },
+    {
       "name": "provider",
       "description": "Interacts with the OpenRouter API.",
       "source": "./",
