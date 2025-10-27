@@ -12,32 +12,82 @@
   "plugins": [
     {
       "name": "article-skills",
-      "description": "Collection of skills used during article development",
+      "description": "Collection of skills used to work with articles",
       "source": "./",
       "strict": false,
       "skills": [
-        "./figlet-text-converter",
-        "./github-issue-checker",
+        "./article-title-optimizer",
+        "./forem-api",
+        "./hashnode-api",
         "./word-count-checker"
       ]
     },
     {
-      "name": "blogging-skills",
-      "description": "Collection of skills used during blogging development",
+      "name": "figlet-text-converter",
+      "description": "Converts marked text in files to ASCII art using figlet tag syntax.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./forem-api",
+        "./figlet-text-converter"
+      ]
+    },
+    {
+      "name": "forem-api",
+      "description": "Interacts with the Forem API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./forem-api"
+      ]
+    },
+    {
+      "name": "github-issue-fetcher",
+      "description": "Fetches GitHub issues for specific keywords and sends notifications.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./github-issue-fetcher"
+      ]
+    },
+    {
+      "name": "hashnode-api",
+      "description": "Interacts with the Hashnode API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
         "./hashnode-api"
       ]
     },
     {
-      "name": "provider-skills",
-      "description": "Collection of skills used to work with LLM Providers",
+      "name": "laravel-skills",
+      "description": "Collection of skills used to work with Laravel",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./laravel",
+        "./laravel-cashier-paddle",
+        "./laravel-cashier-stripe",
+        "./laravel-dusk",
+        "./laravel-mcp",
+        "./laravel-prompts"
+      ]
+    },
+    {
+      "name": "openrouter",
+      "description": "Interacts with the OpenRouter API.",
       "source": "./",
       "strict": false,
       "skills": [
         "./openrouter"
+      ]
+    },
+    {
+      "name": "word-count-checker",
+      "description": "Checks the word count of a file and sends notifications.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./word-count-checker"
       ]
     }
   ]
