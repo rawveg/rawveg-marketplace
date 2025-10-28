@@ -115,6 +115,15 @@
       ]
     },
     {
+      "name": "snapas",
+      "description": "Interacts with the Snap.as API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./snapas"
+      ]
+    },
+    {
       "name": "tdd-methodology-expert",
       "description": "Expertise in Test-Driven Development (TDD) methodology.",
       "source": "./",
