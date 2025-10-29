@@ -106,6 +106,15 @@
       ]
     },
     {
+      "name": "ollama",
+      "description": "Interacts with the Ollama API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./ollama"
+      ]
+    },
+    {
       "name": "openrouter",
       "description": "Interacts with the OpenRouter API.",
       "source": "./",
