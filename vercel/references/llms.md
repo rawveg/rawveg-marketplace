@@ -1,0 +1,853 @@
+# Documentation
+
+- [Getting Started](https://vercel.com/docs/getting-started-with-vercel.md): This step-by-step tutorial will help you get started with Vercel, an end-to-end platform for developers that allows you to create and deploy your web application.
+  - [Projects and Deployments](https://vercel.com/docs/getting-started-with-vercel/projects-deployments.md): Streamline your workflow with Vercel's project and deployment management. Boost productivity and scale effortlessly.
+  - [Use a Template](https://vercel.com/docs/getting-started-with-vercel/template.md): Create a new project on Vercel by using a template
+  - [Import Existing Project](https://vercel.com/docs/getting-started-with-vercel/import.md): Create a new project on Vercel by importing your existing frontend project, built on any of our supported frameworks.
+  - [Add a Domain](https://vercel.com/docs/getting-started-with-vercel/domains.md): Easily add a custom domain to your Vercel project. Enhance your brand presence and optimize SEO with just a few clicks.
+  - [Buy a Domain](https://vercel.com/docs/getting-started-with-vercel/buy-domain.md): Purchase your domain with Vercel. Expand your online reach and establish a memorable online identity.
+  - [Transfer an Existing Domain](https://vercel.com/docs/getting-started-with-vercel/use-existing.md): Seamlessly integrate your existing domain with Vercel. Maximize flexibility and maintain your established online presence.
+  - [Collaborate](https://vercel.com/docs/getting-started-with-vercel/collaborate.md): Amplify collaboration and productivity with Vercel's CI/CD tools, such as Comments. Empower your team to build and deploy together seamlessly.
+  - [Next Steps](https://vercel.com/docs/getting-started-with-vercel/next-steps.md): Discover the next steps to take on your Vercel journey. Unlock new possibilities and harness the full potential of your projects.
+- [Supported Frameworks](https://vercel.com/docs/frameworks.md): Vercel supports a wide range of the most popular frameworks, optimizing how your application builds and runs no matter what tool you use.
+  - [Full-stack](https://vercel.com/docs/frameworks/full-stack.md): Vercel supports a wide range of the most popular backend frameworks, optimizing how your application builds and runs no matter what tooling you use.
+    - [Next.js](https://vercel.com/docs/frameworks/full-stack/nextjs.md): Vercel is the native Next.js platform, designed to enhance the Next.js experience.
+    - [SvelteKit](https://vercel.com/docs/frameworks/full-stack/sveltekit.md): Learn how to use Vercel's features with SvelteKit
+    - [Nuxt](https://vercel.com/docs/frameworks/full-stack/nuxt.md): Learn how to use Vercel's features with Nuxt.
+    - [Remix](https://vercel.com/docs/frameworks/full-stack/remix.md): Learn how to use Vercel's features with Remix.
+  - [Frontends](https://vercel.com/docs/frameworks/frontend.md): Vercel supports a wide range of the most popular frontend frameworks, optimizing how your application builds and runs no matter what tooling you use.
+    - [Astro](https://vercel.com/docs/frameworks/frontend/astro.md): Learn how to use Vercel's features with Astro
+    - [Vite](https://vercel.com/docs/frameworks/frontend/vite.md): Learn how to use Vercel's features with Vite.
+    - [React Router](https://vercel.com/docs/frameworks/frontend/react-router.md): Learn how to use Vercel's features with React Router as a framework.
+    - [Gatsby](https://vercel.com/docs/frameworks/frontend/gatsby.md): Learn how to use Vercel's features with Gatsby.
+    - [Create React App](https://vercel.com/docs/frameworks/frontend/create-react-app.md): Learn how to use Vercel's features with Create React App
+  - [Backends](https://vercel.com/docs/frameworks/backend.md): Vercel supports a wide range of the most popular backend frameworks, optimizing how your application builds and runs no matter what tooling you use.
+    - [Nitro](https://vercel.com/docs/frameworks/backend/nitro.md): Deploy Nitro applications to Vercel with zero configuration. Learn about observability, ISR, and custom build configurations.
+    - [Express](https://vercel.com/docs/frameworks/backend/express.md): Deploy Express applications to Vercel with zero configuration. Learn about middleware and Vercel Functions.
+    - [FastAPI](https://vercel.com/docs/frameworks/backend/fastapi.md): Deploy FastAPI applications to Vercel with zero configuration. Learn about the Python runtime, ASGI, static assets, and Vercel Functions.
+    - [Fastify](https://vercel.com/docs/frameworks/backend/fastify.md): Deploy Fastify applications to Vercel with zero configuration.
+    - [Flask](https://vercel.com/docs/frameworks/backend/flask.md): Deploy Flask applications to Vercel with zero configuration. Learn about the Python runtime, WSGI, static assets, and Vercel Functions.
+    - [Hono](https://vercel.com/docs/frameworks/backend/hono.md): Deploy Hono applications to Vercel with zero configuration. Learn about observability, ISR, and custom build configurations.
+    - [NestJS](https://vercel.com/docs/frameworks/backend/nestjs.md): Deploy NestJS applications to Vercel with zero configuration.
+    - [xmcp](https://vercel.com/docs/frameworks/backend/xmcp.md): Build MCP-compatible backends with xmcp and deploy to Vercel. Learn the project structure, tool format, middleware, and how to run locally and in production.
+  - [All Frameworks](https://vercel.com/docs/frameworks/more-frameworks.md): Learn about the frameworks that can be deployed to Vercel.
+- [Incremental Migration](https://vercel.com/docs/incremental-migration.md): Learn how to migrate your app or website to Vercel with minimal risk and high impact.
+- [Production Checklist](https://vercel.com/docs/production-checklist.md): Ensure your application is ready for launch with this comprehensive production checklist by the Vercel engineering team. Covering operational excellence, security, reliability, performance efficiency, and cost optimization.
+- [Docs llms-full.txt](https://vercel.comhttps://vercel.com/docs/llms-full.txt.md): Learn about docs llms-full.txt features and configuration.
+
+## Access
+- [Account Management](https://vercel.com/docs/accounts.md): Learn how to manage your Vercel account and team members.
+- [Activity Log](https://vercel.com/docs/activity-log.md): Learn how to use the Activity Log, which provides a list of all events on a Hobby team or team, chronologically organized since its creation.
+- [Deployment Protection](https://vercel.com/docs/deployment-protection.md): Learn how to secure your Vercel project's preview and production URLs with Deployment Protection. Configure fine-grained access control at the project level for different deployment environments.
+  - [Bypass Deployment Protection](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection.md): Learn how to bypass Deployment Protection for specific domains, or for all deployments in a project.
+    - [Exceptions](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/deployment-protection-exceptions.md): Learn how to disable Deployment Protection for a list of preview domains.
+    - [OPTIONS Allowlist](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/options-allowlist.md): Learn how to disable Deployment Protection for CORS preflight requests for a list of paths.
+    - [Protection Bypass for Automation](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/protection-bypass-automation.md): Learn how to bypass Vercel Deployment Protection for automated tooling (e.g. E2E testing).
+    - [Sharable Links](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/sharable-links.md): Learn how to share your deployments with external users.
+  - [Protect Deployments](https://vercel.com/docs/deployment-protection/methods-to-protect-deployments.md): Learn about the different methods to protect your deployments on Vercel, including Vercel Authentication, Password Protection, and Trusted IPs.
+    - [Password Protection](https://vercel.com/docs/deployment-protection/methods-to-protect-deployments/password-protection.md): Learn how to protect your deployments with a password.
+    - [Trusted IPs](https://vercel.com/docs/deployment-protection/methods-to-protect-deployments/trusted-ips.md): Learn how to restrict access to your deployments to a list of trusted IP addresses.
+    - [Vercel Authentication](https://vercel.com/docs/deployment-protection/methods-to-protect-deployments/vercel-authentication.md): Learn how to use Vercel Authentication to restrict access to your deployments.
+- [Directory Sync](https://vercel.com/docs/directory-sync.md): Learn how to configure Directory Sync for your Vercel Team.
+- [SAML SSO](https://vercel.com/docs/saml.md): Learn how to configure SAML SSO for your organization on Vercel.
+- [Two-factor (2FA)](https://vercel.com/docs/two-factor-authentication.md): Learn how to configure two-factor authentication for your Vercel account.
+
+## AI
+- [Vercel Agent](https://vercel.com/docs/agent.md): AI-powered development tools that speed up your workflow and help resolve issues faster
+  - [Code Review](https://vercel.com/docs/agent/pr-review.md): Get automatic AI-powered code reviews on your pull requests
+    - [Managing Reviews](https://vercel.com/docs/agent/pr-review/usage.md): Customize which repositories get reviewed and track your review metrics and spending.
+  - [Investigation](https://vercel.com/docs/agent/investigation.md): Let AI investigate your error alerts to help you debug faster
+  - [Pricing](https://vercel.com/docs/agent/pricing.md): Understand how Vercel Agent pricing works and how to manage your credits
+- [AI SDK](https://vercel.com/docs/ai-sdk.md): TypeScript toolkit for building AI-powered applications with React, Next.js, Vue, Svelte and Node.js
+- [AI Gateway](https://vercel.com/docs/ai-gateway.md): TypeScript toolkit for building AI-powered applications with React, Next.js, Vue, Svelte and Node.js
+  - [Getting Started](https://vercel.com/docs/ai-gateway/getting-started.md): Guide to getting started with AI Gateway
+  - [Models & Providers](https://vercel.com/docs/ai-gateway/models-and-providers.md): Learn about models and providers for the AI Gateway.
+  - [Observability](https://vercel.com/docs/ai-gateway/observability.md): Learn how to monitor and debug your AI Gateway requests.
+  - [Pricing](https://vercel.com/docs/ai-gateway/pricing.md): Learn about pricing for the AI Gateway.
+  - [Provider Options](https://vercel.com/docs/ai-gateway/provider-options.md): Configure provider routing, ordering, and fallback behavior in Vercel AI Gateway
+  - [OpenAI-Compatible API](https://vercel.com/docs/ai-gateway/openai-compat.md): Use OpenAI-compatible API endpoints with the AI Gateway for seamless integration with existing tools and libraries.
+  - [Authentication](https://vercel.com/docs/ai-gateway/authentication.md): Learn how to authenticate with the AI Gateway using API keys and OIDC tokens.
+  - [BYOK](https://vercel.com/docs/ai-gateway/byok.md): Learn how to configure your own provider keys with the AI Gateway.
+  - [Usage & Billing](https://vercel.com/docs/ai-gateway/usage.md): Monitor your AI Gateway credit balance, usage, and generation details.
+  - [Framework Integrations](https://vercel.com/docs/ai-gateway/framework-integrations.md): Explore available community framework integrations with Vercel AI Gateway
+    - [LangChain](https://vercel.com/docs/ai-gateway/framework-integrations/langchain.md): Learn how to integrate Vercel AI Gateway with LangChain to access multiple AI models through a unified interface
+    - [LangFuse](https://vercel.com/docs/ai-gateway/framework-integrations/langfuse.md): Learn how to integrate Vercel AI Gateway with LangFuse to access multiple AI models through a unified interface
+    - [LiteLLM](https://vercel.com/docs/ai-gateway/framework-integrations/litellm.md): Learn how to integrate Vercel AI Gateway with LiteLLM to access multiple AI models through a unified interface
+    - [LlamaIndex](https://vercel.com/docs/ai-gateway/framework-integrations/llamaindex.md): Learn how to integrate Vercel AI Gateway with LlamaIndex to access multiple AI models through a unified interface
+    - [Mastra](https://vercel.com/docs/ai-gateway/framework-integrations/mastra.md): Learn how to integrate Vercel AI Gateway with Mastra to access multiple AI models through a unified interface
+    - [Pydantic AI](https://vercel.com/docs/ai-gateway/framework-integrations/pydantic-ai.md): Learn how to integrate Vercel AI Gateway with Pydantic AI to access multiple AI models through a unified interface
+  - [App Attribution](https://vercel.com/docs/ai-gateway/app-attribution.md): Attribute your requests so Vercel can identify and feature your app on AI Gateway pages
+  - [Image Generation](https://vercel.com/docs/ai-gateway/image-generation.md): Generate and edit images using AI models through Vercel AI Gateway with support for multiple providers and modalities.
+  - [Model Variants](https://vercel.com/docs/ai-gateway/model-variants.md): Enable provider-specific capabilities (like Anthropic 1M context) via headers when calling models through AI Gateway.
+- [MCP](https://vercel.com/docs/mcp.md): Learn more about MCP and how you can use it on Vercel.
+  - [Deploy MCP servers](https://vercel.com/docs/mcp/deploy-mcp-servers-to-vercel.md): Learn how to deploy Model Context Protocol (MCP) servers on Vercel with OAuth authentication and efficient scaling.
+  - [Vercel MCP server](https://vercel.com/docs/mcp/vercel-mcp.md): Vercel MCP has tools available for searching docs along with managing teams, projects, and deployments.
+    - [Tools](https://vercel.com/docs/mcp/vercel-mcp/tools.md): Available tools in Vercel MCP for searching docs and managing teams, projects, and deployments.
+- [Integrations for Agents](https://vercel.com/docs/agent-integrations.md): Install AI agents and services through the Vercel Marketplace to automate workflows and build custom AI systems.
+- [Integrations for Models](https://vercel.com/docs/ai.md): Integrate powerful AI services and models seamlessly into your Vercel projects.
+  - [Adding a Provider](https://vercel.com/docs/ai/adding-a-provider.md): Learn how to add a new AI provider to your Vercel projects.
+  - [Adding a Model](https://vercel.com/docs/ai/adding-a-model.md): Learn how to add a new AI model to your Vercel projects
+  - [xAI](https://vercel.com/docs/ai/xai.md): Learn how to add the xAI native integration with Vercel.
+  - [Groq](https://vercel.com/docs/ai/groq.md): Learn how to add the Groq native integration with Vercel.
+  - [fal](https://vercel.com/docs/ai/fal.md): Learn how to add the fal native integration with Vercel.
+  - [Deep Infra](https://vercel.com/docs/ai/deepinfra.md): Learn how to add the Deep Infra native integration with Vercel.
+  - [ElevenLabs](https://vercel.com/docs/ai/elevenlabs.md): Learn how to add the ElevenLabs connectable account integration with Vercel.
+  - [LMNT](https://vercel.com/docs/ai/lmnt.md): Learn how to add LMNT connectable account integration with Vercel.
+  - [OpenAI](https://vercel.com/docs/ai/openai.md): Integrate your Vercel project with OpenAI's powerful suite of models.
+  - [Perplexity](https://vercel.com/docs/ai/perplexity.md): Learn how to add Perplexity connectable account integration with Vercel.
+  - [Pinecone](https://vercel.com/docs/ai/pinecone.md): Learn how to add Pinecone connectable account integration with Vercel.
+  - [Replicate](https://vercel.com/docs/ai/replicate.md): Learn how to add Replicate connectable account integration with Vercel.
+  - [Together AI](https://vercel.com/docs/ai/togetherai.md): Learn how to add Together AI connectable account integration with Vercel.
+- [Workflow](https://vercel.com/docs/workflow.md): Build durable, reliable, and observable applications and AI agents with the Workflow Development Kit (WDK).
+
+## API
+- [REST API](https://vercel.com/docs/rest-api/reference/llms.txt): Learn about rest api features and configuration.
+- [Vercel SDK](https://vercel.com/docs/rest-api/reference/llms.txt): Learn about vercel sdk features and configuration.
+- [Build Output API](https://vercel.com/docs/build-output-api.md): The Build Output API is a file-system-based specification for a directory structure that can produce a Vercel deployment.
+  - [Build Output Configuration](https://vercel.com/docs/build-output-api/configuration.md): Learn about the Build Output Configuration file, which is used to configure the behavior of a Deployment.
+  - [Features](https://vercel.com/docs/build-output-api/features.md): Learn how to implement common Vercel platform features through the Build Output API.
+  - [Vercel Primitives](https://vercel.com/docs/build-output-api/primitives.md): Learn about the Vercel platform primitives and how they work together to create a Vercel Deployment.
+
+## Build & Deploy
+- [Builds](https://vercel.com/docs/builds.md): Understand how the build step works when creating a Vercel Deployment.
+  - [Build Features](https://vercel.com/docs/builds/build-features.md): Learn how to customize your deployments using Vercel's build features.
+  - [Build Image](https://vercel.com/docs/builds/build-image.md): Learn about the container image used for Vercel builds.
+  - [Build Queues](https://vercel.com/docs/builds/build-queues.md): Understand how concurrency and same branch build queues manage multiple simultaneous deployments.
+  - [Configuring a Build](https://vercel.com/docs/builds/configure-a-build.md): Vercel automatically configures the build settings for many front-end frameworks, but you can also customize the build according to your requirements.
+  - [Managing Builds](https://vercel.com/docs/builds/managing-builds.md): Vercel allows you to increase the speed of your builds when needed in specific situations and workflows.
+- [Deploy Hooks](https://vercel.com/docs/deploy-hooks.md): Learn how to create and trigger deploy hooks to integrate Vercel deployments with other systems.
+- [Deployment Checks](https://vercel.com/docs/deployment-checks.md): Set conditions that must be met before proceeding to the next phase of the deployment lifecycle.
+- [Deployment Retention](https://vercel.com/docs/deployment-retention.md): Learn how Deployment Retention policies affect a deployment's lifecycle
+- [Deployments](https://vercel.com/docs/deployments.md): Learn how to create and manage deployments on Vercel.
+  - [Environments](https://vercel.com/docs/deployments/environments.md): Environments are for developing locally, testing changes in a pre-production environment, and serving end-users in production.
+  - [Generated URLs](https://vercel.com/docs/deployments/generated-urls.md): When you create a new deployment, Vercel will automatically generate a unique URL which you can use to access that particular deployment.
+  - [Managing Deployments](https://vercel.com/docs/deployments/managing-deployments.md): Learn how to manage your current and previously deployed projects to Vercel through the dashboard. You can redeploy at any time and even delete a deployment.
+  - [Promoting Deployments](https://vercel.com/docs/deployments/promoting-a-deployment.md): Learn how to promote deployments to production on Vercel.
+  - [Troubleshoot Build Errors](https://vercel.com/docs/deployments/troubleshoot-a-build.md): Learn how to resolve common scenarios you may encounter during the Build step, including build errors that cancel a deployment and long build times.
+  - [Accessing Build Logs](https://vercel.com/docs/deployments/logs.md): Learn how to use Vercel's build logs to monitor the progress of building or running your deployment, and check for possible errors or build failures.
+  - [Claim Deployments](https://vercel.com/docs/deployments/claim-deployments.md): Learn how to take ownership of deployments on Vercel with the Claim Deployments feature.
+  - [Inspect OG Metadata](https://vercel.com/docs/deployments/og-preview.md): Learn how to inspect and validate your Open Graph metadata through the Open Graph deployment tab.
+  - [Preview Deployment Suffix](https://vercel.com/docs/deployments/preview-deployment-suffix.md): When you create a new deployment, Vercel will automatically generate a unique URL which you can use to access that particular deployment.
+  - [Sharing a Preview Deployment](https://vercel.com/docs/deployments/sharing-deployments.md): Learn how to share a preview deployment with your team and external collaborators.
+  - [Troubleshoot project collaboration](https://vercel.com/docs/deployments/troubleshoot-project-collaboration.md): Learn about common reasons for deployment issues related to team member requirements and how to resolve them.
+- [Environment Variables](https://vercel.com/docs/environment-variables.md): Learn more about environment variables on Vercel.
+  - [Framework Environment Variables](https://vercel.com/docs/environment-variables/framework-environment-variables.md): Framework environment variables are automatically populated by the Vercel, based on your project's framework.
+  - [Managing Environment Variables](https://vercel.com/docs/environment-variables/managing-environment-variables.md): Learn how to create and manage environment variables for Vercel.
+  - [Reserved Environment Variables](https://vercel.com/docs/environment-variables/reserved-environment-variables.md): Reserved environment variables are reserved by Vercel Vercel Function runtimes.
+  - [Sensitive Environment Variables](https://vercel.com/docs/environment-variables/sensitive-environment-variables.md): Environment variables that cannot be decrypted once created.
+  - [Shared Environment Variables](https://vercel.com/docs/environment-variables/shared-environment-variables.md): Learn how to use Shared environment variables, which are environment variables that you define at the Team level and can link to multiple projects.
+  - [System Environment Variables](https://vercel.com/docs/environment-variables/system-environment-variables.md): System environment variables are automatically populated by Vercel, such as the URL of the deployment or the name of the Git branch deployed.
+- [Git Integrations](https://vercel.com/docs/git.md): Vercel allows for automatic deployments on every branch push and merges onto the production branch of your GitHub, GitLab, and Bitbucket projects.
+  - [GitHub](https://vercel.com/docs/git/vercel-for-github.md): Vercel for GitHub automatically deploys your GitHub projects with Vercel, providing Preview Deployment URLs, and automatic Custom Domain updates.
+  - [Azure DevOps](https://vercel.com/docs/git/vercel-for-azure-pipelines.md): ​Vercel for Azure DevOps allows you to deploy Azure Pipelines to Vercel automatically.
+  - [Bitbucket](https://vercel.com/docs/git/vercel-for-bitbucket.md): ​Vercel for Bitbucket automatically deploys your Bitbucket projects with Vercel, providing Preview Deployment URLs, and automatic Custom Domain updates.
+  - [GitLab](https://vercel.com/docs/git/vercel-for-gitlab.md): ​Vercel for GitLab automatically deploys your GitLab projects with Vercel, providing Preview Deployment URLs, and automatic Custom Domain updates.
+- [Instant Rollback](https://vercel.com/docs/instant-rollback.md): Learn how to perform an Instant Rollback on your production deployments and quickly roll back to a previously deployed production deployment.
+- [Microfrontends](https://vercel.com/docs/microfrontends.md): Learn how to use microfrontends on Vercel to split apart large applications, improve developer experience and make incremental migrations easier.
+  - [Getting Started](https://vercel.com/docs/microfrontends/quickstart.md): Learn how to get started with microfrontends on Vercel.
+  - [Local Development](https://vercel.com/docs/microfrontends/local-development.md): Learn how to run and test your microfrontends locally.
+  - [Path Routing](https://vercel.com/docs/microfrontends/path-routing.md): Route paths on your domain to different microfrontends.
+  - [Managing Microfrontends](https://vercel.com/docs/microfrontends/managing-microfrontends.md): Learn how to manage your microfrontends on Vercel.
+    - [Security](https://vercel.com/docs/microfrontends/managing-microfrontends/security.md): Learn how to manage your Deployment Protection and Firewall for your microfrontend on Vercel.
+    - [Using Vercel Toolbar](https://vercel.com/docs/microfrontends/managing-microfrontends/vercel-toolbar.md): Learn how to use the Vercel Toolbar to make it easier to manage microfrontends.
+  - [Testing & Troubleshooting](https://vercel.com/docs/microfrontends/troubleshooting.md): Learn about testing, common issues, and how to troubleshoot microfrontends on Vercel.
+- [Monorepos](https://vercel.com/docs/monorepos.md): Vercel provides support for monorepos. Learn how to deploy a monorepo here.
+  - [Turborepo](https://vercel.com/docs/monorepos/turborepo.md): Learn about Turborepo, a build system for monorepos that allows you to have faster incremental builds, content-aware hashing, and Remote Caching.
+  - [Remote Caching](https://vercel.com/docs/monorepos/remote-caching.md): Vercel Remote Cache allows you to share build outputs and artifacts across distributed teams.
+  - [Nx](https://vercel.com/docs/monorepos/nx.md): Nx is an extensible build system with support for monorepos, integrations, and Remote Caching on Vercel. Learn how to deploy Nx to Vercel with this guide.
+  - [Monorepos FAQ](https://vercel.com/docs/monorepos/monorepo-faq.md): Learn the answer to common questions about deploying monorepos on Vercel.
+- [Package Managers](https://vercel.com/docs/package-managers.md): Discover the package managers supported by Vercel for dependency management. Learn how Vercel detects and uses npm, Yarn, pnpm, and Bun for optimal build performance.
+- [Protected Git Scopes](https://vercel.com/docs/protected-git-scopes.md): Learn how to limit other Vercel teams from deploying from your Git repositories.
+- [Rolling Releases](https://vercel.com/docs/rolling-releases.md): Learn how to use Rolling Releases for more cautious deployments.
+- [Skew Protection](https://vercel.com/docs/skew-protection.md): Learn how Vercel's Skew Protection ensures that the client and server stay in sync for any particular deployment.
+- [Webhooks](https://vercel.com/docs/webhooks.md): Learn how to set up webhooks and use them with Vercel Integrations.
+  - [Webhooks API Reference](https://vercel.com/docs/webhooks/webhooks-api.md): Vercel Integrations allow you to subscribe to certain trigger-based events through webhooks. Learn about the supported webhook events and how to use them.
+
+## CDN
+- [Overview](https://vercel.com/docs/cdn.md): Vercel's CDN enables you to store content close to your customers and run compute in regions close to your data, reducing latency and improving end-user performance.
+- [Regions](https://vercel.com/docs/regions.md): View the list of regions supported by Vercel's CDN and learn about our global infrastructure.
+- [Headers](https://vercel.com/docs/headers.md): This reference covers the list of request, response, cache-control, and custom response headers included with deployments with Vercel.
+  - [Security Headers](https://vercel.com/docs/headers/security-headers.md): Learn how the Content Security Policy (CSP) offers defense against web vulnerabilities, its key features, and best practices.
+  - [Cache-Control Headers](https://vercel.com/docs/headers/cache-control-headers.md): Learn about the cache-control headers sent to each Vercel deployment and how to use them to control the caching behavior of your application.
+  - [Request Headers](https://vercel.com/docs/headers/request-headers.md): Learn about the request headers sent to each Vercel deployment and how to use them to process requests before sending a response.
+  - [Response Headers](https://vercel.com/docs/headers/response-headers.md): Learn about the response headers sent to each Vercel deployment and how to use them to process responses before sending a response.
+- [Cache](https://vercel.com/docs/edge-cache.md): Vercel's Cache caches your content at the edge in order to serve data to your users as fast as possible. Learn how Vercel caches works in this guide.
+  - [Purge](https://vercel.com/docs/edge-cache/purge.md): Learn how to invalidate and purge cached content on Vercel's CDN, including cache keys and manual purging options.
+- [Encryption](https://vercel.com/docs/encryption.md): Learn how Vercel encrypts data in transit and at rest.
+- [Compression](https://vercel.com/docs/compression.md): Vercel helps reduce data transfer and improve performance by supporting both Gzip and Brotli compression
+- [Incremental Static Regeneration](https://vercel.com/docs/incremental-static-regeneration.md): Learn how Vercel's Incremental Static Regeneration (ISR) provides better performance and faster builds.
+  - [Getting Started](https://vercel.com/docs/incremental-static-regeneration/quickstart.md): Learn how to use Incremental Static Regeneration (ISR) to regenerate your pages without rebuilding and redeploying your site.
+  - [Usage & Pricing](https://vercel.com/docs/incremental-static-regeneration/limits-and-pricing.md): This page outlines information on the limits that are applicable to using Incremental Static Regeneration (ISR), and the costs they can incur.
+- [Redirects](https://vercel.com/docs/redirects.md): Learn how to use redirects on Vercel to instruct Vercel's platform to redirect incoming requests to a new URL.
+- [Rewrites](https://vercel.com/docs/rewrites.md): Learn how to use rewrites to send users to different URLs without modifying the visible URL.
+- [Domains](https://vercel.com/docs/domains.md): Learn the fundamentals of how domains, DNS, and nameservers work on Vercel.
+  - [Working with Domains](https://vercel.com/docs/domains/working-with-domains.md): Learn how domains work and the options Vercel provides for managing them.
+    - [Adding a Domain](https://vercel.com/docs/domains/working-with-domains/add-a-domain.md): Learn how to add a custom domain to your Vercel project, verify it, and correctly set the DNS or Nameserver values.
+    - [Adding a Domain to an Environment](https://vercel.com/docs/domains/working-with-domains/add-a-domain-to-environment.md): Learn how to add a custom domain to your Vercel project, verify it, and correctly set the DNS or Nameserver values.
+    - [Assigning a Domain to a Git Branch](https://vercel.com/docs/domains/working-with-domains/assign-domain-to-a-git-branch.md): Learn how to assign a domain to a different Git branch with this guide.
+    - [Deploying & Redirecting Domains](https://vercel.com/docs/domains/working-with-domains/deploying-and-redirecting.md): Learn how to deploy your domains and set up domain redirects with this guide.
+    - [Removing a Domain](https://vercel.com/docs/domains/working-with-domains/remove-a-domain.md): Learn how to remove a domain from a Project and from your account completely with this guide.
+    - [Renewing a Domain](https://vercel.com/docs/domains/working-with-domains/renew-a-domain.md): Learn how to manage automatic and manual renewals for custom domains purchased through or registered with Vercel, and how to redeem expired domains with this guide.
+    - [Transferring Domains](https://vercel.com/docs/domains/working-with-domains/transfer-your-domain.md): Domains can be transferred to another team or project within Vercel, or to and from a third-party registrar. Learn how to transfer domains with this guide.
+    - [Viewing & Searching Domains](https://vercel.com/docs/domains/working-with-domains/view-and-search-domains.md): Learn how to view and search all registered domains that are assigned to Vercel Projects through the Vercel dashboard.
+  - [Working with DNS](https://vercel.com/docs/domains/working-with-dns.md): Learn how DNS works in order to properly configure your domain.
+  - [Managing DNS Records](https://vercel.com/docs/domains/managing-dns-records.md): Learn how to add, verify, and remove DNS records for your domains on Vercel with this guide.
+  - [Working with Nameservers](https://vercel.com/docs/domains/working-with-nameservers.md): Learn about nameservers and the benefits Vercel nameservers provide.
+  - [Managing Nameservers](https://vercel.com/docs/domains/managing-nameservers.md): Learn how to add custom nameservers and restore original nameservers for your domains on Vercel with this guide.
+  - [Working with SSL](https://vercel.com/docs/domains/working-with-ssl.md): Learn how Vercel uses SSL certification to keep your site secure.
+  - [Custom SSL Certificates](https://vercel.com/docs/domains/custom-SSL-certificate.md): By default, Vercel provides all domains with a custom SSL certificates. However, Enterprise teams can upload their own custom SSL certificate.
+  - [Pre-Generate SSL Certificates](https://vercel.com/docs/domains/pre-generating-ssl-certs.md): test
+  - [Supported Domains](https://vercel.com/docs/domains/supported-domains.md): Learn about supported domains for purchase features and configuration.
+  - [Troubleshooting Domains](https://vercel.com/docs/domains/troubleshooting.md): Learn about common reasons for domain misconfigurations and how to troubleshoot your domain on Vercel.
+  - [Using Domains API](https://vercel.com/docs/domains/registrar-api.md): Programmatically search, price, purchase, renew, and manage domains with Vercel's domains registrar API endpoints.
+- [Image Optimization](https://vercel.com/docs/image-optimization.md): Transform and optimize images to improve page load performance.
+  - [Getting Started](https://vercel.com/docs/image-optimization/quickstart.md): Learn how you can leverage Vercel Image Optimization in your projects.
+  - [Limits and Pricing](https://vercel.com/docs/image-optimization/limits-and-pricing.md): This page outlines information on the limits that are applicable when using Image Optimization, and the costs they can incur.
+  - [Managing Usage & Costs](https://vercel.com/docs/image-optimization/managing-image-optimization-costs.md): Learn how to measure and manage Image Optimization usage with this guide to avoid any unexpected costs.
+  - [Legacy Pricing](https://vercel.com/docs/image-optimization/legacy-pricing.md): This page outlines information on the pricing and limits for the source images-based legacy option.
+- [Manage CDN Usage](https://vercel.com/docs/manage-cdn-usage.md): Learn how to understand the different charts in the Vercel dashboard. Learn how usage relates to billing, and how to optimize your usage for CDN.
+- [Request Collapsing](https://vercel.com/docs/request-collapsing.md): Learn how Vercel's CDN shields your origin during traffic surges for uncached routes.
+
+## Collaboration
+- [Comments](https://vercel.com/docs/comments.md): Comments allow teams and invited participants to give direct feedback on preview deployments. Learn more about Comments in this overview.
+  - [Enabling Comments](https://vercel.com/docs/comments/how-comments-work.md): Learn when and where Comments are available, and how to enable and disable Comments at the account, project, and session or interface levels.
+  - [Using Comments](https://vercel.com/docs/comments/using-comments.md): This guide will help you get started with using Comments with your Vercel Preview Deployments.
+  - [Managing Comments](https://vercel.com/docs/comments/managing-comments.md): Learn how to manage Comments on your Preview Deployments from Team members and invited collaborators.
+  - [Integrations](https://vercel.com/docs/comments/integrations.md): Learn how Comments integrates with Git providers like GitHub, GitLab, and BitBucket, as well as Vercel's Slack app.
+- [Draft Mode](https://vercel.com/docs/draft-mode.md): Vercel's Draft Mode enables you to view your unpublished headless CMS content on your site before publishing it.
+- [Edit Mode](https://vercel.com/docs/edit-mode.md): Discover how Vercel's Edit Mode enhances content management for headless CMSs, enabling real-time editing, and seamless collaboration.
+- [Feature Flags](https://vercel.com/docs/feature-flags.md): Learn how to use feature flags with Vercel's DX platform.
+  - [Flags Explorer](https://vercel.com/docs/feature-flags/flags-explorer.md): View and override your application's feature flags from the Vercel Toolbar
+    - [Getting Started](https://vercel.com/docs/feature-flags/flags-explorer/getting-started.md): Learn how to set up the Flags Explorer so you can see and override your application's feature flags
+    - [Reference](https://vercel.com/docs/feature-flags/flags-explorer/reference.md): In-depth reference for configuring the Flags Explorer
+    - [Pricing](https://vercel.com/docs/feature-flags/flags-explorer/limits-and-pricing.md): Learn about pricing for Flags Explorer.
+  - [Flags SDK](https://vercel.com/docs/feature-flags/feature-flags-pattern.md): The Flags SDK is a free open-source library that gives developers the tools they need to use feature flags in Next.js and SvelteKit applications.
+  - [With Runtime Logs](https://vercel.com/docs/feature-flags/integrate-with-runtime-logs.md): Integrate your feature flag provider with runtime logs.
+  - [With Vercel Platform](https://vercel.com/docs/feature-flags/integrate-vercel-platform.md): Integrate your feature flags with the Vercel Platform.
+  - [With Web Analytics](https://vercel.com/docs/feature-flags/integrate-with-web-analytics.md): Learn how to tag your page views and custom events with feature flags
+- [Toolbar](https://vercel.com/docs/vercel-toolbar.md): Learn how to use the Vercel Toolbar to leave feedback, navigate through important dashboard pages, share deployments, use Draft Mode for previewing unpublished content, and Edit Mode for editing content in real-time.
+  - [Add to Environments](https://vercel.com/docs/vercel-toolbar/in-production-and-localhost.md): Learn how to use the Vercel Toolbar in production and local environments.
+    - [Add to Localhost](https://vercel.com/docs/vercel-toolbar/in-production-and-localhost/add-to-localhost.md): Learn how to use the Vercel Toolbar in your local environment.
+    - [Add to Production](https://vercel.com/docs/vercel-toolbar/in-production-and-localhost/add-to-production.md): Learn how to add the Vercel Toolbar to your production environment and how your team members can use tooling to access the toolbar.
+  - [Managing Toolbar](https://vercel.com/docs/vercel-toolbar/managing-toolbar.md): Learn how to enable or disable the Vercel Toolbar for your team, project, and session.
+  - [Browser Extensions](https://vercel.com/docs/vercel-toolbar/browser-extension.md): The browser extensions enable you to use the toolbar in production environments, take screenshots and attach them to comments, and set personal preferences for how the toolbar behaves.
+  - [Accessibility Audit Tool](https://vercel.com/docs/vercel-toolbar/accessibility-audit-tool.md): Learn how to use the Accessibility Audit Tool to automatically check the Web Content Accessibility Guidelines 2.0 level A and AA rules.
+  - [Interaction Timing Tool](https://vercel.com/docs/vercel-toolbar/interaction-timing-tool.md): The interaction timing tool allows you to inspect in detail each interaction's latency and get notified for interactions taking >200ms.
+  - [Layout Shift Tool](https://vercel.com/docs/vercel-toolbar/layout-shift-tool.md): The layout shift tool gives you insight into any elements that may cause layout shifts on the page.
+
+## Compute
+- [Fluid Compute](https://vercel.com/docs/fluid-compute.md): Learn about fluid compute, an execution model for Vercel Functions that provides a more flexible and efficient way to run your functions.
+- [Functions](https://vercel.com/docs/functions.md): Vercel Functions allow you to run server-side code without managing a server.
+  - [Getting Started](https://vercel.com/docs/functions/quickstart.md): Build your first Vercel Function in a few steps.
+  - [Streaming](https://vercel.com/docs/functions/streaming-functions.md): Learn how to stream responses from Vercel Functions.
+  - [Runtimes](https://vercel.com/docs/functions/runtimes.md): Runtimes transform your source code into Functions, which are served by our CDN. Learn about the official runtimes supported by Vercel.
+    - [Node.js](https://vercel.com/docs/functions/runtimes/node-js.md): Learn how to use the Node.js runtime with Vercel Functions to create functions.
+      - [Advanced Node.js Usage](https://vercel.com/docs/functions/runtimes/node-js/advanced-node-configuration.md): Learn about advanced configurations for Vercel functions on Vercel.
+      - [Supported Node.js versions](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions.md): Learn about the supported Node.js versions on Vercel.
+    - [Bun](https://vercel.com/docs/functions/runtimes/bun.md): Learn how to use the Bun runtime with Vercel Functions to create fast, efficient functions.
+    - [Python](https://vercel.com/docs/functions/runtimes/python.md): Learn how to use the Python runtime to compile Python Vercel Functions on Vercel.
+    - [Go](https://vercel.com/docs/functions/runtimes/go.md): Learn how to use the Go runtime to compile Go Vercel functions on Vercel.
+    - [Ruby](https://vercel.com/docs/functions/runtimes/ruby.md): Learn how to use the Ruby runtime to compile Ruby Vercel Functions on Vercel.
+    - [Wasm](https://vercel.com/docs/functions/runtimes/wasm.md): Learn how to use WebAssembly (Wasm) to enable low-level languages to run on Vercel Functions and Routing Middleware.
+    - [Edge Runtime](https://vercel.com/docs/functions/runtimes/edge.md): Learn about the Edge runtime, an environment in which Vercel Functions can run.
+  - [Configuring Functions](https://vercel.com/docs/functions/configuring-functions.md): Learn how to configure the runtime, region, maximum duration, and memory for Vercel Functions.
+    - [Duration](https://vercel.com/docs/functions/configuring-functions/duration.md): Learn how to set the maximum duration of a Vercel Function.
+    - [Memory](https://vercel.com/docs/functions/configuring-functions/memory.md): Learn how to set the memory / CPU of a Vercel Function.
+    - [Runtime](https://vercel.com/docs/functions/configuring-functions/runtime.md): Learn how to configure the runtime for Vercel Functions.
+    - [Region](https://vercel.com/docs/functions/configuring-functions/region.md): Learn how to configure regions for Vercel Functions.
+    - [Advanced Configuration](https://vercel.com/docs/functions/configuring-functions/advanced-configuration.md): Learn how to add utility files to the /api directory, and bundle Vercel Functions.
+  - [API Reference](https://vercel.com/docs/functions/functions-api-reference.md): Learn about available APIs when working with Vercel Functions.
+    - [Node.js](https://vercel.com/docs/functions/functions-api-reference/vercel-functions-package.md): Learn about available APIs when working with Vercel Functions.
+    - [Python](https://vercel.com/docs/functions/functions-api-reference/vercel-sdk-python.md): Learn about available APIs when working with Vercel Functions in Python.
+  - [Logs](https://vercel.com/docs/functions/logs.md): Use runtime logs to debug and monitor your Vercel Functions.
+  - [Limits](https://vercel.com/docs/functions/limitations.md): Learn about the limits and restrictions of using Vercel Functions with the Node.js runtime.
+  - [Concurrency Scaling](https://vercel.com/docs/functions/concurrency-scaling.md): Learn how Vercel automatically scales your functions to handle traffic surges.
+  - [Pricing](https://vercel.com/docs/functions/usage-and-pricing.md): Learn about usage and pricing for fluid compute on Vercel.
+    - [Legacy Usage & Pricing](https://vercel.com/docs/functions/usage-and-pricing/legacy-pricing.md): Learn about legacy usage and pricing for Vercel Functions.
+- [Data Cache](https://vercel.com/docs/data-cache.md): Vercel Data Cache is a specialized cache that stores responses from data fetches in Next.js App Router
+- [Routing Middleware](https://vercel.com/docs/routing-middleware.md): Learn how you can use Routing Middleware, code that executes before a request is processed on a site, to provide speed and personalization to your users.
+  - [Getting Started](https://vercel.com/docs/routing-middleware/getting-started.md): Learn how you can use Routing Middleware, code that executes before a request is processed on a site, to provide speed and personalization to your users.
+  - [API](https://vercel.com/docs/routing-middleware/api.md): Learn how you can use Routing Middleware, code that executes before a request is processed on a site, to provide speed and personalization to your users.
+- [Cron Jobs](https://vercel.com/docs/cron-jobs.md): Learn about cron jobs, how they work, and how to use them on Vercel.
+  - [Getting Started](https://vercel.com/docs/cron-jobs/quickstart.md): Learn how to schedule cron jobs to run at specific times or intervals.
+  - [Managing Cron Jobs](https://vercel.com/docs/cron-jobs/manage-cron-jobs.md): Learn how to manage Cron Jobs effectively in Vercel. Explore cron job duration, error handling, deployments, concurrency control, local execution, and more to optimize your serverless workflows.
+  - [Usage & Pricing](https://vercel.com/docs/cron-jobs/usage-and-pricing.md): Learn about cron jobs usage and pricing details.
+- [OG Image Generation](https://vercel.com/docs/og-image-generation.md): Learn how to optimize social media image generation through the Open Graph Protocol and @vercel/og library.
+  - [@vercel/og](https://vercel.com/docs/og-image-generation/og-image-api.md): This reference provides information on how the @vercel/og package works on Vercel.
+  - [Examples](https://vercel.com/docs/og-image-generation/examples.md): Learn how to use the @vercel/og library with examples.
+- [Sandbox](https://vercel.com/docs/vercel-sandbox.md): Vercel Sandbox allows you to run arbitrary code in isolated, ephemeral Linux VMs.
+  - [Examples](https://vercel.com/docs/vercel-sandbox/examples.md): Vercel Sandbox allows you to run arbitrary code in isolated, ephemeral Linux VMs.
+  - [Pricing and Limits](https://vercel.com/docs/vercel-sandbox/pricing.md): Vercel Sandbox allows you to run arbitrary code in isolated, ephemeral Linux VMs.
+
+## Multi-tenant
+- [Domain Management](https://vercel.com/docs/multi-tenant/domain-management.md): Manage custom domains, wildcard subdomains, and SSL certificates programmatically for multi-tenant applications using Vercel for Platforms.
+- [Limits](https://vercel.com/docs/multi-tenant/limits.md): Understand the limits and features available for Vercel for Platforms.
+
+## Observability
+- [Overview](https://vercel.com/docs/observability.md): Observability on Vercel provides framework-aware insights enabling you to optimize infrastructure and application performance.
+  - [Insights](https://vercel.com/docs/observability/insights.md): List of available data sources that you can view and monitor with Observability on Vercel.
+  - [Observability Plus](https://vercel.com/docs/observability/observability-plus.md): Learn about using Observability Plus and its limits.
+- [Alerts](https://vercel.com/docs/alerts.md): Get notified when something's wrong with your Vercel projects. Set up alerts through Slack, webhooks, or email so you can fix issues quickly.
+- [Logs](https://vercel.com/docs/logs.md): Use logs to find information on deployment builds, function executions, and more.
+  - [Runtime](https://vercel.com/docs/logs/runtime.md): Learn how to search, inspect, and share your runtime logs with the Logs tab.
+- [OpenTelemetry](https://vercel.com/docs/otel.md): Learn how to get started with OTel on Vercel to send traces from your functions to application performance monitoring (APM) vendors.
+- [Session Tracing](https://vercel.com/docs/session-tracing.md): Learn how to trace your sessions to understand performance and infrastructure details.
+- [Query](https://vercel.com/docs/query.md): Query and visualize your Vercel usage, traffic, and more in observability.
+  - [Query Reference](https://vercel.com/docs/query/reference.md): This reference covers the dimensions and operators used to create a query.
+  - [Monitoring](https://vercel.com/docs/query/monitoring.md): Query and visualize your Vercel usage, traffic, and more with Monitoring.
+    - [Getting Started](https://vercel.com/docs/query/monitoring/quickstart.md): In this quickstart guide, you'll discover how to create and execute a query to visualize the most popular posts on your website.
+    - [Monitoring Reference](https://vercel.com/docs/query/monitoring/monitoring-reference.md): This reference covers the clauses, fields, and variables used to create a Monitoring query.
+    - [Limits and Pricing](https://vercel.com/docs/query/monitoring/limits-and-pricing.md): Learn about our limits and pricing when using Monitoring. Different limitations are applied depending on your plan.
+- [Notebooks](https://vercel.com/docs/notebooks.md): Learn more about Notebooks and how they allow you to organize and save your queries.
+- [Speed Insights](https://vercel.com/docs/speed-insights.md): This page lists out and explains all the performance metrics provided by Vercel's Speed Insights feature.
+  - [Getting Started](https://vercel.com/docs/speed-insights/quickstart.md): Vercel Speed Insights provides you detailed insights into your website's performance. This quickstart guide will help you get started with using Speed Insights on Vercel.
+  - [Using Speed Insights](https://vercel.com/docs/speed-insights/using-speed-insights.md): Learn how to use Speed Insights to analyze your application's performance data.
+  - [Metrics](https://vercel.com/docs/speed-insights/metrics.md): Learn what each performance metric on Speed Insights means and how the scores are calculated.
+  - [Privacy](https://vercel.com/docs/speed-insights/privacy-policy.md): Learn how Vercel follows the latest privacy and data compliance standards with its Speed Insights feature.
+  - [@vercel/speed-insights](https://vercel.com/docs/speed-insights/package.md): Learn how to configure your application to capture and send web performance metrics to Vercel using the @vercel/speed-insights npm package.
+  - [Limits and Pricing](https://vercel.com/docs/speed-insights/limits-and-pricing.md): Learn about our limits and pricing when using Vercel Speed Insights. Different limitations are applied depending on your plan.
+  - [Troubleshooting](https://vercel.com/docs/speed-insights/troubleshooting.md): Learn about common issues and how to troubleshoot Vercel Speed Insights.
+  - [Migrating from Legacy](https://vercel.com/docs/speed-insights/migrating-from-legacy.md): Learn about migrating from legacy features and configuration.
+- [Drains](https://vercel.com/docs/drains.md): Drains collect logs, traces, speed insights, and analytics from your applications. Forward observability data to custom endpoints or popular services.
+  - [Using Drains](https://vercel.com/docs/drains/using-drains.md): Learn how to configure drains to forward observability data to custom HTTP endpoints and add integrations.
+    - [Logs](https://vercel.com/docs/drains/reference/logs.md): Learn about Log Drains - data formats, sources, environments, and security configuration.
+    - [Traces](https://vercel.com/docs/drains/reference/traces.md): Learn about Trace Drains - OpenTelemetry-compliant distributed tracing data formats and configuration.
+    - [Speed Insights](https://vercel.com/docs/drains/reference/speed-insights.md): Learn about Speed Insights Drains - data formats and performance metrics configuration.
+    - [Web Analytics](https://vercel.com/docs/drains/reference/analytics.md): Learn about Web Analytics Drains - data formats and custom events configuration.
+  - [Security](https://vercel.com/docs/drains/security.md): Learn how to secure your Drains endpoints with authentication and signature verification.
+- [Web Analytics](https://vercel.com/docs/analytics.md): With Web Analytics, you can get detailed insights into your website's visitors with new metrics like top pages, top referrers, and demographics.
+  - [Getting Started](https://vercel.com/docs/analytics/quickstart.md): Vercel Web Analytics provides you detailed insights into your website's visitors. This quickstart guide will help you get started with using Analytics on Vercel.
+  - [Using Web Analytics](https://vercel.com/docs/analytics/using-web-analytics.md): Learn how to use Vercel's Web Analytics to understand how visitors are using your website.
+  - [Filtering](https://vercel.com/docs/analytics/filtering.md): Learn how filters allow you to explore insights about your website's visitors.
+  - [Custom Events](https://vercel.com/docs/analytics/custom-events.md): Learn how to send custom analytics events from your application.
+  - [Redacting Sensitive Data](https://vercel.com/docs/analytics/redacting-sensitive-data.md): Learn how to redact sensitive data from your Web Analytics events.
+  - [Privacy](https://vercel.com/docs/analytics/privacy-policy.md): Learn how Vercel supports privacy and data compliance standards with Vercel Web Analytics.
+  - [@vercel/analytics](https://vercel.com/docs/analytics/package.md): With the @vercel/analytics npm package, you are able to configure your application to send analytics data to Vercel.
+  - [Pricing](https://vercel.com/docs/analytics/limits-and-pricing.md): Learn about pricing for Vercel Web Analytics.
+  - [Troubleshooting](https://vercel.com/docs/analytics/troubleshooting.md): Learn how to troubleshoot common issues with Vercel Web Analytics.
+- [Manage & Optimize](https://vercel.com/docs/manage-and-optimize-observability.md): Learn how to understand the different charts in the Vercel dashboard, how usage relates to billing, and how to optimize your usage of Web Analytics and Speed Insights.
+
+## Platform
+- [Dashboard](https://vercel.com/docs/dashboard-features.md): Learn how to use the Vercel dashboard to view and manage all aspects of the Vercel platform, including your Projects and Deployments.
+  - [Navigating the Dashboard](https://vercel.com/docs/dashboard-features/overview.md): Learn how to select a scope, change the Project view, use search, or create a new project, all within the Vercel dashboard.
+  - [Support Center](https://vercel.com/docs/dashboard-features/support-center.md): Learn how to communicate securely with the Vercel support team
+  - [Using the Command Menu ](https://vercel.com/docs/dashboard-features/command-menu.md): Learn how to quickly navigate through the Vercel dashboard with your keyboard using the Command Menu.
+- [Notifications](https://vercel.com/docs/notifications.md): Learn how to use Notifications to view and manage important alerts about your deployments, domains, integrations, account, and usage.
+- [Projects](https://vercel.com/docs/projects.md): A project is the application that you have deployed to Vercel.
+  - [Managing projects](https://vercel.com/docs/projects/managing-projects.md): Learn how to manage your projects through the Vercel Dashboard.
+  - [Project Dashboard](https://vercel.com/docs/projects/project-dashboard.md): Learn about the features available for managing projects with the project Dashboard on Vercel.
+  - [Transferring a project](https://vercel.com/docs/projects/transferring-projects.md): Learn how to transfer a project between Vercel teams.
+- [Project Configuration](https://vercel.com/docs/project-configuration.md): Learn how to use vercel.json to configure and override the default behavior of Vercel from within your project. 
+  - [General Settings](https://vercel.com/docs/project-configuration/general-settings.md): Configure basic settings for your Vercel project, including the project name, build and development settings, root directory, Node.js version, Project ID, and Vercel Toolbar settings.
+  - [Project Settings](https://vercel.com/docs/project-configuration/project-settings.md): Use the project settings, to configure custom domains, environment variables, Git, integrations, deployment protection, functions, cron jobs, project members, webhooks, Drains, and security settings.
+  - [Git Configuration](https://vercel.com/docs/project-configuration/git-configuration.md): Learn how to configure Git for your project through the vercel.json file.
+  - [Git Settings](https://vercel.com/docs/project-configuration/git-settings.md): Use the project settings to manage the Git connection, enable Git LFS, create deploy hooks, and configure the build step.
+  - [Global Configuration](https://vercel.com/docs/project-configuration/global-configuration.md): Learn how to configure Vercel CLI under your system user.
+  - [Security settings](https://vercel.com/docs/project-configuration/security-settings.md): Configure security settings for your Vercel project, including Logs and Source Protection, Customer Success Code Visibility, Git Fork Protection, and Secure Backend Access with OIDC Federation.
+- [Checks](https://vercel.com/docs/checks.md): Vercel automatically keeps an eye on various aspects of your web application using the Checks API. Learn how to use Checks in your Vercel workflow here.
+  - [Checks API](https://vercel.com/docs/checks/checks-api.md): The Vercel Checks API let you create tests and assertions that run after each deployment has been built, and are powered by Vercel Integrations.
+  - [Checks Reference](https://vercel.com/docs/checks/creating-checks.md): Learn how to create your own Checks with Vercel Integrations. You can build your own Integration in order to register any arbitrary Check for your deployments.
+- [CLI](https://vercel.com/docs/cli.md): Learn how to use the Vercel command-line interface (CLI) to manage and configure your Vercel Projects from the command line.
+  - [Deploying from CLI](https://vercel.com/docs/cli/deploying-from-cli.md): Learn how to deploy your Vercel Projects from Vercel CLI using the vercel or vercel deploy commands.
+  - [Project Linking](https://vercel.com/docs/cli/project-linking.md): Learn how to link existing Vercel Projects with Vercel CLI.
+  - [Telemetry](https://vercel.com/docs/cli/about-telemetry.md): Vercel CLI collects telemetry data about general usage.
+  - [Global Options](https://vercel.com/docs/cli/global-options.md): Global options are commonly available to use with multiple Vercel CLI commands. Learn about Vercel CLI's global options here.
+  - [vercel alias](https://vercel.com/docs/cli/alias.md): Learn how to apply custom domain aliases to your Vercel deployments using the vercel alias CLI command.
+  - [vercel bisect](https://vercel.com/docs/cli/bisect.md): Learn how to perform a binary search on your deployments to help surface issues using the vercel bisect CLI command.
+  - [vercel blob](https://vercel.com/docs/cli/blob.md): Learn how to interact with Vercel Blob storage using the vercel blob CLI command.
+  - [vercel build](https://vercel.com/docs/cli/build.md): Learn how to build a Vercel Project locally or in your own CI environment using the vercel build CLI command.
+  - [vercel cache](https://vercel.com/docs/cli/cache.md): Learn how to manage cache for your project using the vercel cache CLI command.
+  - [vercel certs](https://vercel.com/docs/cli/certs.md): Learn how to manage certificates for your domains using the vercel certs CLI command.
+  - [vercel deploy](https://vercel.com/docs/cli/deploy.md): Learn how to deploy your Vercel projects using the vercel deploy CLI command.
+  - [vercel dev](https://vercel.com/docs/cli/dev.md): Learn how to replicate the Vercel deployment environment locally and test your Vercel Project before deploying using the vercel dev CLI command.
+  - [vercel dns](https://vercel.com/docs/cli/dns.md): Learn how to manage your DNS records for your domains using the vercel dns CLI command.
+  - [vercel domains](https://vercel.com/docs/cli/domains.md): Learn how to buy, sell, transfer, and manage your domains using the vercel domains CLI command.
+  - [vercel env](https://vercel.com/docs/cli/env.md): Learn how to manage your environment variables in your Vercel Projects using the vercel env CLI command.
+  - [vercel git](https://vercel.com/docs/cli/git.md): Learn how to manage your Git provider connections using the vercel git CLI command.
+  - [vercel help](https://vercel.com/docs/cli/help.md): Learn how to use the vercel help CLI command to get information about all available Vercel CLI commands.
+  - [vercel init](https://vercel.com/docs/cli/init.md): Learn how to initialize Vercel supported framework examples locally using the vercel init CLI command.
+  - [vercel inspect](https://vercel.com/docs/cli/inspect.md): Learn how to retrieve information about your Vercel deployments using the vercel inspect CLI command.
+  - [vercel install](https://vercel.com/docs/cli/install.md): Learn how to install native integrations with the vercel install CLI command.
+  - [vercel integration](https://vercel.com/docs/cli/integration.md): Learn how to perform key integration tasks using the vercel integration CLI command.
+  - [vercel integration-resource](https://vercel.com/docs/cli/integration-resource.md): Learn how to perform native integration product resources tasks using the vercel integration-resource CLI command.
+  - [vercel link](https://vercel.com/docs/cli/link.md): Learn how to link a local directory to a Vercel Project using the vercel link CLI command.
+  - [vercel list](https://vercel.com/docs/cli/list.md): Learn how to list out all recent deployments for the current Vercel Project using the vercel list CLI command.
+  - [vercel login](https://vercel.com/docs/cli/login.md): Learn how to login into your Vercel account using the vercel login CLI command.
+  - [vercel logout](https://vercel.com/docs/cli/logout.md): Learn how to logout from your Vercel account using the vercel logout CLI command.
+  - [vercel logs](https://vercel.com/docs/cli/logs.md): Learn how to list out all runtime logs for a specific deployment using the vercel logs CLI command.
+  - [vercel project](https://vercel.com/docs/cli/project.md): Learn how to list, add, remove, and manage your Vercel Projects using the vercel project CLI command.
+  - [vercel promote](https://vercel.com/docs/cli/promote.md): Learn how to promote an existing deployment using the vercel promote CLI command.
+  - [vercel pull](https://vercel.com/docs/cli/pull.md): Learn how to update your local project with remote environment variables using the vercel pull CLI command.
+  - [vercel redeploy](https://vercel.com/docs/cli/redeploy.md): Learn how to redeploy your project using the vercel redeploy CLI command.
+  - [vercel remove](https://vercel.com/docs/cli/remove.md): Learn how to remove a deployment using the vercel remove CLI command.
+  - [vercel rollback](https://vercel.com/docs/cli/rollback.md): Learn how to roll back your production deployments to previous deployments using the vercel rollback CLI command.
+  - [vercel rolling-release](https://vercel.com/docs/cli/rolling-release.md): Learn how to manage your project's rolling releases using the vercel rolling-release CLI command.
+  - [vercel switch](https://vercel.com/docs/cli/switch.md): Learn how to switch between different team scopes using the vercel switch CLI command.
+  - [vercel teams](https://vercel.com/docs/cli/teams.md): Learn how to list, add, remove, and manage your teams using the vercel teams CLI command.
+  - [vercel telemetry](https://vercel.com/docs/cli/telemetry.md): Learn how to manage telemetry collection.
+  - [vercel whoami](https://vercel.com/docs/cli/whoami.md): Learn how to display the username of the currently logged in user with the vercel whoami CLI command.
+- [Glossary](https://vercel.com/docs/glossary.md): Learn about the terms and concepts used in Vercel's products and documentation.
+- [Integrations](https://vercel.com/docs/integrations.md): Learn how to extend Vercel's capabilities by integrating with your preferred providers for AI, databases, headless content, commerce, and more.
+  - [Extend Vercel](https://vercel.com/docs/integrations/install-an-integration.md): Learn how to pair Vercel's functionality with a third-party service to streamline observability, integrate with testing tools, connect to your CMS, and more.
+    - [Add a Connectable Account](https://vercel.com/docs/integrations/install-an-integration/add-a-connectable-account.md): Learn how to connect Vercel to your third-party account.
+    - [Add a Native Integration](https://vercel.com/docs/integrations/install-an-integration/product-integration.md): Learn how you can add a product to your Vercel project through a native integration.
+    - [Permissions and Access](https://vercel.com/docs/integrations/install-an-integration/manage-integrations-reference.md): Learn how to manage project access and added products for your integrations.
+  - [Integrate with Vercel](https://vercel.com/docs/integrations/create-integration.md): Learn how to create and manage your own integration for internal or public use with Vercel.
+    - [Native integration concepts](https://vercel.com/docs/integrations/create-integration/native-integration.md): As an integration provider, understanding how your service interacts with Vercel's platform will help you create and optimize your integration.
+    - [Create a Native Integration](https://vercel.com/docs/integrations/create-integration/marketplace-product.md): Learn how to create a product for your Vercel native integration
+    - [Deployment integration actions](https://vercel.com/docs/integrations/create-integration/deployment-integration-action.md): These actions allow integration providers to set up automated tasks with Vercel deployments.
+    - [Native Integration Flows](https://vercel.com/docs/integrations/create-integration/marketplace-flows.md): Learn how information flows between the integration user, Vercel, and the integration provider for Vercel native integrations.
+    - [Native Integrations REST API](https://vercel.com/docs/integrations/create-integration/marketplace-api.md): Learn how to authenticate and use the Marketplace API to set up your integration server for the base URL.
+    - [Integration Approval Checklist](https://vercel.com/docs/integrations/create-integration/approval-checklist.md): The integration approval checklist is used ensure all necessary steps have been taken for a great integration experience.
+    - [Integration Image Guidelines](https://vercel.com/docs/integrations/create-integration/integration-image-guidelines.md): Guidelines for creating images for integrations, including layout, content, visual assets, descriptions, and design standards.
+    - [Requirements for listing an Integration](https://vercel.com/docs/integrations/create-integration/submit-integration.md): Learn about all the requirements and guidelines needed when creating your Integration.
+    - [Upgrade an Integration](https://vercel.com/docs/integrations/create-integration/upgrade-integration.md): Lean more about when you may need to upgrade your Integration.
+  - [CMS Integrations](https://vercel.com/docs/integrations/cms.md): Learn how to integrate Vercel with CMS platforms, including Contentful, Sanity, and Sitecore XM Cloud.
+    - [Agility CMS](https://vercel.com/docs/integrations/cms/agility-cms.md): Learn how to integrate Agility CMS with Vercel. Follow our tutorial to deploy the Agility CMS template or install the integration for flexible and scalable content management.
+    - [ButterCMS](https://vercel.com/docs/integrations/cms/butter-cms.md): Learn how to integrate ButterCMS with Vercel. Follow our tutorial to set up the ButterCMS template on Vercel and manage content seamlessly using ButterCMS API.
+    - [Contentful](https://vercel.com/docs/integrations/cms/contentful.md): Integrate Vercel with Contentful to deploy your content.
+    - [DatoCMS](https://vercel.com/docs/integrations/cms/dato-cms.md): Learn how to integrate DatoCMS with Vercel. Follow our step-by-step tutorial to set up and manage your digital content seamlessly using DatoCMS API.
+    - [Formspree](https://vercel.com/docs/integrations/cms/formspree.md): Learn how to integrate Formspree with Vercel. Follow our tutorial to set up Formspree and manage form submissions on your static website without needing a server. 
+    - [Makeswift](https://vercel.com/docs/integrations/cms/makeswift.md): Learn how to integrate Makeswift with Vercel. Makeswift is a no-code website builder designed for creating and managing React websites. Follow our tutorial to set up Makeswift and deploy your website on Vercel.
+    - [Sanity](https://vercel.com/docs/integrations/cms/sanity.md): Learn how to integrate Sanity with Vercel. Follow our tutorial to deploy the Sanity template or install the integration for real-time collaboration and structured content management.
+    - [Sitecore](https://vercel.com/docs/integrations/cms/sitecore.md): Integrate Vercel with Sitecore XM Cloud to deploy your content.
+  - [Ecommerce Integrations](https://vercel.com/docs/integrations/ecommerce.md): Learn how to integrate Vercel with ecommerce platforms, including BigCommerce and Shopify.
+    - [BigCommerce](https://vercel.com/docs/integrations/ecommerce/bigcommerce.md): Integrate Vercel with BigCommerce to deploy your headless storefront.
+    - [Shopify](https://vercel.com/docs/integrations/ecommerce/shopify.md): Integrate Vercel with Shopify to deploy your headless storefront.
+  - [Sign in with Vercel](https://vercel.com/docs/integrations/sign-in-with-vercel.md): Learn how to sign into Vercel Community using your Vercel account.
+  - [Building Integrations with Vercel REST API](https://vercel.com/docs/integrations/vercel-api-integrations.md): Learn how to use Vercel REST API to build your integrations and work with redirect URLs.
+    - [Kubernetes](https://vercel.com/docs/integrations/external-platforms/kubernetes.md): Deploy your frontend on Vercel alongside your existing Kubernetes infrastructure.
+- [Limits](https://vercel.com/docs/limits.md): This reference covers a list of all the limits and limitations that apply on Vercel.
+  - [Fair use Guidelines](https://vercel.com/docs/limits/fair-use-guidelines.md): Learn about all subscription plans included usage that is subject to Vercel's fair use guidelines.
+
+## Pricing
+- [Plans](https://vercel.com/docs/plans.md): Learn about the different plans available on Vercel.
+  - [Hobby Plan](https://vercel.com/docs/plans/hobby.md): Learn about the Hobby plan and how it compares to the Pro plan.
+  - [Pro Plan](https://vercel.com/docs/plans/pro-plan.md): Learn about the Vercel Pro plan with credit-based billing, free viewer seats, and self-serve enterprise features for professional teams.
+    - [Pro Plan Trial](https://vercel.com/docs/plans/pro-plan/trials.md): Learn all about Vercel's Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to manage your team's projects with Vercel's Pro Plan trial.
+    - [Switch to the Pro Plan](https://vercel.com/docs/plans/pro-plan/switching.md): Learn how to switch from the legacy Pro plan to the new pricing model.
+    - [Billing FAQ](https://vercel.com/docs/plans/pro-plan/billing.md): This page covers frequently asked questions around payments, invoices, and billing on the Pro plan.
+  - [Enterprise Plan](https://vercel.com/docs/plans/enterprise.md): Learn about the Enterprise plan for Vercel, including features, pricing, and more.
+    - [Billing FAQ](https://vercel.com/docs/plans/enterprise/billing.md): This page covers frequently asked questions around payments, invoices, and billing on the Enterprise plan.
+  - [Legacy Pro Plan](https://vercel.com/docs/plans/pro.md): Learn about legacy pro plan features and configuration.
+    - [Billing FAQ](https://vercel.com/docs/plans/pro/billing.md): Learn about billing faq features and configuration.
+- [Pricing](https://vercel.com/docs/pricing.md): Learn about Vercel's pricing model, including the resources and services that are billed, and how they are priced.
+  - [Regional Pricing](https://vercel.com/docs/pricing/regional-pricing.md): Vercel pricing for Managed Infrastructure resources in different regions.
+    - [Cape Town, South Africa](https://vercel.com/docs/pricing/regional-pricing/cpt1.md): Vercel pricing for the Cape Town, South Africa (cpt1) region.
+    - [Cleveland, USA](https://vercel.com/docs/pricing/regional-pricing/cle1.md): Vercel pricing for the Cleveland, USA (cle1) region.
+    - [Dubai, UAE](https://vercel.com/docs/pricing/regional-pricing/dxb1.md): Vercel pricing for the Dubai, UAE (dxb1) region.
+    - [Dublin, Ireland](https://vercel.com/docs/pricing/regional-pricing/dub1.md): Vercel pricing for the Dublin, Ireland (dub1) region.
+    - [Frankfurt, Germany](https://vercel.com/docs/pricing/regional-pricing/fra1.md): Vercel pricing for the Frankfurt, Germany (fra1) region.
+    - [Hong Kong](https://vercel.com/docs/pricing/regional-pricing/hkg1.md): Vercel pricing for the Hong Kong (hkg1) region.
+    - [London, UK](https://vercel.com/docs/pricing/regional-pricing/lhr1.md): Vercel pricing for the London, UK (lhr1) region.
+    - [Mumbai, India](https://vercel.com/docs/pricing/regional-pricing/bom1.md): Vercel pricing for the Mumbai, India (bom1) region.
+    - [Osaka, Japan](https://vercel.com/docs/pricing/regional-pricing/kix1.md): Vercel pricing for the Osaka, Japan (kix1) region.
+    - [Paris, France](https://vercel.com/docs/pricing/regional-pricing/cdg1.md): Vercel pricing for the Paris, France (cdg1) region.
+    - [Portland, USA](https://vercel.com/docs/pricing/regional-pricing/pdx1.md): Vercel pricing for the Portland, USA (pdx1) region.
+    - [San Francisco, USA](https://vercel.com/docs/pricing/regional-pricing/sfo1.md): Vercel pricing for the San Francisco, USA (sfo1) region.
+    - [São Paulo, Brazil](https://vercel.com/docs/pricing/regional-pricing/gru1.md): Vercel pricing for the São Paulo, Brazil (gru1) region.
+    - [Seoul, South Korea](https://vercel.com/docs/pricing/regional-pricing/icn1.md): Vercel pricing for the Seoul, South Korea (icn1) region.
+    - [Singapore](https://vercel.com/docs/pricing/regional-pricing/sin1.md): Vercel pricing for the Singapore (sin1) region.
+    - [Stockholm, Sweden](https://vercel.com/docs/pricing/regional-pricing/arn1.md): Vercel pricing for the Stockholm, Sweden (arn1) region.
+    - [Sydney, Australia](https://vercel.com/docs/pricing/regional-pricing/syd1.md): Vercel pricing for the Sydney, Australia (syd1) region.
+    - [Tokyo, Japan](https://vercel.com/docs/pricing/regional-pricing/hnd1.md): Vercel pricing for the Tokyo, Japan (hnd1) region.
+    - [Washington, D.C., USA](https://vercel.com/docs/pricing/regional-pricing/iad1.md): Vercel pricing for the Washington, D.C., USA (iad1) region.
+  - [Manage and Optimize Usage](https://vercel.com/docs/pricing/manage-and-optimize-usage.md): Understand how to manage and optimize your usage on Vercel, learn how to track your usage, set up alerts, and optimize your usage to save costs.
+  - [Calculating Usage of Resources](https://vercel.com/docs/pricing/how-does-vercel-calculate-usage-of-resources.md): Understand how Vercel measures and calculates your resource usage based on a typical user journey.
+  - [Billing & Invoices](https://vercel.com/docs/pricing/understanding-my-invoice.md): Learn how Vercel invoices get structured for Pro and Enterprise plans. Learn how usage allotments and on-demand charges get included.
+  - [Legacy Metrics](https://vercel.com/docs/pricing/legacy.md): Learn about Bandwidth, Requests, Vercel Function Invocations, and Vercel Function Execution metrics.
+  - [Sales Tax](https://vercel.com/docs/pricing/sales-tax.md): This page covers frequently asked questions around sales tax.
+- [Spend Management](https://vercel.com/docs/spend-management.md): Learn how to get notified about your account spend and configure a webhook.
+
+## Security
+- [Overview](https://vercel.com/docs/security.md): Vercel provides built-in and customizable features to ensure that your site is secure.
+  - [Security & Compliance Measures](https://vercel.com/docs/security/compliance.md): Learn about the protection and compliance measures Vercel takes to ensure the security of your data, including DDoS mitigation and SOC 2 compliance.
+  - [Shared Responsibility Model](https://vercel.com/docs/security/shared-responsibility.md): Discover the essentials of our Shared Responsibility Model, outlining the key roles and responsibilities for customers, Vercel, and shared aspects in ensuring secure and efficient cloud computing services.
+  - [PCI DSS iframe Integration](https://vercel.com/docs/security/pci-dss.md): Learn how to integrate an iframe into your application to support PCI DSS compliance.
+  - [Reverse Proxy Servers and Vercel](https://vercel.com/docs/security/reverse-proxy.md): Learn why reverse proxy servers are not recommended with Vercel's firewall.
+  - [Access Control](https://vercel.com/docs/security/access-control.md): Learn about the protection and compliance measures Vercel takes to ensure the security of your data, including DDoS mitigation, SOC 2 compliance and more.
+- [Audit Logs](https://vercel.com/docs/audit-log.md): Learn how to track and analyze your team members' activities.
+- [Firewall](https://vercel.com/docs/vercel-firewall.md): Learn how Vercel Firewall helps protect your applications and websites from malicious attacks and unauthorized access.
+  - [Firewall Concepts](https://vercel.com/docs/vercel-firewall/firewall-concepts.md): Understand the fundamentals behind the Vercel Firewall.
+  - [DDoS Mitigation](https://vercel.com/docs/vercel-firewall/ddos-mitigation.md): Learn how the Vercel Firewall mitigates against DoS and DDoS attacks
+  - [Attack Challenge Mode](https://vercel.com/docs/vercel-firewall/attack-challenge-mode.md): Learn how to use Attack Challenge Mode to help control who has access to your site when it's under attack.
+  - [Web Application Firewall](https://vercel.com/docs/vercel-firewall/vercel-waf.md): Learn how to secure your website with the Vercel Web Application Firewall (WAF)
+    - [Custom Rules](https://vercel.com/docs/vercel-firewall/vercel-waf/custom-rules.md): Learn how to add and manage custom rules to configure the Vercel Web Application Firewall (WAF).
+    - [Rate Limiting](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting.md): Learn how to configure custom rate limiting rules with the Vercel Web Application Firewall (WAF).
+    - [Rule Configuration](https://vercel.com/docs/vercel-firewall/vercel-waf/rule-configuration.md): List of configurable options with the Vercel WAF
+    - [System Bypass Rules](https://vercel.com/docs/vercel-firewall/vercel-waf/system-bypass-rules.md): Learn how to configure IP-based system bypass rules with the Vercel Web Application Firewall (WAF).
+    - [Rate Limiting SDK](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting-sdk.md): Learn how to configure a custom rule with rate limit in your code.
+    - [IP Blocking](https://vercel.com/docs/vercel-firewall/vercel-waf/ip-blocking.md): Learn how to customize the Vercel WAF to restrict access to certain IP addresses.
+    - [Managed Rulesets](https://vercel.com/docs/vercel-firewall/vercel-waf/managed-rulesets.md): Learn how to use managed rulesets with the Vercel Web Application Firewall (WAF)
+    - [Examples](https://vercel.com/docs/vercel-firewall/vercel-waf/examples.md): Learn how to use Vercel WAF to protect your site in specific situations.
+    - [Usage & Pricing](https://vercel.com/docs/vercel-firewall/vercel-waf/usage-and-pricing.md): Learn how the Vercel WAF can affect your usage and how specific features are priced.
+  - [Firewall API](https://vercel.com/docs/vercel-firewall/firewall-api.md): Learn how to interact with the security endpoints of the Vercel REST API programmatically.
+  - [Firewall Observability](https://vercel.com/docs/vercel-firewall/firewall-observability.md): Learn how firewall traffic monitoring and alerts help you react quickly to potential security threats.
+- [Bot Management](https://vercel.com/docs/bot-management.md): Learn how to manage bot traffic to your site.
+- [BotID](https://vercel.com/docs/botid.md): Protect your applications from automated attacks with intelligent bot detection and verification, powered by Kasada.
+  - [Get Started with BotID](https://vercel.com/docs/botid/get-started.md): Step-by-step guide to setting up BotID protection in your Vercel project
+  - [Handling Verified Bots](https://vercel.com/docs/botid/verified-bots.md): Information about verified bots and their handling in BotID
+  - [Advanced BotID Configuration](https://vercel.com/docs/botid/advanced-configuration.md): Fine-grained control over BotID detection levels and backend domain configuration
+  - [Form Submissions](https://vercel.com/docs/botid/form-submissions.md): How to properly handle form submissions with BotID protection
+  - [Local Development Behavior](https://vercel.com/docs/botid/local-development-behavior.md): How BotID behaves in local development environments and testing options
+- [Connectivity](https://vercel.com/docs/connectivity.md): Connect your Vercel projects to backend services with static IPs and secure networking options.
+  - [Secure Compute](https://vercel.com/docs/connectivity/secure-compute.md): Secure Compute provides dedicated private networks with VPC peering for Enterprise teams.
+  - [Static IPs](https://vercel.com/docs/connectivity/static-ips.md): Access IP-restricted backend services through shared static egress IPs for Pro and Enterprise teams.
+    - [Getting Started](https://vercel.com/docs/connectivity/static-ips/getting-started.md): Learn how to set up Static IPs for your Vercel projects to connect to IP-restricted backend services.
+- [OIDC](https://vercel.com/docs/oidc.md): Secure the access to your backend using OIDC Federation to enable auto-generated, short-lived, and non-persistent credentials.
+  - [AWS](https://vercel.com/docs/oidc/aws.md): Learn how to configure your AWS account to trust Vercel's OpenID Connect (OIDC) Identity Provider (IdP).
+  - [Azure](https://vercel.com/docs/oidc/azure.md): Learn how to configure your Microsoft Azure account to trust Vercel's OpenID Connect (OIDC) Identity Provider (IdP).
+  - [Connect your API](https://vercel.com/docs/oidc/api.md): Learn how to configure your own API to trust Vercel's OpenID Connect (OIDC) Identity Provider (IdP)
+  - [Google Cloud Platform](https://vercel.com/docs/oidc/gcp.md): Learn how to configure your GCP project to trust Vercel's OpenID Connect (OIDC) Identity Provider (IdP).
+  - [OIDC Reference](https://vercel.com/docs/oidc/reference.md): Review helper libraries to help you connect with your backend and understand the structure of an OIDC token.
+- [RBAC](https://vercel.com/docs/rbac.md): Learn how to manage team members on Vercel, and how to assign roles to each member with role-based access control (RBAC).
+  - [Access Roles](https://vercel.com/docs/rbac/access-roles.md): Learn about the different roles available for team members on a Vercel account.
+    - [Extended Permissions](https://vercel.com/docs/rbac/access-roles/extended-permissions.md): Learn about extended permissions in Vercel's RBAC system. Understand how to combine roles and permissions for precise access control.
+    - [Project Level Roles](https://vercel.com/docs/rbac/access-roles/project-level-roles.md): Learn about the project level roles and their permissions.
+    - [Team Level Roles](https://vercel.com/docs/rbac/access-roles/team-level-roles.md): Learn about the different team level roles and the permissions they provide.
+  - [Access Groups](https://vercel.com/docs/rbac/access-groups.md): Learn how to configure access groups for team members on a Vercel account.
+  - [Managing Team Members](https://vercel.com/docs/rbac/managing-team-members.md): Learn how to manage team members on Vercel, and how to assign roles to each member with role-based access control (RBAC).
+- [Two-factor Enforcement](https://vercel.com/docs/two-factor-enforcement.md): Learn how to enforce two-factor authentication (2FA) for your Vercel team members to enhance security.
+
+## Storage
+- [Blob](https://vercel.com/docs/vercel-blob.md): Vercel Blob is a scalable, and cost-effective object storage service for static assets, such as images, videos, audio files, and more.
+  - [Server Uploads](https://vercel.com/docs/vercel-blob/server-upload.md): Learn how to upload files to Vercel Blob using Server Actions and Route Handlers
+  - [Client Uploads](https://vercel.com/docs/vercel-blob/client-upload.md): Learn how to upload files larger than 4.5 MB directly from the browser to Vercel Blob
+  - [Using the SDK](https://vercel.com/docs/vercel-blob/using-blob-sdk.md): Learn how to use the Vercel Blob SDK to access your blob store from your apps.
+  - [Pricing](https://vercel.com/docs/vercel-blob/usage-and-pricing.md): Learn about the pricing for Vercel Blob.
+  - [Security](https://vercel.com/docs/vercel-blob/security.md): Learn how your Vercel Blob store is secured
+  - [Examples](https://vercel.com/docs/vercel-blob/examples.md): Examples on how to use Vercel Blob in your applications
+- [Edge Config](https://vercel.com/docs/edge-config.md): An Edge Config is a global data store that enables experimentation with feature flags, A/B testing, critical redirects, and more.
+  - [Getting Started](https://vercel.com/docs/edge-config/get-started.md): Learn how to create an Edge Config store and read from it in your project.
+  - [Using Edge Config](https://vercel.com/docs/edge-config/using-edge-config.md): Learn how to use Edge Configs in your projects.
+  - [Edge Configs & REST API](https://vercel.com/docs/edge-config/vercel-api.md): Learn how to use the Vercel REST API to create and update Edge Configs. You can also read data stored in Edge Configs with the Vercel REST API.
+  - [Edge Configs & Dashboard](https://vercel.com/docs/edge-config/edge-config-dashboard.md): Learn how to create, view and update your Edge Configs and the data inside them in your Vercel Dashboard at the Hobby team, team, and project levels.
+  - [Edge Config SDK](https://vercel.com/docs/edge-config/edge-config-sdk.md): The Edge Config client SDK is the most ergonomic way to read data from Edge Configs. Learn how to set up the SDK so you can start reading Edge Configs.
+  - [Limits & Pricing](https://vercel.com/docs/edge-config/edge-config-limits.md): Learn about the Edge Configs limits and pricing based on account plans.
+  - [Integrations](https://vercel.com/docs/edge-config/edge-config-integrations.md): Learn how to use Edge Config with popular A/B testing and feature flag service integrations.
+    - [DevCycle](https://vercel.com/docs/edge-config/edge-config-integrations/devcycle-edge-config.md): Learn how to use Edge Config with Vercel's DevCycle integration.
+    - [Hypertune](https://vercel.com/docs/edge-config/edge-config-integrations/hypertune-edge-config.md): Learn how to use Hypertune's integration with Vercel Edge Config.
+    - [LaunchDarkly](https://vercel.com/docs/edge-config/edge-config-integrations/launchdarkly-edge-config.md): Learn how to use Edge Config with Vercel's LaunchDarkly integration.
+    - [Split](https://vercel.com/docs/edge-config/edge-config-integrations/split-edge-config.md): Learn how to use Edge Config with Vercel's Split integration.
+    - [Statsig](https://vercel.com/docs/edge-config/edge-config-integrations/statsig-edge-config.md): Learn how to use Edge Config with Vercel's Statsig integration.
+
+# Guides
+
+- [“Cannot Find Matching Keyid” Errors or “Corepack/PNPM Not Found” on GitHub Actions](https://vercel.com/guides/corepack-errors-github-actions.md): How to debug and address this corepack issue with GitHub Actions.
+- [A/B Testing on Vercel](https://vercel.com/guides/ab-testing-on-vercel.md): Learn best practices for A/B testing on Vercel
+- [Add Auth to a Next.js Site with Magic.link](https://vercel.com/guides/add-auth-to-nextjs-with-magic.md): Learn how to add user authentication to a Next.js site using Magic.link.
+- [Add Rate Limiting with Vercel](https://vercel.com/guides/add-rate-limiting-vercel.md): Learn how to implement rate limiting with Vercel
+- [Adding a response header](https://vercel.com/guides/add-response-header.md): Learn how to add a response header in your Middleware.
+- [AI Agents on Vercel](https://vercel.com/guides/ai-agents.md): This guide provides an overview of how to build and deploy AI agents on Vercel.
+- [An Introduction to Evals](https://vercel.com/guides/an-introduction-to-evals.md): Evaluations test model and agent outputs to ensure they meet the standards and requirements you specify.
+- [Application Authentication on Vercel](https://vercel.com/guides/application-authentication-on-vercel.md): Learn best practices for application authentication Vercel
+- [Are Vercel Preview Deployments indexed by search engines?](https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines.md): Information on whether a Vercel Deployment will be indexed by search engines.
+- [Avoiding duplicate-content SEO with vercel.app URLs and custom domains](https://vercel.com/guides/avoiding-duplicate-content-with-vercel-app-urls.md): Discover why search engines may treat your vercel.app URL and custom domain as separate pages, and how to consolidate ranking signals and protect your SEO.
+- [Block PHP Requests](https://vercel.com/guides/block-php-requests.md): Learn how to block traffic looking for .php vulnerabilies.
+- [Build a ChatGPT Connector (MCP server)](https://vercel.com/guides/mcp-server-chatgpt-connector.md): Create an MCP server to bring your tools and data to ChatGPT
+- [Build an AI Chat Agent with Weather API Tool Calling](https://vercel.com/guides/build-ai-agent-weather-api.md): Build an intelligent conversational agent that fetches real-time weather data using the AI SDK, tool calling, and a backend weather API powered by Express, FastAPI or Nitro
+- [Build commission-free iOS checkouts with Vercel and Paddle](https://vercel.com/guides/build-commission-free-ios-checkouts-with-vercel-and-paddle.md): A new ruling allows iOS apps to use external checkouts. Learn how to deploy a secure, high-performance external checkout on Vercel with Paddle and Next.js, avoiding Apple’s 30% cut while supporting Apple Pay and owning pricing and customer relationships.
+- [Building AI-powered Article Embeddings with Chroma and GPT-4](https://vercel.com/guides/ai-powered-article-embeddings-with-chroma-and-gpt-4.md): This guide provides step-by-step instructions on using Chroma and GPT-4 to build AI-powered article embeddings for tasks like similarity-based search and recommendation systems.
+- [Building an AI Chatbot with Cohere, Next.js, and the Vercel AI SDK](https://vercel.com/guides/cohere-nextjs-vercel-ai-sdk.md): Learn how to build a generative AI application using Cohere, Next.js, and Vercel.
+- [Building an AI chatbot with Next.js, Langchain, and OpenAI](https://vercel.com/guides/nextjs-langchain-vercel-ai.md): Dive into the world of LangChain.js and Next.js with our detailed guide. Learn how to set up a chatbot, structure outputs, integrate agents, and more. Perfect for developers looking to harness the power of AI in their web applications.
+- [Building Ecommerce Sites with Next.js and Shopify](https://vercel.com/guides/building-ecommerce-sites-with-next-js-and-shopify.md): Learn how to integrate Next.js and Shopify together for the fastest storefronts using the Storefront GraphQL API.
+- [Building stateful Slack bots with Vercel Workflow](https://vercel.com/guides/stateful-slack-bots-with-vercel-workflow.md): Learn how to build Slack bots that maintain state and handle long-running processes without managing queues, databases, or background job infra.
+- [Can a CAA record be added to a Subdomain Configured with CNAME?](https://vercel.com/guides/can-a-caa-record-be-added-to-a-subdomain-configured-with-cname.md): This guide is for any users with requirements on customization of CAA records on subdomains.
+- [Can I connect a Pro team to a personal Git account?](https://vercel.com/guides/connecting-teams-with-personal-git-accounts.md): Information on connecting personal Git accounts to a Vercel team.
+- [Can I deploy a locally built Next.js app to Vercel?](https://vercel.com/guides/deploying-locally-built-nextjs.md): Learn how to deploy a locally built Next.js application to Vercel.
+- [Can I deploy Discord bots to Vercel?](https://vercel.com/guides/can-i-deploy-discord-bots-to-vercel.md): Learn about whether it's possible to deploy Discord Bots to Vercel.
+- [Can I disable auto renewals for a domain registered with Vercel?](https://vercel.com/guides/how-can-i-disable-auto-renewals-for-a-domain-registered-with-vercel.md): Learn about disabling auto-renewal of domains registered with Vercel.
+- [Can I get a fixed IP address for my Vercel deployments?](https://vercel.com/guides/can-i-get-a-fixed-ip-address.md): You can allowlist IP addresses with Vercel Secure Compute and Static IPs
+- [Can I get a refund for a domain purchased or renewed with Vercel?](https://vercel.com/guides/can-i-get-a-refund-for-a-domain-purchased-or-renewed-with-vercel.md): Information on getting a refund for a domain purchased or renewed with Vercel.
+- [Can I redirect from a subdomain to a subpath?](https://vercel.com/guides/can-i-redirect-from-a-subdomain-to-a-subpath.md): Learn how to redirect from your subdomain to a subpath on Vercel with a vercel.json file or with Next.js
+- [Can I route based on letter casing on Vercel?](https://vercel.com/guides/can-i-route-based-on-letter-casing-on-vercel.md): Information on whether or not it is possible to route based on letting casing with Vercel.
+- [Can I Set a Cookie from My Vercel Project Subdomain to Vercel.app?](https://vercel.com/guides/can-i-set-a-cookie-from-my-vercel-project-subdomain-to-vercel-app.md): If you set a cookie at the level of `vercel.app` in your Vercel project, will the cookie be applied to `vercel.app`?
+- [Can I use a proxy on top of my Vercel Deployment?](https://vercel.com/guides/can-i-use-a-proxy-on-top-of-my-vercel-deployment.md): General information about using an external proxy to serve a Vercel Deployment.
+- [Can I use Bitbucket Data Center with Vercel?](https://vercel.com/guides/can-i-use-bitbucket-data-center-with-vercel.md): You can use Bitbucket Data Center and Bitbucket Pipelines to deploy your application to Vercel.
+- [Can I use GitHub Enterprise Server with Vercel?](https://vercel.com/guides/can-i-use-github-enterprise-server-with-vercel.md): You can use GitHub Enterprise Server and GitHub Actions to deploy your application to Vercel.
+- [Can I use my domain on Vercel with A records?](https://vercel.com/guides/a-record-and-caa-with-vercel.md): Information on how to use A records with Vercel to verify a domain.
+- [Can I use Preview Deployment Suffix without switching to Vercel Nameservers?](https://vercel.com/guides/preview-deployment-suffix-without-vercel-nameservers.md): Information on how to use Preview Deployment Suffix without Vercel Nameservers
+- [Can I use self-managed GitLab with Vercel?](https://vercel.com/guides/can-i-use-self-managed-gitlab-with-vercel.md): You can use self-managed GitLab and GitHub Pipelines to deploy your application to Vercel.
+- [Can I use SMTP with Vercel?](https://vercel.com/guides/serverless-functions-and-smtp.md): Information on SMTP and email usage in Serverless Functions.
+- [Can I use Vercel as a reverse proxy?](https://vercel.com/guides/vercel-reverse-proxy-rewrites-external.md): Learn how to use rewrites to proxy requests from Vercel to other deployments.
+- [Can I use Vercel to deploy to a private cloud?](https://vercel.com/guides/can-i-use-vercel-to-deploy-to-a-private-cloud.md): Learn about if it's possible to deploy to a private cloud with Vercel.
+- [Can I use wildcard domains without switching to Vercel Nameservers?](https://vercel.com/guides/wildcard-domain-without-vercel-nameservers.md): Information on how to use wildcard domains without Vercel Nameservers
+- [Can Vercel sponsor my open source project?](https://vercel.com/guides/can-vercel-sponsor-my-open-source-project.md): Information on how Vercel can sponsor your open source project and how to apply.
+- [Can you deploy based on tags/releases on Vercel?](https://vercel.com/guides/can-you-deploy-based-on-tags-releases-on-vercel.md): Learn how to deploy based on tags/releases on Vercel.
+- [Challenge Cookieless Requests on a Specific Path](https://vercel.com/guides/challenge-cookieless-requests-on-a-specific-path.md): Learn how to challenge specific requests with the Vercel WAF API.
+- [Challenge cURL Requests](https://vercel.com/guides/challenge-curl-requests.md): Learn how to challenge curl requests with the Vercel WAF API.
+- [Comparing MySQL, PostgreSQL, and MongoDB](https://vercel.com/guides/mysql-vs-postgresql-vs-mongodb.md): Explore database selection for optimal performance, focusing on SQL options like MySQL, PostgreSQL, and NoSQL's MongoDB. Consider data types, indexing, concurrency, scalability, replication, and ACID compliance for your application's needs.
+- [Connection Pooling with Vercel Functions](https://vercel.com/guides/connection-pooling-with-functions.md): Learn best practices for connecting to relational databases with Vercel Functions and Fluid compute
+- [Create and Deploy a Crystallize E-commerce Site with Vercel](https://vercel.com/guides/deploying-crystallize-with-vercel.md): How to launch an e-commerce site using Next.js and Crystallize on Vercel in minutes.
+- [Creating a Session Store with Redis and Next.js](https://vercel.com/guides/session-store-nextjs-redis-vercel-kv.md): Learn how to durably store sessions with Redis and Next.js.
+- [Custom 404 Page](https://vercel.com/guides/custom-404-page.md): Create a custom 404 page and deploy with Vercel.
+- [Debug and Troubleshoot Logs with Vercel and Sematext](https://vercel.com/guides/debugging-and-troubleshooting-vercel-logs-with-sematext.md): Automatically send all Vercel logs to Sematext to understand how your application is running.
+- [Debug routing on Vercel](https://vercel.com/guides/debug-routing-on-vercel.md): Learn how to debug how Vercel decides where to route your request
+- [Deny non-browser Traffic or Blocklisted ASNs](https://vercel.com/guides/deny-non-browser-traffic-or-blocklisted-asns.md): Learn how to block traffic from known threats with the Vercel WAF API.
+- [Deny traffic from a Set of IP Addresses](https://vercel.com/guides/deny-traffic-from-a-set-of-ip-addresses.md): Learn how to specific IP addresses with the Vercel WAF API.
+- [Dependencies from package.json are missing after install](https://vercel.com/guides/dependencies-from-package-json-missing-after-install.md): Understand why dependencies may not being installed during a build and how to fix.
+- [Deploy Foundation with Vercel](https://vercel.com/guides/deploying-foundation-with-vercel.md): Create a Foundation app and deploy it live with Vercel.
+- [Deploy Next.js and Userbase with Vercel](https://vercel.com/guides/deploying-next-and-userbase-with-vercel.md): Create a Todo app with Next.js and Userbase and deploy it live with Vercel.
+- [Deploying a Monorepo Using Yarn Workspaces to Vercel](https://vercel.com/guides/deploying-yarn-monorepos-to-vercel.md): In this guide, you will deploy a monorepo that includes two frontend applications and one shared library with Yarn workspaces.
+- [Deploying Chained OpenAI LLM Calls to Vercel with the Inngest SDK](https://vercel.com/guides/chained-openai-llm-calls-vercel-inngest.md): Discover how to deploy chained OpenAI LLMs (GPT-4) to Vercel using Inngest SDK for improved conversational AI, multi-turn interactions, and error correction.
+- [Deploying Puppeteer with Next.js on Vercel](https://vercel.com/guides/deploying-puppeteer-with-nextjs-on-vercel.md): This guide covers setting up Puppeteer with Next.js on Vercel for headless browser automation, featuring a practical example for generating web page screenshots efficiently.
+- [Deploying React Forms Using Formspree with Vercel](https://vercel.com/guides/deploying-react-forms-using-formspree-with-vercel.md): Create and deploy a React form with the help of Formspree and Vercel.
+- [Deploying Real-Time Apps with Pusher Channels and Vercel](https://vercel.com/guides/deploying-pusher-channels-with-vercel.md): How to get started building and deploying real-time apps with Channels on Vercel.
+- [Deploying Storybook with Vercel](https://vercel.com/guides/storybook-with-vercel.md): Learn how to deploy Storybook applications to Vercel in minutes.
+- [Displaying headlines in social previews with Vercel OG](https://vercel.com/guides/displaying-article-headlines-in-social-previews.md): Twitter/X is planning to remove headlines from social previews. To get around this limitation, Vercel OG offers a way to display article titles directly inside OG images.
+- [Do Vercel Serverless Functions support WebSocket connections?](https://vercel.com/guides/do-vercel-serverless-functions-support-websocket-connections.md): Information on Vercel's support for WebSocket connections with Vercel Functions.
+- [Does streaming affect SEO and can streamed content be indexed?](https://vercel.com/guides/does-streaming-affect-seo.md): Streamed content does not affect SEO and will still be indexed by Google. Learn more in this guide.
+- [Does using Vercel's Nameserver's lock you in?](https://vercel.com/guides/does-using-vercel-s-nameserver-s-lock-you-in.md): Learn about how using Vercel's Nameservers doesn't lock you to anything.
+- [Does Vercel have a SOC 2 Type 2 attestation?](https://vercel.com/guides/is-vercel-soc-2-compliant.md): Learn about Vercel and SOC 2 Type 2 attestation.
+- [Does Vercel support .htaccess files?](https://vercel.com/guides/does-vercel-support-htaccess-files.md): Information on Vercel's support for .htaccess files.
+- [Does Vercel support Docker deployments?](https://vercel.com/guides/does-vercel-support-docker-deployments.md): While Vercel does not support deploying Docker images directly, you can use Docker as part of your development toolchain when building for Vercel.
+- [Does Vercel support HIPAA compliance?](https://vercel.com/guides/is-vercel-hipaa-compliant.md): Learn about Vercel and HIPAA compliance.
+- [Does Vercel support PCI compliance?](https://vercel.com/guides/is-vercel-pci-compliant.md): Learn about Vercel and PCI compliance.
+- [Does Vercel support permanent redirects?](https://vercel.com/guides/does-vercel-support-permanent-redirects.md): Information on Vercel's support for permanent redirects.
+- [Does Vercel support Ruby on Rails applications?](https://vercel.com/guides/does-vercel-support-ruby-on-rails-applications.md): Learn how you can use Ruby on Rails with your frontend on Vercel.
+- [Does Vercel support Yarn 2?](https://vercel.com/guides/does-vercel-support-yarn-2.md): Information on Vercel's support for Yarn 2.
+- [Does Vercel support Yarn 3?](https://vercel.com/guides/does-vercel-support-yarn-3.md): Information on Vercel's support for Yarn 3.
+- [Does Vercel support Yarn 4?](https://vercel.com/guides/does-vercel-support-yarn-4.md): Information on Vercel's support for Yarn 4.
+- [Dynamically run build commands](https://vercel.com/guides/dynamic-build-commands.md): Learn how to run different scripts based on the environment or branch.
+- [Emergency Redirect](https://vercel.com/guides/emergency-redirect.md): Learn how to implement an emergency redirect without re-deploying your site.
+- [Encrypting parameters](https://vercel.com/guides/encrypting-parameters.md): Learn how to encrypt parameters so that only certain values can be passed to generate your image.
+- [Enhancing Security for Redirects and Rewrites](https://vercel.com/guides/enhancing-security-for-redirects-and-rewrites.md): Learn how security measures in URI handling can prevent semantic attacks, where malicious hosts exploit redirects and rewrites to mimic trusted sites, leading to phishing and data breaches.
+- [Ensuring safe and effective infrastructure testing](https://vercel.com/guides/ensuring-safe-and-effective-infrastructure-testing.md): We conduct regular penetration testing through certified third-party assessors to secure the Vercel platform. This guide explains why we handle infrastructure testing centrally and what security resources are available to customers.
+- [Error Reports for Your Projects with URIports and Vercel](https://vercel.com/guides/client-side-error-reports-with-uriports-vercel.md): Enable error reporting for your websites deployed with Vercel and act fast on issues.
+- [Filtering query parameters](https://vercel.com/guides/filter-query-parameters.md): Learn how to filter query parameters in your Middleware.
+- [Fine-tuning GPT with OpenAI, Next.js, and Vercel AI SDK](https://vercel.com/guides/fine-tuning-openai-nextjs.md): In this guide, we will build Shooketh – an AI bot fine-tuned on Shakespeare's literary works with OpenAI GPT-4o and the Vercel AI SDK.
+- [Firewall Terraform Configuration](https://vercel.com/guides/firewall-terraform-configuration.md): Learn how to create scalable firewall configurations with Terraform
+- [Getting started with Next.js, TypeScript, and Stripe Checkout](https://vercel.com/guides/getting-started-with-nextjs-typescript-stripe.md): Add payments functionality to your Next.js applications with Stripe and deploy to Vercel.
+- [Handling Backpressure](https://vercel.com/guides/handling-backpressure.md): Learn how to handle backpressure by pushing data into a steam as it's needed, rather than as it's ready.
+- [Handling Node.js Request Bodies with Vercel](https://vercel.com/guides/handling-node-request-body.md): Parse Node.js request bodies for use inside Serverless Functions deployed with Vercel.
+- [HIPAA Compliance on Vercel](https://vercel.com/guides/hipaa-compliance-guide-vercel.md): Deploy HIPAA-compliant healthcare apps on Vercel with built-in security, BAAs, and scalable serverless infrastructure.
+- [Hosting your API on Vercel](https://vercel.com/guides/hosting-backend-apis.md): Learn how to build and scale performant APIs on Vercel.
+- [How can I add a custom build step to my project?](https://vercel.com/guides/how-can-i-add-a-custom-build-step-to-my-project.md): Learn how to add a custom build step for your project.
+- [How can I allowlist IP addresses for a deployment?](https://vercel.com/guides/how-to-allowlist-deployment-ip-address.md): You can securely connect a deployment to external services by using a stable set of IP addresses.
+- [How can I enable CORS on Vercel?](https://vercel.com/guides/how-to-enable-cors.md): Learn how to add CORS headers to your application on Vercel.
+- [How can I fix SharedArrayBuffer is not defined?](https://vercel.com/guides/fix-shared-array-buffer-not-defined-nextjs-react.md): Learn how to enable cross-origin isolation to fix SharedArrayBuffer not being defined.
+- [How can I improve function cold start performance on Vercel?](https://vercel.com/guides/how-can-i-improve-serverless-function-lambda-cold-start-performance-on-vercel.md): This guide will help you improve the performance of your Vercel Functions and understand how to determine if the latency increase is from a cold start.
+- [How can I increase the limit of redirects or use dynamic redirects on Vercel?](https://vercel.com/guides/how-can-i-increase-the-limit-of-redirects-or-use-dynamic-redirects-on-vercel.md): Instructions on how to use Serverless Functions to handle redirects on Vercel.
+- [How can I make my library compatible with the Vercel Edge Functions runtime?](https://vercel.com/guides/library-sdk-compatible-with-vercel-edge-runtime-and-functions.md): Learn how to make your library or SDK compatible with Vercel Edge Functions and Vercel Edge Middleware.
+- [How can I manage my Vercel DNS records?](https://vercel.com/guides/how-to-manage-vercel-dns-records.md): Information on how to view, add, and remove Vercel DNS records.
+- [How can I migrate a site to Vercel without downtime?](https://vercel.com/guides/zero-downtime-migration.md): Information about how to assign a Vercel deployment to a domain without downtime.
+- [How can I move a domain to a Vercel team?](https://vercel.com/guides/how-can-i-move-a-domain-to-a-team.md): Information on how to move domains between accounts on Vercel.
+- [How can I prerender my application on Vercel?](https://vercel.com/guides/how-can-i-prerender-my-application-on-vercel.md): Learn how to enable prerendering with your frontend framework on Vercel for better performance and SEO.
+- [How can I reduce my Serverless Execution usage on Vercel?](https://vercel.com/guides/how-can-i-reduce-my-serverless-execution-usage-on-vercel.md): Information about how to reduce the usage of Serverless Functions on Vercel.
+- [How can I run end-to-end tests after my Vercel Preview Deployment?](https://vercel.com/guides/how-can-i-run-end-to-end-tests-after-my-vercel-preview-deployment.md): Learn how to use the Vercel CLI in combination with your CI/CD provider to run end-to-end tests for every code change.
+- [How can I run Next.js on localhost through HTTPS?](https://vercel.com/guides/access-nextjs-localhost-https-certificate-self-signed.md): Learn how to create a self-signed certificate for use with local Next.js development.
+- [How can I serve multiple projects under a single domain?](https://vercel.com/guides/how-can-i-serve-multiple-projects-under-a-single-domain.md): Learn how to serve multiple Vercel projects from a single domain.
+- [How can I set a custom build timeout?](https://vercel.com/guides/custom-build-timeout.md): Wrap your Vercel build command with the timeout command to ensure builds terminate gracefully before exceeding Vercel’s maximum build duration.
+- [How can I share my Vercel cache across deployments?](https://vercel.com/guides/share-vercel-cache-across-deployments-nextjs.md): Learn how to reuse cached responses across deployments with the Next.js App Router and the Vercel Data Cache.
+- [How can I use AWS S3 with Vercel?](https://vercel.com/guides/how-can-i-use-aws-s3-with-vercel.md): Example how to use AWS S3 library on Vercel
+- [How can I use AWS SDK Environment Variables on Vercel?](https://vercel.com/guides/how-can-i-use-aws-sdk-environment-variables-on-vercel.md): How to use AWS SDK Environment Variables on Vercel
+- [How can I use Bitbucket Pipelines with Vercel?](https://vercel.com/guides/how-can-i-use-bitbucket-pipelines-with-vercel.md): Learn how to use Bitbucket Pipelines to deploy to Vercel including support for Bitbucket Data Center.
+- [How can I use CircleCI with Vercel?](https://vercel.com/guides/how-can-i-use-circleci-with-vercel.md): Learn how to use CircleCI to deploy to Vercel with custom CI/CD.
+- [How can I use files in Vercel Functions?](https://vercel.com/guides/how-can-i-use-files-in-serverless-functions.md): Learn how to import files inside Serverless Functions on Vercel.
+- [How can I use geolocation IP headers?](https://vercel.com/guides/geo-ip-headers-geolocation-vercel-functions.md): Learn how to read geolocation headers on Vercel with Next.js or any frontend framework.
+- [How can I use GitHub Actions with Vercel?](https://vercel.com/guides/how-can-i-use-github-actions-with-vercel.md): Learn how to use GitHub Actions to deploy to Vercel including support for GitHub Enterprise Server.
+- [How can I use GitLab Pipelines with Vercel?](https://vercel.com/guides/how-can-i-use-gitlab-pipelines-with-vercel.md): Learn how to use GitLab Pipelines to deploy to Vercel including support for self-managed GitLab.
+- [How can I use Python and JavaScript in the same application?](https://vercel.com/guides/how-to-use-python-and-javascript-in-the-same-application.md): Unlock the power of Python and JavaScript in your apps. Learn to integrate Flask and Next.js for dynamic frontends with AI-capable backends. Perfect for developers keen on hybrid programming.
+- [How can I use special characters in my custom domain on Vercel?](https://vercel.com/guides/how-can-i-use-special-characters-in-my-custom-domain.md): How to resolve error 'The specified value "yöur-domaín.com" is not a fully qualified domain name' when using special characters for a custom domain in Vercel.
+- [How can I use the Vercel CLI for custom workflows?](https://vercel.com/guides/using-vercel-cli-for-custom-workflows.md): You can use the Vercel CLI to deploy any application, including custom git providers and restricted source code.
+- [How do I add a custom domain to my Vercel project?](https://vercel.com/guides/how-do-i-add-a-custom-domain-to-my-vercel-project.md): Learn how to add a custom domain to your Vercel project. 
+- [How do I add a domain using the Vercel API?](https://vercel.com/guides/how-do-i-add-a-domain-using-the-vercel-api.md): Information on adding a domain using the Vercel API.
+- [How do I add environment variables to my Vercel project?](https://vercel.com/guides/how-to-add-vercel-environment-variables.md): Learn how to add Environment Variables to your Vercel project.
+- [How do I add password protection to my Vercel deployment?](https://vercel.com/guides/how-do-i-add-password-protection-to-my-vercel-deployment.md): Learn about how to add password protection to your websites.
+- [How do I bypass the 4.5MB body size limit of Vercel Serverless Functions?](https://vercel.com/guides/how-to-bypass-vercel-body-size-limit-serverless-functions.md): Learn how to deal with the body size limit of Serverless Functions on Vercel.
+- [How do I change CAA records when using the Vercel CNAME record?](https://vercel.com/guides/change-caa-records-with-vercel-cname.md): Information on how to change CAA records when using the Vercel CNAME record.
+- [How do I change my Nameservers on Vercel?](https://vercel.com/guides/how-do-i-change-my-nameservers-on-vercel.md): Learn about how to change Nameservers for domains registered with Vercel.
+- [How do I change my Vercel avatar?](https://vercel.com/guides/how-do-i-change-my-vercel-avatar.md): Information on changing your Vercel avatar.
+- [How do I change my Vercel username?](https://vercel.com/guides/how-do-i-change-my-vercel-username.md): Information on changing your Vercel username.
+- [How do I change the name of my Vercel Project?](https://vercel.com/guides/how-do-i-change-the-name-of-my-vercel-project.md): Information on changing the name of a Vercel Project.
+- [How do I create a minimal reproducible example for Vercel Support?](https://vercel.com/guides/creating-a-minimal-reproducible-example.md): Information on how to create a minimal reproducible example for Vercel Support.
+- [How do I debug a 502 error from a Vercel Serverless Function?](https://vercel.com/guides/how-to-debug-a-502-error.md): Information on how to debug a 502 error from a Vercel Serverless Function.
+- [How do I delete a Vercel team?](https://vercel.com/guides/how-do-i-delete-a-vercel-team.md): Information on deleting a Vercel team.
+- [How do I delete an individual deployment?](https://vercel.com/guides/how-do-i-delete-an-individual-deployment.md): Information on deleting an individual deployment.
+- [How do I delete my Vercel account?](https://vercel.com/guides/how-do-i-delete-my-vercel-account.md): Information on deleting a Vercel account.
+- [How do I disable Git Notifications from Deployments?](https://vercel.com/guides/how-do-i-disable-git-notifications-from-deployments.md): If your project is connected via a Git account to your deployment, you will receive email notifications whenever the deployment has completed. How can you disable these notifications?
+- [How do I generate a “sitemap.xml” for my Next.js app on Vercel?](https://vercel.com/guides/how-do-i-generate-a-sitemap-for-my-nextjs-app-on-vercel.md): Guidance on how to generate a "sitemap.xml" at build time and runtime.
+- [How do I generate an SHA for uploading a file to the Vercel API?](https://vercel.com/guides/how-do-i-generate-an-sha-for-uploading-a-file-to-the-vercel-api.md): When using the Vercel API to create a deployment, you first need to upload your files. An SHA is required to upload these files.
+- [How do I get notified when my Vercel deployment fails?](https://vercel.com/guides/how-do-i-get-notified-when-my-vercel-deployment-fails.md): When your Vercel deployment fails, both a web notification and an email notification are sent to the creator of the deployment.
+- [How do I get the raw body of a Serverless Function?](https://vercel.com/guides/how-do-i-get-the-raw-body-of-a-serverless-function.md): Learn how to disable body parsing for Vercel Serverless Functions to enable reading the raw data from a POST request.
+- [How do I lower my Vercel Function execution time?](https://vercel.com/guides/how-do-i-lower-my-serverless-function-execution-time.md): Learn how to lower your Serverless Function execution time.
+- [How do I migrate away from `vercel.json` env and build.env?](https://vercel.com/guides/how-do-i-migrate-away-from-vercel-json-env-and-build-env.md): Information on how to migrate your `vercel.json` environment variables to the Environment Variables UI.
+- [How do I perform Vercel redirects based on query strings?](https://vercel.com/guides/how-do-i-perform-vercel-redirects-based-on-query-strings.md): When using redirects with the `vercel.json` or `next.config.js` configuration file, your URL may contain query parameters that you would like to use in your re-direction, this is possible with 2 different methods.
+- [How do I point a subdomain to a service outside of Vercel?](https://vercel.com/guides/pointing-subdomains-to-external-services.md): Information on how to make a subdomain available to a service outside of Vercel.
+- [How do I prevent the Vercel for GitHub integration comments?](https://vercel.com/guides/how-to-prevent-vercel-github-comments.md): Information on how to prevent the Vercel for GitHub integration from adding comments.
+- [How do I reduce my build time with Next.js on Vercel?](https://vercel.com/guides/how-do-i-reduce-my-build-time-with-next-js-on-vercel.md): When building a Next.js project with thousands of static pages, you may hit the maximum build time per deployment limit of 45 minutes. Learn some strategies for reducing your build times by reducing computation during each build.
+- [How do I remove a domain from my Vercel account?](https://vercel.com/guides/how-do-i-remove-a-domain-from-my-vercel-account.md): Learn how to completely remove a domain from your Vercel account?
+- [How do I resolve "ERR_SSL_PROTOCOL_ERROR" with Vercel?](https://vercel.com/guides/resolve-err-ssl-protocol-error-with-vercel.md): Information about how to resolve the "ERR_SSL_PROTOCOL_ERROR" error with Vercel.
+- [How do I resolve "err_too_many_redirects" when using a Cloudflare proxy with Vercel?](https://vercel.com/guides/resolve-err-too-many-redirects-when-using-cloudflare-proxy-with-vercel.md): Information about how to resolve the "err_too_many_redirects" error when using a Cloudflare proxy with Vercel.
+- [How do I resolve a 'module not found' error?](https://vercel.com/guides/how-do-i-resolve-a-module-not-found-error.md): Information on resolving a 'module not found' error.
+- [How do I resolve a 'process.env.CI = true' error?](https://vercel.com/guides/how-do-i-resolve-a-process-env-ci-true-error.md): Information on resolving a 'process.env.CI = true' error.
+- [How do I resolve alias related errors on Vercel?](https://vercel.com/guides/how-to-resolve-alias-errors-on-vercel.md): Information on resolving alias related errors on Vercel.
+- [How do I select a team on Vercel?](https://vercel.com/guides/how-do-i-select-a-team-on-vercel.md): Information on selecting a team on Vercel.
+- [How do I send and receive emails with my Vercel purchased domain?](https://vercel.com/guides/using-email-with-your-vercel-domain.md): Information on how to send and receive emails with a domain purchased from Vercel.
+- [How do I set up a staging environment on Vercel?](https://vercel.com/guides/set-up-a-staging-environment-on-vercel.md): Information on how to set up a staging environment on Vercel.
+- [How do I store logs on Vercel?](https://vercel.com/guides/how-do-i-store-logs-on-vercel.md): Learn how to store logs on Vercel.
+- [How do I transfer my domain out of Vercel?](https://vercel.com/guides/how-do-i-transfer-my-domain-out-of-vercel.md): Information on how to transfer a domain out of Vercel.
+- [How do I transfer my domain to Vercel?](https://vercel.com/guides/how-do-i-transfer-my-domain-to-vercel.md): Information on how to transfer a domain to Vercel.
+- [How do I transfer ownership of a Vercel team?](https://vercel.com/guides/how-do-i-transfer-ownership-of-a-vercel-team.md): Information on how to transfer ownership of a Vercel team.
+- [How do I use a Vercel API Access Token?](https://vercel.com/guides/how-do-i-use-a-vercel-api-access-token.md): An Access Token is required in order to use the Vercel API. Tokens can be created and managed at the level of your account.
+- [How do I use private dependencies with Vercel?](https://vercel.com/guides/using-private-dependencies-with-vercel.md): Information on how to use private dependencies with a Vercel deployment.
+- [How do I use the "Ignored Build Step" field on Vercel?](https://vercel.com/guides/how-do-i-use-the-ignored-build-step-field-on-vercel.md): Instructions on how to use the "Ignored Build Step" field to programmatically prevent a new deployment from being built.
+- [How do I use the latest npm version for my Vercel Deployment?](https://vercel.com/guides/how-do-i-use-the-latest-npm-version-for-my-vercel-deployment.md): Learn how to use the latest npm version for Vercel deployments.
+- [How do I view and update my domain's ICANN registrant information on Vercel?](https://vercel.com/guides/update-icann-domain-information-for-vercel-domain.md): Learn how to view and update the registrant information for a domain registered with Vercel.
+- [How does Vercel handle copyright infringement claims?](https://vercel.com/guides/how-does-vercel-handle-copyright-infringement-claims.md): Information on the process Vercel will follow when receiving a copyright infringement claim.
+- [How long does it take to get a response from Vercel Support?](https://vercel.com/guides/vercel-support-queue-time.md): Information on how long it might take Vercel Support to respond to your request.
+- [How long will it take for my Vercel DNS records to update?](https://vercel.com/guides/how-long-to-update-dns-records.md): Information on the length of time it may take for Vercel DNS changes to take place.
+- [How to alias a preview deployment using the CLI](https://vercel.com/guides/how-to-alias-a-preview-deployment-using-the-cli.md): Learn how to automatically alias a Vercel preview deployment.
+- [How to allow the Vercel Support team to access Your Deployments' source code?](https://vercel.com/guides/how-to-allow-the-vercel-support-team-to-access-your-deployment-source-code.md): To help troubleshoot problems, you can allow the Vercel Support team to access your Deployments' source code.
+- [How to block bots from OpenAI GPTBot](https://vercel.com/guides/how-to-block-bots-openai-gptbot.md): Learn how to use the Vercel WAF to block, rate limit, or challenge traffic from OpenAI GPTBot.
+- [How to Build a Fullstack App with Next.js, Prisma, and Postgres](https://vercel.com/guides/nextjs-prisma-postgres.md): Create a fullstack application with Next.js, Prisma, Postgres, and deploy to Vercel.
+- [How to Build a Weather API with Express and Vercel](https://vercel.com/guides/weather-api-with-express.md): Provide real-time weather data to apps and websites with a single Express route.
+- [How to Build a Weather API with FastAPI and Vercel](https://vercel.com/guides/weather-api-with-fastapi.md): Provide real-time weather data to apps and websites with a single FastAPI route.
+- [How to Build a Weather API with Nitro and Vercel](https://vercel.com/guides/weather-api-with-nitro.md): Provide real-time weather data to apps and websites with a single Nitro route, Vercel cache storage, and Observability.
+- [How to build AI Agents with Vercel and the AI SDK](https://vercel.com/guides/how-to-build-ai-agents-with-vercel-and-the-ai-sdk.md): Learn how to build, deploy, and scale AI agents on Vercel using the AI SDK. This guide covers calling LLMs, defining tools, creating multi-step agents, and monitoring performance.
+- [How to build AI apps: an overview](https://vercel.com/guides/how-to-build-ai-app.md): Learn the key AI concepts and tools for building and scaling AI apps.
+- [How to conduct PCI scans on Vercel: A complete guide to IP safelisting](https://vercel.com/guides/how-to-conduct-pci-scans-on-vercel-guide.md): Ensuring your payment processing systems are secure and compliant is critical for any business. If you're hosting on Vercel and need to conduct scanning to support your PCI compliance, this guide will walk you through the process.
+- [How to Deploy a Brunch App with Vercel](https://vercel.com/guides/deploying-brunch-with-vercel.md): Create a Brunch app and deploy it live with Vercel.
+- [How to Deploy a Charge App with Vercel](https://vercel.com/guides/deploying-charge-with-vercel.md): Create a Charge App and deploy it live with Vercel.
+- [How to Deploy a Docusaurus Site with Vercel](https://vercel.com/guides/deploying-docusaurus-with-vercel.md): Create a Docusaurus documentation site and deploy it live with Vercel.
+- [How to Deploy a Dojo App with Vercel](https://vercel.com/guides/deploying-dojo-with-vercel.md): Create a Dojo app and deploy it live with Vercel.
+- [How to Deploy a Hexo Blog with Vercel](https://vercel.com/guides/deploying-hexo-with-vercel.md): Create a Hexo blog and deploy it live with Vercel.
+- [How to Deploy a Hugo Site with Vercel](https://vercel.com/guides/deploying-hugo-with-vercel.md): Create a Hugo website and deploy it live with Vercel.
+- [How to Deploy a Jekyll Site with Vercel](https://vercel.com/guides/deploying-jekyll-with-vercel.md): Create a Jekyll website and deploy it live with Vercel.
+- [How to Deploy a Middleman App with Vercel](https://vercel.com/guides/deploying-middleman-with-vercel.md): Create a Middleman app and deploy it live with Vercel.
+- [How to Deploy a Polymer App with Vercel](https://vercel.com/guides/deploying-polymer-with-vercel.md): Create a Polymer app and deploy it live with Vercel.
+- [How to Deploy a Preact Site with Vercel](https://vercel.com/guides/deploying-preact-with-vercel.md): Create your Preact app and deploy it with Vercel.
+- [How to Deploy a React Site with Vercel](https://vercel.com/guides/deploying-react-with-vercel.md): Create your React app and deploy it with Vercel.
+- [How to Deploy a Redwood Site with Vercel](https://vercel.com/guides/deploying-redwood-with-vercel.md): Create your Redwood app and deploy it with Vercel.
+- [How to Deploy a Remix Site with Vercel](https://vercel.com/guides/deploying-remix-with-vercel.md): Create your Remix app and deploy it with Vercel.
+- [How to Deploy a Solid App with Vercel](https://vercel.com/guides/deploying-solid-with-vercel.md): Create a Solidjs app and deploy it live with Vercel.
+- [How to Deploy a Stencil app with Vercel](https://vercel.com/guides/deploying-stencil-with-vercel.md): Create a Stencil app and deploy it live with Vercel.
+- [How to Deploy a Vue.js Site with Vercel](https://vercel.com/guides/deploying-vuejs-to-vercel.md): Create your Vue.js app and deploy it with Vercel.
+- [How to Deploy an Angular Site with Vercel](https://vercel.com/guides/deploying-angular-with-vercel.md): Create your Angular app and deploy it with Vercel.
+- [How to Deploy an Aurelia App with Vercel](https://vercel.com/guides/deploying-aurelia-with-vercel.md): Create an Aurelia app and deploy it live with Vercel.
+- [How to Deploy an Eleventy Site with Vercel](https://vercel.com/guides/deploying-eleventy-with-vercel.md): Create an Eleventy website and deploy it live with Vercel.
+- [How to Deploy an Ember App with Vercel](https://vercel.com/guides/deploying-ember-with-vercel.md): Create an Ember app and deploy it live with Vercel.
+- [How to Deploy an UmiJS App with Vercel](https://vercel.com/guides/deploying-umijs-with-vercel.md): Create an UmiJS app and deploy it live with Vercel.
+- [How to Deploy MDX Deck with Vercel](https://vercel.com/guides/deploying-mdx-deck-with-vercel.md): Create a React based slideshow with MDX Deck and deploy it live with Vercel.
+- [How to detect when user leaves the page and display a confirmation dialog?](https://vercel.com/guides/leave-page-confirmation-dialog-before-unload-nextjs-react.md): Learn how to use React and Next.js to show an alert asking the user to confirm they want to exit a page using the window beforeunload event listener.
+- [How to determine which Vercel Deployment introduced an issue?](https://vercel.com/guides/how-to-determine-which-vercel-deployment-introduced-an-issue.md): Process to quickly determine when a deployment issue was introduced using the Vercel CLI
+- [How to Export Your Domain's DNS Records from Vercel](https://vercel.com/guides/export-domain-dns-records-via-api.md): Learn how to utilize our API to export your domain's DNS records from Vercel.
+- [How to Fix Sitecore JSS Middleware Performance](https://vercel.com/guides/how-to-fix-sitecore-jss-middleware-performance.md): Learn how to troubleshoot and resolve Vercel Middleware timeouts and memory errors in your Sitecore JSS application caused by URLs with many query parameters.
+- [How to Integrate Next.js with Prismic's Headless CMS](https://vercel.com/guides/how-to-integrate-nextjs-with-prismic.md): Learn how to connect Next.js with Prismic's CMS and deploy the integrated website to Vercel
+- [How to Integrate Optimizely Feature Experimentation with Next.js and Vercel](https://vercel.com/guides/how-to-integrate-optimizely-feature-experimentation-next-vercel.md): This guide covers setting up feature flags, implementing A/B tests, and optimizing performance using React Server Components and streaming.
+- [How to Load Data from a File in Next.js](https://vercel.com/guides/loading-static-file-nextjs-api-route.md): Learn how to display and read the contents of a static json file in your Next.js application.
+- [How to lock down deployments on Vercel and v0](https://vercel.com/guides/locking-down-deployments.md): Protect who can see your deployments.
+- [How to move a domain between Vercel projects with "Zero Downtime"?](https://vercel.com/guides/how-to-move-a-domain-between-vercel-projects-with-zero-downtime.md): Information about how to move your domain between Vercel projects without downtime.
+- [How to Optimize Next.js + Sitecore JSS](https://vercel.com/guides/how-to-optimize-next.js-sitecore-jss.md): This guide covers performance and usage considerations when building and deploying your Next.js and Sitecore JSS application.
+- [How to Optimize RSC Payload Size](https://vercel.com/guides/how-to-optimize-rsc-payload-size.md): Learn how to use React Server Components efficiently in Next.js to reduce cost and improve performance
+- [How to protect your AI app from bots](https://vercel.com/guides/how-to-protect-your-ai-app-from-bots.md): Learn how to protect your AI app from bots, scrapers, and abuse using Firewall, BotID, and more.
+- [How to safely run AI generated code in your application](https://vercel.com/guides/running-ai-generated-code-sandbox.md):  Execute untrusted, AI‑generated code inside an isolated, ephemeral environment and return real results.
+- [How to Setup Cron Jobs on Vercel](https://vercel.com/guides/how-to-setup-cron-jobs-on-vercel.md): Learn how to setup and use cron jobs on Vercel
+- [How to troubleshoot stale content returned from the Edge Network when using an external proxy or CDN](https://vercel.com/guides/how-to-troubleshoot-stale-content-returned-from-the-edge-network-when-using-an-external-proxy-or-cdn.md): Learn how to diagnose and fix stale content issues when using external proxies or CDNs with Vercel. Understand troubleshooting strategies, and configuration best practices to ensure fresh content delivery.
+- [How to Upload and Store Files with Vercel](https://vercel.com/guides/how-to-upload-and-store-files-with-vercel.md): Learn how to upload and store files with Vercel
+- [How to use Deploy Hooks with Vercel and a Headless CMS](https://vercel.com/guides/set-up-and-use-deploy-hooks-with-vercel-and-headless-cms.md): Create your own Deploy Hooks to trigger automatic deployments on Vercel when using a Headless CMS.
+- [How to Use ML Models from Hugging Face in Vercel Functions](https://vercel.com/guides/ml-models-hugging-face.md): This guide provides step-by-step instructions on how to integrate ML models from Hugging Face into Vercel Functions
+- [How to use OpenAI Function Calling with Next.js and the Vercel AI SDK](https://vercel.com/guides/openai-function-calling.md): Learn how to use OpenAI Function Calling and Vercel AI SDK in a Next.js Application to build AI-powered user experiences.
+- [Implementing Blue-Green Deployments on Vercel](https://vercel.com/guides/blue_green_deployments_on_vercel.md):  This guide outlines how to implement blue-green deployments on Vercel, leveraging GitHub Actions for seamless and controlled application updates with minimal downtime.
+- [Implementing Canary Deployments on Vercel](https://vercel.com/guides/implementing_canary_deployments_on_vercel.md): This guide explains how to set up canary deployments on Vercel, enabling developers to gradually roll out new versions to a subset of users with minimal risk by leveraging Skew Protection, Edge Config, and Middleware in Next.js.
+- [Incremental Migrations with Microfrontends](https://vercel.com/guides/incremental-migrations-with-microfrontends.md): Learn how to migrate legacy applications using microfrontends
+- [Integrate Vercel and Contentstack for your Headless CMS](https://vercel.com/guides/integrate-vercel-and-contentstack.md): Integrate Vercel with Contentstack, a headless CMS, to build and deploy dynamic, high-performance websites.
+- [Integrating AWS Secrets Manager with Vercel Using Terraform](https://vercel.com/guides/integrating_aws_secrets_manager_with_vercel_using_terraform.md): Learn how to seamlessly integrate AWS Secrets Manager with Vercel for enhanced security and efficiency in your web deployments using Terraform with our comprehensive guide.
+- [Integrating Next.js and Contentful for your Headless CMS](https://vercel.com/guides/integrating-next-js-and-contentful-for-your-headless-cms.md):  Next.js with Contentful gives you the power to quickly build scalable dynamic static websites with improved search engine optimization (SEO) and enhanced performance.
+- [Integrating Terraform with Vercel](https://vercel.com/guides/integrating-terraform-with-vercel.md): Understand the benefits of Terraform and how to set up the Integration with Vercel.
+- [Investigate latency issues and slowness on Vercel](https://vercel.com/guides/investigate-latency-issues-and-slowness.md): Learn how to use Observability to investigate latency issues and slowness on Vercel.
+- [Is SQLite supported in Vercel?](https://vercel.com/guides/is-sqlite-supported-in-vercel.md): SQLite is a popular and fast database engine. In this article, we discuss whether it can be used in a serverless environment like Vercel.
+- [Is Vercel certified under DPF?](https://vercel.com/guides/is-vercel-certified-under-dpf.md): The EU-U.S. Data Privacy Framework (DPF) enables secure data transfers from the EU, UK, and Switzerland to the U.S. Vercel is DPF certified, ensuring compliance with data protection laws. Learn more in our Privacy Notice.
+- [Is Vercel ISO 27001 certified?](https://vercel.com/guides/is-vercel-iso-27001-certified.md): Vercel is ISO 27001:2022 certified. See our certificate here.
+- [ISR Observability: Framework Discrepancies](https://vercel.com/guides/isr-observability-framework-discrepancies.md): Understanding ISR Observability with Different Frameworks
+- [Limit Abuse with Rate Limiting](https://vercel.com/guides/limit-abuse-with-rate-limiting.md): Learn how to protect your authentication endpoints against abuse.
+- [Load Google Analytics script based on user location in Next.js](https://vercel.com/guides/geolocation-script.md): Learn how you can conditionally load a Google Analytics script based on your user's location
+- [Migrate to Vercel from Cloudflare](https://vercel.com/guides/migrate-to-vercel-from-cloudflare.md): Migrate your website's configuration from Cloudflare Pages or Workers to Vercel
+- [Migrate to Vercel from Netlify](https://vercel.com/guides/migrate-to-vercel-from-netlify.md): Migrate your website's configuration from Netlify to Vercel
+- [Missing routes-manifest.json file or No Output Directory when using Turborepo or NX](https://vercel.com/guides/missing-routes-manifest-or-output-turborepo-nx.md): How to solve the error `The file "/vercel/path0/apps/web/.next/routes-manifest.json" couldn't be found` or `No Output Directory` when using Turborepo or NX.
+- [Modifying request headers](https://vercel.com/guides/modify-request-headers.md): Learn how to modify request headers in your Middleware.
+- [Monitor Frontend Performance with DebugBear and Vercel](https://vercel.com/guides/monitor-frontend-performance-with-debugbear-and-vercel.md): Automatically test each Vercel deployment and report performance changes to GitHub.
+- [Monitor Performance with Calibre and Vercel](https://vercel.com/guides/monitoring-performance-with-calibre-and-vercel.md): Receive performance reports directly in your GitHub Pull Requests, following a Vercel deployment.
+- [Optimizing Core Web Vitals in 2024](https://vercel.com/guides/optimizing-core-web-vitals-in-2024.md): Learn how to optimize Core Web Vitals for your site, including INP, CLS, LCP, and more.
+- [Optimizing hard navigations](https://vercel.com/guides/optimizing-hard-navigations.md): Learn how to improve performance for navigations that require a full page reload
+- [Pause your project](https://vercel.com/guides/pause-your-project.md): Use a webhook to pause your project based on spend management.
+- [Penetration testing on Vercel](https://vercel.com/guides/penetration-testing-on-vercel.md): Learn how to perform pentesting on Vercel.
+- [Per-environment and per-branch Build Commands on Vercel](https://vercel.com/guides/per-environment-and-per-branch-build-commands.md): Customize your commands for specific behaviors based on branch, environment, and more.
+- [Processing Data Chunks](https://vercel.com/guides/processing-data-chunks.md): Learn how to create an API endpoint that processes data chunks.
+- [Publish and Subscribe to Realtime Data on Vercel](https://vercel.com/guides/publish-and-subscribe-to-realtime-data-on-vercel.md): Learn how to upload and store files with Vercel
+- [Rendering content based on device](https://vercel.com/guides/rendering-content-based-on-device.md): Learn how to render different content based on the user agent in your Middleware.
+- [Securing your AI applications with Rate Limiting](https://vercel.com/guides/securing-ai-app-rate-limiting.md): Learn how to secure your AI applications with rate limiting using Vercel WAF and Vercel AI SDK
+- [Sending a sample of events to Speed Insights](https://vercel.com/guides/sending-sample-to-speed-insights.md): Learn how to send a sample of your data to Speed insights.
+- [Sending Emails from an application on Vercel](https://vercel.com/guides/sending-emails-from-an-application-on-vercel.md): Learn best practices for sending emails from an application on Vercel
+- [Serverless Function contains invalid runtime error](https://vercel.com/guides/serverless-function-contains-invalid-runtime-error.md): A guide for the "Serverless Function contains invalid runtime" error for Node.js v20 deployments.
+- [Set cache control headers for functions](https://vercel.com/guides/set-cache-control-headers.md): Learn how to set headers to cache your function's responses.
+- [Should I use Cloudflare in front of Vercel?](https://vercel.com/guides/cloudflare-with-vercel.md): Information on using Cloudflare together with Vercel.
+- [SQL vs. NoSQL databases](https://vercel.com/guides/sql-vs-nosql-databases.md): Learn about the differences between SQL and NoSQL, each with a unique set of benefits suited for particular use cases.
+- [Streaming in web applications](https://vercel.com/guides/what-is-streaming.md): Learn how streaming works in web applications. Explore benefits, use cases, and implementation details with Vercel Functions and the Web Streams API
+- [Streaming responses from LLMs](https://vercel.com/guides/streaming-from-llm.md): Explore streaming on Vercel with code samples that work out of the box.
+- [Supporting Compliance with Vercel WAF](https://vercel.com/guides/supporting-compliance-with-vercel-waf.md): Vercel Firewall provides edge-based traffic filtering and monitoring to help teams meet compliance requirements in security and regulatory frameworks, including PCI DSS, ISO 27001, SOC 2, and HIPAA.
+- [Suspicious Traffic in Specific Countries](https://vercel.com/guides/suspicious-traffic-in-specific-countries.md): Learn how to block traffic in specific geographical regions.
+- [Traffic Spikes](https://vercel.com/guides/traffic-spikes.md): Learn how to block traffic from a specific IP address.
+- [Troubleshooting Build Error: “Serverless Function has exceeded the unzipped maximum size of 250 MB”](https://vercel.com/guides/troubleshooting-function-250mb-limit.md): Learn how to troubleshoot builds failing due to exceeding the maximum function size limit on Vercel.
+- [Troubleshooting Builds Failing with SIGKILL or Out of Memory Errors](https://vercel.com/guides/troubleshooting-sigkill-out-of-memory-errors.md): Learn how to troubleshoot builds failing with SIGKILL or Out of Memory errors on a Vercel Deployment. 
+- [Troubleshooting connectivity issues to Vercel Deployments](https://vercel.com/guides/troubleshooting-connectivity-issues.md): Learn how to troubleshoot network connectivity issues to your Vercel deployment.
+- [Troubleshooting Content Link](https://vercel.com/guides/troubleshooting-content-link.md): This guide provides troubleshooting information for common issues when using Content Link
+- [Troubleshooting Cross-Origin Errors (net::ERR_BLOCKED_BY_ORB) with Deployment Protection](https://vercel.com/guides/troubleshooting-cross-origin-errors-neterr-blocked-by-orb-with-deployment-protection.md): Learn to resolve `net::ERR_BLOCKED_BY_ORB` errors on protected Vercel deployments. This guide explains how cross-origin asset requests conflict with Vercel Authentication and shows the fix for Sitecore JSS apps using the `PUBLIC_URL` environment variable.
+- [Troubleshooting Inconsistent Logs in Vercel Functions](https://vercel.com/guides/troubleshooting-inconsistent-logs-in-vercel-functions.md): Learn how to troubleshoot and resolve logs that appear mixed in Vercel Functions. This guide explains why logs from different requests can appear mixed and provides solutions to ensure your functions execute reliably without corrupting your log data.
+- [Troubleshooting request ECONNRESET errors](https://vercel.com/guides/troubleshooting-request-econnreset-errors.md): Understand what ECONNRESET means in Vercel runtime logs, why it happens when calling external APIs, how to diagnose it, and when to contact Vercel Support.
+- [Troubleshooting Vercel Cron Jobs](https://vercel.com/guides/troubleshooting-vercel-cron-jobs.md): Learn how to troubleshoot cron jobs that aren't being run or logged when using Vercel Cron Jobs.
+- [Unable to find GitHub repository](https://vercel.com/guides/unable-to-find-github-repository.md): This is a guide to check GitHub permissions to ensure your Vercel account has sufficient access to import your repository.
+- [Understand the Cost Impact of Function Invocations](https://vercel.com/guides/understand-cost-impact-of-function-invocations.md): Learn how to use Observability to understand function invocations and their cost impact.
+- [Understanding vector databases for AI apps](https://vercel.com/guides/understanding-vector-databases-for-ai-apps.md): Learn how vector databases enable semantic search through embeddings and similarity matching.
+- [Understanding XSS Attacks](https://vercel.com/guides/understanding-xss-attacks.md): Learn about XSS attacks, their types, risks, and effective prevention strategies in this comprehensive guide for web security.
+- [Updating large-scale site navigation with minimal revalidation](https://vercel.com/guides/update-mega-nav-min-reval.md): When working with a large number of pages that share a common multi-level navigation, making a navigation update requires revalidating all pages. Learn how to avoid this by using smart revalidation.
+- [Use your Vercel-owned domain on Bluesky](https://vercel.com/guides/use-my-domain-bluesky.md): Learn how to add your domain as your handle on Bluesky
+- [Using a custom font in your OG Image](https://vercel.com/guides/using-custom-font.md): Learn how to use a custom font from the tile system in your OG images.
+- [Using a Headless CMS with Vercel](https://vercel.com/guides/using-a-headless-cms-with-vercel.md): Learn best practices for using databases in a serverless environment with Vercel
+- [Using an external image as OG image](https://vercel.com/guides/using-an-external-dynamic-image.md): Learn how to pass the username as a URL parameter to pull an external profile image for the image generation.
+- [Using an SVG image in your OG image](https://vercel.com/guides/using-svg-image.md): Learn how to use SVG embedded content to generate your OG images.
+- [Using dynamic text as your OG Image](https://vercel.com/guides/dynamic-text-as-image.md): Learn how to pass the image title as a URL parameter.
+- [Using emoji in your OG image](https://vercel.com/guides/using-emoji-in-image.md): Learn how to use emojis to generate an OG image.
+- [Using Fathom Analytics with Next.js](https://vercel.com/guides/deploying-nextjs-using-fathom-analytics-with-vercel.md): Learn how to integrate Fathom Analytics with Next.js.
+- [Using Headless WordPress with Next.js and Vercel](https://vercel.com/guides/wordpress-with-vercel.md): Learn how to use Headless WordPress with your Next.js application and deploy it to Vercel.
+- [Using languages in your OG image](https://vercel.com/guides/using-different-languages.md): Learn how to use other languages in the text of your OG image.
+- [Using Non-default Branches for Production Deployments](https://vercel.com/guides/can-i-use-a-non-default-branch-for-production.md): Learn how to set a non-default branch as Production on your Vercel project.
+- [Using PostHog with the Next.js App Router and Vercel](https://vercel.com/guides/posthog-nextjs-vercel-feature-flags-analytics.md): Learn how to use PostHog with Next.js and Vercel to add analytics, feature flags, and more.
+- [Using React Context for State Management with Next.js](https://vercel.com/guides/react-context-state-management-nextjs.md): Learn how to use React context inside Next.js in both client and server components for state management in your application.
+- [Using Self-hosted & Reverse Proxies with Vercel](https://vercel.com/guides/how-to-setup-verified-proxy.md): Learn about using self-hosted or reverse proxies with Vercel deployments.
+- [Using SvelteKit Form Actions](https://vercel.com/guides/using-sveltekit-form-actions.md): This guide explains how to use form actions in SvelteKit to handle form submissions, process form data, and enhance form interactions, providing seamless integration with the endpoint system.
+- [Using Tailwind CSS with your OG Image](https://vercel.com/guides/using-tailwind.md): Learn how to use Tailwind CSS to style your OG images.
+- [Using the crypto Web API to redirect requests with a unique token](https://vercel.com/guides/use-crypto-web-api.md): Learn how to use the Crypto Web API in your Middleware.
+- [Using Vercel as a Standalone CDN](https://vercel.com/guides/using_vercel_as_a_cdn.md): Use Vercel's external rewrites to proxy and cache content from external websites or APIs through Vercel's global edge network.
+- [Vector Databases Explained](https://vercel.com/guides/vector-databases.md): Learn about vector databases: what they are, 8 of the best examples and how to build an AI semantic search app with them.
+- [Vercel Integration Guide for SAP Composable Storefront](https://vercel.com/guides/integration-guide-for-sap-composable-storefront.md): Integrate Vercel and SAP Composable Storefront with advanced rendering methods by leveraging the Vercel Build Output API
+- [What are the best practices for hosting videos on Vercel?](https://vercel.com/guides/best-practices-for-hosting-videos-on-vercel-nextjs-mp4-gif.md): Learn the ideal solutions for using video files like .mp4 and .gif on Vercel to prevent excess bandwidth consumption.
+- [What can I do about Vercel Functions timing out?](https://vercel.com/guides/what-can-i-do-about-vercel-serverless-functions-timing-out.md): Learn about how you can fix Vercel Functions timing out.
+- [What can I do when I run into build output limits with Next.js on Vercel?](https://vercel.com/guides/what-can-i-do-when-i-run-into-build-output-limits-with-next-js-on-vercel.md): Learn how to work with build output limits for Next.js on Vercel.
+- [What is a Large Language Model (LLM) Tool?](https://vercel.com/guides/what-is-an-llm-tool.md): Learn what tools are, how tool calling works, and how you can use them to build agents.
+- [What is a Large Language Model (LLM)?](https://vercel.com/guides/what-is-a-large-language-model.md): Learn what Large Language Models (LLMs) are, how they work, and how you can use them to generate UI, debug code, and integrate AI features into your web applications.
+- [What is Retrieval Augmented Generation (RAG)](https://vercel.com/guides/what-is-rag.md): Learn how RAG enhances AI applications by providing Large Language Models (LLMs) with relevant context, enabling accurate responses to queries about proprietary data, recent information, and domain-specific knowledge.
+- [What is Retrieval Augmented Generation (RAG)?](https://vercel.com/guides/retrieval-augmented-generation.md): Enhancing Language Models with Retrieval Augmented Generation (RAG): Overcoming Limits for Accuracy and Sourcing.
+- [What is the best way to get support from Vercel?](https://vercel.com/guides/how-to-get-vercel-support.md): Information on how to get help from Vercel Support through the available channels.
+- [What is Vercel's Green Energy Policy?](https://vercel.com/guides/what-is-vercel-green-energy-policy.md): Information about Vercel's Green Energy Policy.
+- [What is Vercel's policy regarding load testing deployments?](https://vercel.com/guides/what-s-vercel-s-policy-regarding-load-testing-deployments.md): Learn about Vercel's policies regarding load tests.
+- [What should I do if I receive a 503 error on Vercel?](https://vercel.com/guides/what-should-i-do-if-i-receive-a-503-error-on-vercel.md): Learn about when Serverless Functions return a 503 status code and what can be done about them.
+- [When is the SSL Certificate on my Vercel Domain renewed?](https://vercel.com/guides/renewal-of-ssl-certificates-with-a-vercel-domain.md): Information about the when renewal of a Vercel Domain's SSL certificate will be processed.
+- [Where can I get copies of my Vercel Invoices?](https://vercel.com/guides/where-can-i-get-copies-of-my-vercel-invoices.md): Learn about how you can get access to your Vercel invoices.
+- [Where can I submit Vercel feature requests?](https://vercel.com/guides/where-to-submit-feature-requests.md): Information on how to make feature requests for the Vercel platform.
+- [Why am I no longer receiving email after adding my domain to Vercel?](https://vercel.com/guides/why-has-email-stopped-working.md): Information on why you may not be receiving email after verifying your domain with Vercel.
+- [Why am I unable to login or signup to the Vercel platform?](https://vercel.com/guides/why-can-i-not-signup.md): Information on what to do if you are experiencing issues logging in or signing up to the Vercel platform.
+- [Why are my branch specific variables and domains not linked to my CLI deployments?](https://vercel.com/guides/branch-variables-and-domains-not-linked-to-cli-deployments.md): How to link CLI deployments to the correct branch for use with custom environments and branch specific domains and environment variables
+- [Why are my Build Logs loading infinitely and not showing up?](https://vercel.com/guides/why-are-my-build-logs-loading-infinitely-and-not-showing-up.md): How to mitigate the issue when build logs aren't showing up?
+- [Why are my Vercel builds queued?](https://vercel.com/guides/why-are-my-vercel-builds-queued.md): Learn about why your Vercel builds may be getting queued and how to resolve this.
+- [Why aren't commits triggering deployments on Vercel?](https://vercel.com/guides/why-aren-t-commits-triggering-deployments-on-vercel.md): Learn about why commits that you've pushed aren't triggering new Vercel Deployments. 
+- [Why do my Vercel deployments have multiple domains?](https://vercel.com/guides/why-do-my-vercel-deployments-have-multiple-domains.md): Learn about why Vercel auto generates URLs for your deployments.
+- [Why does my Serverless Function work locally but not when deployed?](https://vercel.com/guides/why-does-my-serverless-function-work-locally-but-not-when-deployed.md): Learn how to troubleshoot your Serverless Functions. 
+- [Why does npm run start not work on Vercel?](https://vercel.com/guides/npm-run-start-not-working.md): Information on why commands that start servers may not work with Vercel.
+- [Why has my account or deployment been paused?](https://vercel.com/guides/why-is-my-account-deployment-blocked.md): Information on why a Vercel account or deployment may have been paused.
+- [Why is my deployed project showing a 404 error?](https://vercel.com/guides/why-is-my-deployed-project-giving-404.md): Learn the possible reasons a successful deployment gives a 404 error
+- [Why is my domain not automatically generating an SSL/TLS certificate?](https://vercel.com/guides/domain-not-generating-ssl-certificate.md): Information on why a domain may not be automatically generating an SSL/TLS certificate.
+- [Why is my Vercel Deployment URL being shortened?](https://vercel.com/guides/why-is-my-vercel-deployment-url-being-shortened.md): Information on why a Vercel Deployment URL may be shortened.
+- [Why is my Vercel domain not verified?](https://vercel.com/guides/why-is-my-vercel-domain-unverified.md): Information on why a Vercel domain may not be verified and how to verify it.
+- [Why is Vercel CLI asking me to log in?](https://vercel.com/guides/why-is-vercel-cli-asking-me-to-log-in.md): Information on why you may be getting prompted to log in to Vercel CLI.
+- [Why must we use the Domain Nameservers method for Wildcard Domains on Vercel?](https://vercel.com/guides/why-use-domain-nameservers-method-wildcard-domains.md): Learn why the domain Nameservers method is needed to set up a wildcard domain as custom domain.

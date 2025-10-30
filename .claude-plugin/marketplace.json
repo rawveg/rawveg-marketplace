@@ -151,6 +151,15 @@
       ]
     },
     {
+      "name": "vercel",
+      "description": "Interacts with the Vercel API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./vercel"
+      ]
+    },
+    {
       "name": "word-count-checker",
       "description": "Checks the word count of a file.",
       "source": "./",
