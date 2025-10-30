@@ -34,39 +34,55 @@ That's it! You now have access to all the skills in the SkillsForge collection.
 
 ## 🎨 Available Skills
 
-SkillsForge currently offers **12 powerful skills** across various categories:
+SkillsForge currently offers **23 curated skills** across focused categories. Only skills included in `.claude-plugin/marketplace.json` are listed below.
 
 ### 📝 Content & Publishing
 
-| Skill | Description | Version |
-|-------|-------------|---------|
-| **[forem-api](./forem-api)** | Create, update, and delete articles on Forem platforms (DEV.to, etc.) | 1.0.0 |
-| **[hashnode-api](./hashnode-api)** | Manage your Hashnode blog articles and profile directly from Claude Code | 1.0.0 |
-| **[word-count-checker](./word-count-checker)** | Accurately count words in documents without token-based estimation | 1.0.0 |
+| Skill | Purpose |
+|-------|---------|
+| **[article-title-optimizer](./article-title-optimizer)** | Optimize article titles for SEO. |
+| **[forem-api](./forem-api)** | Create, update, and delete articles and manage your Forem profile. |
+| **[hashnode-api](./hashnode-api)** | Manage articles and profile on Hashnode. |
+| **[writeas](./writeas)** | Work with Write.as/WriteFreely for simple publishing. |
+| **[snapas](./snapas)** | Upload and manage images via Snap.as. |
+| **[word-count-checker](./word-count-checker)** | Accurately count words in documents (avoids token-based estimates). |
 
 ### 🛠️ Development Tools
 
-| Skill | Description | Version |
-|-------|-------------|---------|
-| **[figlet-text-converter](./figlet-text-converter)** | Transform text into ASCII art using figlet tags with 400+ fonts | 1.0.1 |
-| **[github-issue-checker](./github-issue-checker)** | Create, update, and manage GitHub issues seamlessly | 1.0.0 |
+| Skill | Purpose |
+|-------|---------|
+| **[figlet-text-converter](./figlet-text-converter)** | Convert tagged text to ASCII art using figlet. |
+| **[github-issue-fetcher](./github-issue-fetcher)** | Fetch GitHub issues for a repository. |
+| **[tdd-methodology-expert](./tdd-methodology-expert)** | Guidance and helpers for TDD methodology and best practices. |
 
 ### 🔧 Laravel Ecosystem
 
-| Skill | Description | Version |
-|-------|-------------|---------|
-| **[laravel](./laravel)** | Core Laravel framework integration and helper tools | 1.0.0 |
-| **[laravel-cashier-paddle](./laravel-cashier-paddle)** | Work with Laravel Cashier Paddle for subscription billing | 1.0.0 |
-| **[laravel-cashier-stripe](./laravel-cashier-stripe)** | Integrate Laravel Cashier Stripe payment processing | 1.0.0 |
-| **[laravel-dusk](./laravel-dusk)** | Browser automation and testing with Laravel Dusk | 1.0.0 |
-| **[laravel-mcp](./laravel-mcp)** | Laravel Model Context Protocol integration | 1.0.0 |
-| **[laravel-prompts](./laravel-prompts)** | Beautiful command-line prompts for Laravel applications | 1.0.0 |
+| Skill | Purpose |
+|-------|---------|
+| **[laravel](./laravel)** | Core Laravel integration for Claude Code. |
+| **[laravel-cashier-paddle](./laravel-cashier-paddle)** | Work with Laravel Cashier (Paddle). |
+| **[laravel-cashier-stripe](./laravel-cashier-stripe)** | Work with Laravel Cashier (Stripe). |
+| **[laravel-dusk](./laravel-dusk)** | Browser testing with Laravel Dusk. |
+| **[laravel-mcp](./laravel-mcp)** | Integrate Laravel with MCP. |
+| **[laravel-prompts](./laravel-prompts)** | Use Laravel Prompts for interactive CLIs. |
 
-### 🤖 AI & API Integration
+### 🤖 AI & Model APIs
 
-| Skill | Description | Version |
-|-------|-------------|---------|
-| **[openrouter](./openrouter)** | Connect to OpenRouter API for multi-model AI access | 1.0.0 |
+| Skill | Purpose |
+|-------|---------|
+| **[openrouter](./openrouter)** | Connect to the OpenRouter API for multi-model access. |
+| **[ollama](./ollama)** | Interact with local models via the Ollama API. |
+| **[midjourney-replicate-flux](./midjourney-replicate-flux)** | Generate Midjourney-style prompts/images via Replicate (Flux 1.1 Pro). |
+
+### ☁️ Cloud & Infra
+
+| Skill | Purpose |
+|-------|---------|
+| **[vercel](./vercel)** | Manage deployments and resources via the Vercel API. |
+| **[linode-api](./linode-api)** | Manage Linode resources via API. |
+| **[linode-cli](./linode-cli)** | Run Linode CLI operations. |
+| **[frankenphp](./frankenphp)** | Integrate with the FrankenPHP app server. |
+| **[vastai-api](./vastai-api)** | Access GPU instances via the VastAI API. |
 
 ---
 
