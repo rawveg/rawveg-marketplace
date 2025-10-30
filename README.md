@@ -82,7 +82,13 @@ SkillsForge currently offers **23 curated skills** across focused categories. On
 | **[linode-api](./linode-api)** | Manage Linode resources via API. |
 | **[linode-cli](./linode-cli)** | Run Linode CLI operations. |
 | **[frankenphp](./frankenphp)** | Integrate with the FrankenPHP app server. |
-| **[vastai-api](./vastai-api)** | Access GPU instances via the VastAI API. |
+| **[vastai-api](./vastai-api)** | Access GPU instances via the VastAI API. |\
+
+### 🛡️ Security
+
+| Skill | Purpose |
+|-------|---------|
+| **[haveibeenpwned](./haveibeenpwned)** | Check if your email/password has been compromised in data breaches. |
 
 ---
 

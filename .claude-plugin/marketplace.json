@@ -65,6 +65,15 @@
       ]
     },
     {
+      "name": "haveibeenpwned",
+      "description": "Interacts with the HaveIBeenPwned API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./haveibeenpwned"
+      ]
+    },
+    {
       "name": "laravel",
       "description": "Collection of skills used to work with Laravel",
       "source": "./",
