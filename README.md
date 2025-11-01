@@ -22,7 +22,7 @@ Get started with SkillsForge in just two commands:
 
 ```bash
 # Add the SkillsForge marketplace to Claude Code
-/plugin marketplace add rawveg/rawveg-marketplace
+/plugin marketplace add rawveg/skillsforge-marketplace
 
 # Browse and install skills interactively
 /plugin
@@ -100,12 +100,12 @@ SkillsForge currently offers **23 curated skills** across focused categories. On
 Add the SkillsForge marketplace to access all skills:
 
 ```bash
-/plugin marketplace add rawveg/rawveg-marketplace
+/plugin marketplace add rawveg/skillsforge-marketplace
 ```
 
 Once added, you can:
 - Browse all available skills with `/plugin`
-- Install specific skills: `/plugin install skill-name@rawveg-marketplace`
+- Install specific skills: `/plugin install skill-name@skillsforge-marketplace`
 - Update skills automatically when new versions are released
 
 ### Method 2: Install Individual Skills
@@ -114,7 +114,7 @@ If you prefer to install specific skills without adding the marketplace:
 
 ```bash
 # Install directly from GitHub
-/plugin install https://github.com/rawveg/rawveg-marketplace/tree/main/skill-name
+/plugin install https://github.com/rawveg/skillsforge-marketplace/tree/main/skill-name
 ```
 
 ### Method 3: Local Development
@@ -123,13 +123,13 @@ For testing or development:
 
 ```bash
 # Clone the repository
-git clone https://github.com/rawveg/rawveg-marketplace.git
+git clone https://github.com/rawveg/skillsforge-marketplace.git
 
 # Add as local marketplace
-/plugin marketplace add ./rawveg-marketplace
+/plugin marketplace add ./skillsforge-marketplace
 
 # Or install individual skills locally
-/plugin install ./rawveg-marketplace/skill-name
+/plugin install ./skillsforge-marketplace/skill-name
 ```
 
 ---
@@ -143,17 +143,17 @@ To ensure your entire team has access to SkillsForge, add this to your project's
 ```json
 {
   "extraKnownMarketplaces": {
-    "rawveg-marketplace": {
+    "skillsforge-marketplace": {
       "source": {
         "source": "github",
-        "repo": "rawveg/rawveg-marketplace"
+        "repo": "rawveg/skillsforge-marketplace"
       }
     }
   },
   "enabledPlugins": {
-    "figlet-text-converter@rawveg-marketplace": {},
-    "word-count-checker@rawveg-marketplace": {},
-    "forem-api@rawveg-marketplace": {}
+    "figlet-text-converter@skillsforge-marketplace": {},
+    "word-count-checker@skillsforge-marketplace": {},
+    "forem-api@skillsforge-marketplace": {}
   }
 }
 ```
@@ -172,7 +172,7 @@ Check that the marketplace is properly configured:
 /plugin marketplace list
 
 # Verify SkillsForge appears in the list
-# Should show: rawveg-marketplace (GitHub: rawveg/rawveg-marketplace)
+# Should show: skillsforge-marketplace (GitHub: rawveg/skillsforge-marketplace)
 ```
 
 ---
@@ -183,7 +183,7 @@ Check that the marketplace is properly configured:
 
 ```bash
 # Install the Forem API skill
-/plugin install forem-api@rawveg-marketplace
+/plugin install forem-api@skillsforge-marketplace
 
 # Create a new article
 Hey Claude, can you publish my article in article.md to DEV.to?
@@ -193,7 +193,7 @@ Hey Claude, can you publish my article in article.md to DEV.to?
 
 ```bash
 # Install the Figlet converter
-/plugin install figlet-text-converter@rawveg-marketplace
+/plugin install figlet-text-converter@skillsforge-marketplace
 
 # Convert text to ASCII art
 Please convert the title "SkillsForge" to ASCII art using the 'banner' font
@@ -203,7 +203,7 @@ Please convert the title "SkillsForge" to ASCII art using the 'banner' font
 
 ```bash
 # Install the word count checker
-/plugin install word-count-checker@rawveg-marketplace
+/plugin install word-count-checker@skillsforge-marketplace
 
 # Get accurate word counts
 What's the word count of my manuscript.md file?
@@ -213,8 +213,8 @@ What's the word count of my manuscript.md file?
 
 ```bash
 # Install Laravel skills
-/plugin install laravel@rawveg-marketplace
-/plugin install laravel-prompts@rawveg-marketplace
+/plugin install laravel@skillsforge-marketplace
+/plugin install laravel-prompts@skillsforge-marketplace
 
 # Use Laravel-specific features
 Help me create a new Artisan command with interactive prompts
@@ -246,7 +246,7 @@ We welcome contributions to SkillsForge! Here's how you can help:
 
 Found a bug or have a feature request?
 
-1. Check existing [GitHub Issues](https://github.com/rawveg/rawveg-marketplace/issues)
+1. Check existing [GitHub Issues](https://github.com/rawveg/skillsforge-marketplace/issues)
 2. Create a new issue with:
    - Clear description of the problem
    - Steps to reproduce
@@ -262,7 +262,7 @@ Found a bug or have a feature request?
 Refresh the marketplace to get the latest skill versions:
 
 ```bash
-/plugin marketplace update rawveg-marketplace
+/plugin marketplace update skillsforge-marketplace
 ```
 
 ### List Installed Skills
@@ -286,7 +286,7 @@ Uninstall skills you no longer need:
 To completely remove SkillsForge:
 
 ```bash
-/plugin marketplace remove rawveg-marketplace
+/plugin marketplace remove skillsforge-marketplace
 ```
 
 > **Note:** Removing the marketplace will also uninstall all skills installed from it.
@@ -301,7 +301,7 @@ To completely remove SkillsForge:
 
 **Solutions:**
 - Verify you have internet access
-- Ensure you're using the correct repository name: `rawveg/rawveg-marketplace`
+- Ensure you're using the correct repository name: `rawveg/skillsforge-marketplace`
 - Try updating Claude Code to the latest version
 - Check GitHub isn't experiencing downtime
 
@@ -310,8 +310,8 @@ To completely remove SkillsForge:
 **Problem:** Skill appears in the list but won't install
 
 **Solutions:**
-- Run `/plugin marketplace update rawveg-marketplace` to refresh
-- Try installing with the full path: `/plugin install skill-name@rawveg-marketplace`
+- Run `/plugin marketplace update skillsforge-marketplace` to refresh
+- Try installing with the full path: `/plugin install skill-name@skillsforge-marketplace`
 - Check the skill's individual documentation for specific requirements
 - Ensure you have proper file system permissions
 
@@ -323,7 +323,7 @@ To completely remove SkillsForge:
 - Restart Claude Code
 - Verify the skill is enabled: `/plugin list`
 - Check for any error messages in the Claude Code logs
-- Try reinstalling: `/plugin uninstall skill-name` then `/plugin install skill-name@rawveg-marketplace`
+- Try reinstalling: `/plugin uninstall skill-name` then `/plugin install skill-name@skillsforge-marketplace`
 
 ---
 
@@ -332,8 +332,8 @@ To completely remove SkillsForge:
 Need help or have questions?
 
 - **Documentation:** [Claude Code Plugins Guide](https://docs.claude.com/docs/claude-code/plugins)
-- **Issues:** [GitHub Issues](https://github.com/rawveg/rawveg-marketplace/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/rawveg/rawveg-marketplace/discussions)
+- **Issues:** [GitHub Issues](https://github.com/rawveg/skillsforge-marketplace/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/rawveg/skillsforge-marketplace/discussions)
 
 ---
 
@@ -375,7 +375,7 @@ Upcoming skills and features:
 - [ ] Cloud deployment helpers (AWS, Azure, GCP)
 - [ ] Code quality and security scanning tools
 
-Have ideas for new skills? [Open an issue](https://github.com/rawveg/rawveg-marketplace/issues) with the "enhancement" label!
+Have ideas for new skills? [Open an issue](https://github.com/rawveg/skillsforge-marketplace/issues) with the "enhancement" label!
 
 ---
 
