@@ -45,6 +45,7 @@ SkillsForge currently offers **23 curated skills** across focused categories. On
 | **[hashnode-api](./hashnode-api)** | Manage articles and profile on Hashnode. |
 | **[writeas](./writeas)** | Work with Write.as/WriteFreely for simple publishing. |
 | **[snapas](./snapas)** | Upload and manage images via Snap.as. |
+| **[tumblr](./tumblr)** | Manage articles and profile on Tumblr. |
 | **[word-count-checker](./word-count-checker)** | Accurately count words in documents (avoids token-based estimates). |
 
 ### 🛠️ Development Tools

@@ -151,6 +151,15 @@
       ]
     },
     {
+      "name": "tumblr",
+      "description": "Interacts with the Tumblr API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./tumblr"
+      ]
+    },
+    {
       "name": "vastai-api",
       "description": "Interacts with the VastAI API.",
       "source": "./",
