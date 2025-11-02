@@ -133,6 +133,15 @@
       ]
     },
     {
+      "name": "pinterest-api",
+      "description": "Interacts with the Pinterest API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./pinterest-api"
+      ]
+    },
+    {
       "name": "snapas",
       "description": "Interacts with the Snap.as API.",
       "source": "./",

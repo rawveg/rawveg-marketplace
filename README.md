@@ -96,6 +96,7 @@ SkillsForge currently offers **23 curated skills** across focused categories. On
 | Skill | Purpose |
 |-------|---------|
 | **[threads-api](./threads-api)** | Interact with the Threads API. |
+| **[pinterest-api](./pinterest-api)** | Interact with the Pinterest API. |
 
 ---
 
