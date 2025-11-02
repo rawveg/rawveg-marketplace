@@ -151,6 +151,15 @@
       ]
     },
     {
+      "name": "threads-api",
+      "description": "Interacts with the Threads API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./threads-api"
+      ]
+    },
+    {
       "name": "tumblr",
       "description": "Interacts with the Tumblr API.",
       "source": "./",

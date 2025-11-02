@@ -91,6 +91,12 @@ SkillsForge currently offers **23 curated skills** across focused categories. On
 |-------|---------|
 | **[haveibeenpwned](./haveibeenpwned)** | Check if your email/password has been compromised in data breaches. |
 
+### 📱 Social Media
+
+| Skill | Purpose |
+|-------|---------|
+| **[threads-api](./threads-api)** | Interact with the Threads API. |
+
 ---
 
 ## 💻 Installation
