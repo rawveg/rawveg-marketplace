@@ -11,6 +11,15 @@
   },
   "plugins": [
     {
+      "name": "apify-js-sdk",
+      "description": "Interacts with the Apify JS SDK. Allows you to work with Actors and other Apify features.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./apify-js-sdk"
+      ]
+    },
+    {
       "name": "article-title-optimizer",
       "description": "Optimizes article titles for search engines.",
       "source": "./",

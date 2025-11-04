@@ -40,6 +40,7 @@ SkillsForge currently offers **23 curated skills** across focused categories. On
 
 | Skill | Purpose |
 |-------|---------|
+| **[apify-js-sdk](./apify-js-sdk)** | Interacts with the Apify JS SDK. Allows you to work with Actors and other Apify features. |
 | **[article-title-optimizer](./article-title-optimizer)** | Optimize article titles for SEO. |
 | **[forem-api](./forem-api)** | Create, update, and delete articles and manage your Forem profile. |
 | **[hashnode-api](./hashnode-api)** | Manage articles and profile on Hashnode. |
