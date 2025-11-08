@@ -124,6 +124,15 @@
       ]
     },
     {
+      "name": "n8n",
+      "description": "Interacts with the n8n API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./n8n"
+      ]
+    },
+    {
       "name": "ollama",
       "description": "Interacts with the Ollama API.",
       "source": "./",

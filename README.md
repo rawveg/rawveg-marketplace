@@ -34,7 +34,7 @@ That's it! You now have access to all the skills in the SkillsForge collection.
 
 ## 🎨 Available Skills
 
-SkillsForge currently offers **29 curated skills** across focused categories. Only skills included in `.claude-plugin/marketplace.json` are listed below.
+SkillsForge currently offers **30 curated skills** across focused categories. Only skills included in `.claude-plugin/marketplace.json` are listed below.
 
 ### 📝 Content & Publishing
 
@@ -84,6 +84,7 @@ SkillsForge currently offers **29 curated skills** across focused categories. On
 | **[linode-api](./linode-api)** | Manage Linode resources via API. |
 | **[linode-cli](./linode-cli)** | Run Linode CLI operations. |
 | **[frankenphp](./frankenphp)** | Integrate with the FrankenPHP app server. |
+| **[n8n](./n8n)** | Manage n8n resources via API. |
 | **[vastai-api](./vastai-api)** | Access GPU instances via the VastAI API. |\
 
 ### 🛡️ Security
