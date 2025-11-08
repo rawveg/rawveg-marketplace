@@ -34,7 +34,7 @@ That's it! You now have access to all the skills in the SkillsForge collection.
 
 ## 🎨 Available Skills
 
-SkillsForge currently offers **23 curated skills** across focused categories. Only skills included in `.claude-plugin/marketplace.json` are listed below.
+SkillsForge currently offers **29 curated skills** across focused categories. Only skills included in `.claude-plugin/marketplace.json` are listed below.
 
 ### 📝 Content & Publishing
 
