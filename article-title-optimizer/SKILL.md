@@ -127,23 +127,10 @@ After scoring all five candidates:
 
 ### Step 6: Replace the Title in the Article
 
-Use the `scripts/replace_title.py` script to replace the article's current title:
-
-```bash
-python3 scripts/replace_title.py <article_path> "<winning_title>"
-```
-
-**Example:**
-```bash
-python3 scripts/replace_title.py /path/to/article.md "Opaque AI in Healthcare: Why Explainability Matters Now"
-```
-
-The script will:
+Use the Edit tool to replace the article's current title and ensure that you:-
 - Find and replace the first H1 heading in the markdown file
 - Preserve all other content
 - Confirm successful replacement
-
-**Note**: Always verify the file path is correct before executing the script.
 
 ### Step 7: Present Results to User
 
