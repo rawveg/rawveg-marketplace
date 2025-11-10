@@ -29,6 +29,15 @@
       ]
     },
     {
+      "name": "cronjob-org",
+      "description": "Interacts with the cronjob.org API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cronjob-org"
+      ]
+    },
+    {
       "name": "figlet-text-converter",
       "description": "Converts marked text in files to ASCII art using figlet tag syntax.",
       "source": "./",

@@ -1,0 +1,15 @@
+{
+  "name": "cronjob-org",
+  "description": "Interacts with the cronjob.org API.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["cronjob-org", "cronjob.org", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}

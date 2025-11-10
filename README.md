@@ -34,7 +34,7 @@ That's it! You now have access to all the skills in the SkillsForge collection.
 
 ## 🎨 Available Skills
 
-SkillsForge currently offers **30 curated skills** across focused categories. Only skills included in `.claude-plugin/marketplace.json` are listed below.
+SkillsForge currently offers **31 curated skills** across focused categories. Only skills included in `.claude-plugin/marketplace.json` are listed below.
 
 ### 📝 Content & Publishing
 
@@ -44,10 +44,10 @@ SkillsForge currently offers **30 curated skills** across focused categories. On
 | **[article-title-optimizer](./article-title-optimizer)** | Optimize article titles for SEO. |
 | **[forem-api](./forem-api)** | Create, update, and delete articles and manage your Forem profile. |
 | **[hashnode-api](./hashnode-api)** | Manage articles and profile on Hashnode. |
-| **[writeas](./writeas)** | Work with Write.as/WriteFreely for simple publishing. |
 | **[snapas](./snapas)** | Upload and manage images via Snap.as. |
 | **[tumblr](./tumblr)** | Manage articles and profile on Tumblr. |
 | **[word-count-checker](./word-count-checker)** | Accurately count words in documents (avoids token-based estimates). |
+| **[writeas](./writeas)** | Work with Write.as/WriteFreely for simple publishing. |
 
 ### 🛠️ Development Tools
 
@@ -73,19 +73,20 @@ SkillsForge currently offers **30 curated skills** across focused categories. On
 | Skill | Purpose |
 |-------|---------|
 | **[openrouter](./openrouter)** | Connect to the OpenRouter API for multi-model access. |
-| **[ollama](./ollama)** | Interact with local models via the Ollama API. |
 | **[midjourney-replicate-flux](./midjourney-replicate-flux)** | Generate Midjourney-style prompts/images via Replicate (Flux 1.1 Pro). |
+| **[ollama](./ollama)** | Interact with local models via the Ollama API. |
 
 ### ☁️ Cloud & Infra
 
 | Skill | Purpose |
 |-------|---------|
-| **[vercel](./vercel)** | Manage deployments and resources via the Vercel API. |
+| **[cronjob-org](./cronjob-org)** | Interacts with the cronjob.org API. |
+| **[frankenphp](./frankenphp)** | Integrate with the FrankenPHP app server. |
 | **[linode-api](./linode-api)** | Manage Linode resources via API. |
 | **[linode-cli](./linode-cli)** | Run Linode CLI operations. |
-| **[frankenphp](./frankenphp)** | Integrate with the FrankenPHP app server. |
 | **[n8n](./n8n)** | Manage n8n resources via API. |
 | **[vastai-api](./vastai-api)** | Access GPU instances via the VastAI API. |\
+| **[vercel](./vercel)** | Manage deployments and resources via the Vercel API. |
 
 ### 🛡️ Security
 
