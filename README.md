@@ -75,6 +75,7 @@ SkillsForge currently offers **31 curated skills** across focused categories. On
 | **[openrouter](./openrouter)** | Connect to the OpenRouter API for multi-model access. |
 | **[midjourney-replicate-flux](./midjourney-replicate-flux)** | Generate Midjourney-style prompts/images via Replicate (Flux 1.1 Pro). |
 | **[ollama](./ollama)** | Interact with local models via the Ollama API. |
+| **[replicate-cli](./replicate-cli)** | Interact with the Replicate CLI. |
 
 ### ☁️ Cloud & Infra
 

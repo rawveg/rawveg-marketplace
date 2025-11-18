@@ -169,6 +169,15 @@
       ]
     },
     {
+      "name": "replicate-cli",
+      "description": "Interacts with the Replicate CLI.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./replicate-cli"
+      ]
+    },
+    {
       "name": "snapas",
       "description": "Interacts with the Snap.as API.",
       "source": "./",
