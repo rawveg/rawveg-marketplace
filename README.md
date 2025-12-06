@@ -34,7 +34,7 @@ That's it! You now have access to all the skills in the SkillsForge collection.
 
 ## 🎨 Available Skills
 
-SkillsForge currently offers **31 curated skills** across focused categories. Only skills included in `.claude-plugin/marketplace.json` are listed below.
+SkillsForge currently offers **31 curated skills** and **1 hooks plugin** across focused categories. Only items included in `.claude-plugin/marketplace.json` are listed below.
 
 ### 📝 Content & Publishing
 
@@ -101,6 +101,12 @@ SkillsForge currently offers **31 curated skills** across focused categories. On
 |-------|---------|
 | **[threads-api](./threads-api)** | Interact with the Threads API. |
 | **[pinterest-api](./pinterest-api)** | Interact with the Pinterest API. |
+
+### 🛡️ Behavioral Hooks
+
+| Plugin | Purpose |
+|--------|---------|
+| **[presumption-guard](./presumption-guard)** | Detects and flags presumptive actions after they occur - makes it clear when Claude has acted without explicit permission. |
 
 ---
 

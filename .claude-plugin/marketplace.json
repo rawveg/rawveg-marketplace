@@ -248,6 +248,11 @@
       "skills": [
         "./writeas"
       ]
+    },
+    {
+      "name": "presumption-guard",
+      "description": "Detects and flags presumptive actions after they occur - makes it clear when Claude has acted without explicit permission.",
+      "source": "./presumption-guard"
     }
   ]
 }
