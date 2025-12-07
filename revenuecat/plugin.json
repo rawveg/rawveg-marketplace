@@ -1,0 +1,15 @@
+{
+  "name": "revenuecat",
+  "description": "This skill provides comprehensive guidance for using RevenueCat to manage in-app purchases, subscriptions, and revenue analytics. Use this skill when the user wants to integrate RevenueCat into their mobile applications, configure subscription plans, handle revenue analytics, or manage user entitlements. This skill should be used when users ask about setting up RevenueCat, configuring subscription offerings, analyzing revenue data, or managing user entitlements through the RevenueCat dashboard or API.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["skills", "reusable", "components", "RevenueCat", "in-app purchases", "subscriptions", "revenue analytics", "user entitlements", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}

@@ -178,6 +178,15 @@
       ]
     },
     {
+      "name": "revenuecat",
+      "description": "Interacts with the RevenueCat API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./revenuecat"
+      ]
+    },
+    {
       "name": "snapas",
       "description": "Interacts with the Snap.as API.",
       "source": "./",

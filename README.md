@@ -34,7 +34,7 @@ That's it! You now have access to all the skills in the SkillsForge collection.
 
 ## 🎨 Available Skills
 
-SkillsForge currently offers **31 curated skills** and **1 hooks plugin** across focused categories. Only items included in `.claude-plugin/marketplace.json` are listed below.
+SkillsForge currently offers **32 curated skills** and **1 hooks plugin** across focused categories. Only items included in `.claude-plugin/marketplace.json` are listed below.
 
 ### 📝 Content & Publishing
 
@@ -88,6 +88,12 @@ SkillsForge currently offers **31 curated skills** and **1 hooks plugin** across
 | **[n8n](./n8n)** | Manage n8n resources via API. |
 | **[vastai-api](./vastai-api)** | Access GPU instances via the VastAI API. |\
 | **[vercel](./vercel)** | Manage deployments and resources via the Vercel API. |
+
+### 📊 Payment Processing and Revenue
+
+| Skill | Purpose |
+|-------|---------|
+| **[revenuecat](./revenuecat)** | Interacts with the RevenueCat API. |
 
 ### 🛡️ Security
 
