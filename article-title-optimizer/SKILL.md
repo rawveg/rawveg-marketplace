@@ -274,10 +274,3 @@ Comprehensive guide containing:
 - Before/after transformation examples
 
 **When to reference**: Always review this before generating candidates to ensure adherence to best practices and proper use of formulas.
-
-### scripts/replace_title.py
-Python script that replaces the first H1 heading in a markdown file with the new optimized title.
-
-**Usage**: `python3 scripts/replace_title.py <article_path> "<new_title>"`
-
-**When to use**: After selecting the winning title in Step 6 to automatically update the article file.
