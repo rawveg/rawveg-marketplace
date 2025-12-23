@@ -1,5 +1,8 @@
 # 🎯 SkillsForge Marketplace
 
+[![Run in Smithery](https://smithery.ai/badge/skills/rawveg)](https://smithery.ai/skills?ns=rawveg&utm_source=github&utm_medium=badge)
+
+
 > A curated collection of Claude Code skills and plugins to supercharge your development workflow
 
 Welcome to SkillsForge! This marketplace provides a centralized hub for discovering and installing powerful Claude Code extensions that enhance your productivity, streamline your workflows, and integrate with your favorite tools and services.
