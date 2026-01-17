@@ -1,6 +1,6 @@
 # 🎯 SkillsForge Marketplace
 
-> A curated collection of Claude Code skills and plugins to supercharge your development workflow
+> A curated collection of Skills and plugins to supercharge your development workflow
 
 Welcome to SkillsForge! This marketplace provides a centralized hub for discovering and installing powerful Claude Code extensions that enhance your productivity, streamline your workflows, and integrate with your favorite tools and services.
 
@@ -26,6 +26,12 @@ Get started with SkillsForge in just two commands:
 
 # Browse and install skills interactively
 /plugin
+```
+
+Not using Claude Code, or want something more universal? Install any skill using:-
+
+```bash
+npx skills rawveg/skillsforge-marketplace
 ```
 
 That's it! You now have access to all the skills in the SkillsForge collection.
