@@ -1,0 +1,15 @@
+{
+  "name": "ds-continuity",
+  "description": "Death & Sourdough series continuity checker. MANDATORY before writing or editing ANY prose chapter for the Death & Sourdough project.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["ds-continuity", "death-and-sourdough", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}

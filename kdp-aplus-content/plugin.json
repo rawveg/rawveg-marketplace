@@ -1,0 +1,15 @@
+{
+  "name": "kdp-aplus-content",
+  "description": "Create Amazon-compliant A+ Content for KDP books with text, module layouts, and image specs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/skillsforge-marketplace",
+  "repository": "https://github.com/rawveg/skillsforge-marketplace",
+  "license": "MIT",
+  "keywords": ["kdp", "kindle", "amazon", "a+content", "book-marketing", "self-publishing", "Claude Code"],
+  "category": "content-publishing",
+  "strict": false
+}
