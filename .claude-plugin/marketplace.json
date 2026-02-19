@@ -11,6 +11,15 @@
   },
   "plugins": [
     {
+      "name": "agent-team-builder",
+      "description": "Designs and executes multi-agent teams to accomplish any complex task through iterative collaboration, quality gates, and refinement loops.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./agent-team-builder"
+      ]
+    },
+    {
       "name": "ai-summary-request",
       "description": "Creates llms.txt files for AI discoverability and AI Summary Request footer components with platform icons.",
       "source": "./",
