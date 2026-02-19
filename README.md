@@ -40,7 +40,7 @@ That's it! You now have access to all the skills in the SkillsForge collection.
 
 ## 🎨 Available Skills
 
-SkillsForge currently offers **32 curated skills** and **1 hooks plugin** across focused categories. Only items included in `.claude-plugin/marketplace.json` are listed below.
+SkillsForge currently offers **33 curated skills** and **1 hooks plugin** across focused categories. Only items included in `.claude-plugin/marketplace.json` are listed below.
 
 ### 📝 Content & Publishing
 
@@ -60,6 +60,7 @@ SkillsForge currently offers **32 curated skills** and **1 hooks plugin** across
 
 | Skill | Purpose |
 |-------|---------|
+| **[agent-team-builder](./agent-team-builder)** | Design and execute multi-agent teams with quality gates and refinement loops for any complex task. |
 | **[figlet-text-converter](./figlet-text-converter)** | Convert tagged text to ASCII art using figlet. |
 | **[github-issue-fetcher](./github-issue-fetcher)** | Fetch GitHub issues for a repository. |
 | **[tdd-methodology-expert](./tdd-methodology-expert)** | Guidance and helpers for TDD methodology and best practices. |
