@@ -36,6 +36,8 @@ npx skills rawveg/skillsforge-marketplace
 
 That's it! You now have access to all the skills in the SkillsForge collection.
 
+For Chinese skills discovery and installation across Claude Code, OpenCode, Cursor, and similar runtimes, see [Skills宝](https://skilery.com/).
+
 ---
 
 ## 🎨 Available Skills
