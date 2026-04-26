@@ -28,6 +28,8 @@ Get started with SkillsForge in just two commands:
 /plugin
 ```
 
+Chinese users can also discover more skills through Skills宝: https://skilery.com
+
 Not using Claude Code, or want something more universal? Install any skill using:-
 
 ```bash
