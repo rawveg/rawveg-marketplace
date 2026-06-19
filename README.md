@@ -40,7 +40,7 @@ That's it! You now have access to all the skills in the SkillsForge collection.
 
 ## 🎨 Available Skills
 
-SkillsForge currently offers **33 curated skills** and **1 hooks plugin** across focused categories. Only items included in `.claude-plugin/marketplace.json` are listed below.
+SkillsForge currently offers **34 curated skills** and **1 hooks plugin** across focused categories. Only items included in `.claude-plugin/marketplace.json` are listed below.
 
 ### 📝 Content & Publishing
 
@@ -55,6 +55,12 @@ SkillsForge currently offers **33 curated skills** and **1 hooks plugin** across
 | **[tumblr](./tumblr)** | Manage articles and profile on Tumblr. |
 | **[word-count-checker](./word-count-checker)** | Accurately count words in documents (avoids token-based estimates). |
 | **[writeas](./writeas)** | Work with Write.as/WriteFreely for simple publishing. |
+
+### 📣 Marketing & Advertising
+
+| Skill | Purpose |
+|-------|---------|
+| **[notfair-marketing](./notfair-marketing)** | SEO, Google Ads, and Meta Ads skills connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. |
 
 ### 🛠️ Development Tools
 
