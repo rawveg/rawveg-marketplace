@@ -1,0 +1,15 @@
+{
+  "name": "notfair-marketing",
+  "description": "SEO, Google Ads, and Meta Ads skills for Claude Code, powered by Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.",
+  "version": "1.0.0",
+  "author": {
+    "name": "nowork-studio",
+    "url": "https://github.com/nowork-studio/NotFair"
+  },
+  "homepage": "https://github.com/nowork-studio/NotFair",
+  "repository": "https://github.com/nowork-studio/NotFair",
+  "license": "MIT",
+  "keywords": ["SEO", "Google Ads", "Meta Ads", "marketing", "Claude Code", "MCP"],
+  "category": "marketing",
+  "strict": false
+}

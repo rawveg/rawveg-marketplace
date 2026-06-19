@@ -160,6 +160,15 @@
       ]
     },
     {
+      "name": "notfair-marketing",
+      "description": "SEO, Google Ads, and Meta Ads skills for Claude Code, powered by Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./notfair-marketing"
+      ]
+    },
+    {
       "name": "ollama",
       "description": "Interacts with the Ollama API.",
       "source": "./",
