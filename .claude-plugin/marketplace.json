@@ -232,6 +232,15 @@
       ]
     },
     {
+      "name": "xquik-api",
+      "description": "Interacts with the Xquik API.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./xquik-api"
+      ]
+    },
+    {
       "name": "tumblr",
       "description": "Interacts with the Tumblr API.",
       "source": "./",

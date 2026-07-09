@@ -1,0 +1,15 @@
+{
+  "name": "xquik-api",
+  "description": "Provides Xquik API integration guidance for Claude Code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Green",
+    "email": "rawveg@gmail.com"
+  },
+  "homepage": "https://github.com/rawveg/claude-skills-marketplace",
+  "repository": "https://github.com/rawveg/claude-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["xquik-api", "xquik", "social media", "social media automation", "Claude Code"],
+  "category": "productivity",
+  "strict": false
+}
