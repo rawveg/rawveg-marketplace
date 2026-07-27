@@ -277,6 +277,24 @@
       ]
     },
     {
+      "name": "xquik-x-follower-scraper",
+      "description": "Runs Xquik's Apify Actor for X followers, following, lists, and communities.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./xquik-x-follower-scraper"
+      ]
+    },
+    {
+      "name": "xquik-x-tweet-scraper",
+      "description": "Runs Xquik's Apify Actor for X posts, searches, timelines, threads, and engagement.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./xquik-x-tweet-scraper"
+      ]
+    },
+    {
       "name": "kdp-aplus-content",
       "description": "Create Amazon-compliant A+ Content for KDP books with text, module layouts, and image specs.",
       "source": "./",
