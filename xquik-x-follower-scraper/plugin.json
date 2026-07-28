@@ -1,0 +1,14 @@
+{
+  "name": "xquik-x-follower-scraper",
+  "description": "Runs Xquik's Apify Actor for X followers, following, lists, and communities.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Xquik"
+  },
+  "homepage": "https://apify.com/xquik/x-follower-scraper",
+  "repository": "https://github.com/rawveg/skillsforge-marketplace",
+  "license": "MIT",
+  "keywords": ["apify", "x", "twitter", "followers", "scraping"],
+  "category": "productivity",
+  "strict": false
+}

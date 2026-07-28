@@ -1,0 +1,14 @@
+{
+  "name": "xquik-x-tweet-scraper",
+  "description": "Runs Xquik's Apify Actor for X posts, searches, timelines, threads, and engagement.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Xquik"
+  },
+  "homepage": "https://apify.com/xquik/x-tweet-scraper",
+  "repository": "https://github.com/rawveg/skillsforge-marketplace",
+  "license": "MIT",
+  "keywords": ["apify", "x", "twitter", "posts", "scraping"],
+  "category": "productivity",
+  "strict": false
+}

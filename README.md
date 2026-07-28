@@ -40,7 +40,7 @@ That's it! You now have access to all the skills in the SkillsForge collection.
 
 ## 🎨 Available Skills
 
-SkillsForge currently offers **33 curated skills** and **1 hooks plugin** across focused categories. Only items included in `.claude-plugin/marketplace.json` are listed below.
+SkillsForge currently offers **37 curated skills** and **1 hooks plugin** across focused categories. Only items included in `.claude-plugin/marketplace.json` are listed below.
 
 ### 📝 Content & Publishing
 
@@ -115,6 +115,8 @@ SkillsForge currently offers **33 curated skills** and **1 hooks plugin** across
 |-------|---------|
 | **[threads-api](./threads-api)** | Interact with the Threads API. |
 | **[pinterest-api](./pinterest-api)** | Interact with the Pinterest API. |
+| **[xquik-x-follower-scraper](./xquik-x-follower-scraper)** | Runs Xquik's Apify Actor for X followers, following, lists, and communities. |
+| **[xquik-x-tweet-scraper](./xquik-x-tweet-scraper)** | Runs Xquik's Apify Actor for X posts, searches, timelines, threads, and engagement. |
 
 ### 🛡️ Behavioral Hooks
 
