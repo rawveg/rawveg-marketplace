@@ -8,6 +8,10 @@ description: Run Xquik's Apify Actor for X posts, searches, timelines, threads, 
 Collect public X post data through the
 [X Tweet Scraper Actor](https://apify.com/xquik/x-tweet-scraper).
 
+Use Store identifier `xquik/x-tweet-scraper`.
+Use REST selector `xquik~x-tweet-scraper`.
+Use stable Actor ID `wAusCMrm284Voaw86`.
+
 ## Capabilities
 
 - Post URLs and IDs
@@ -40,6 +44,7 @@ Fetch posts by ID:
 
 ```json
 {
+  "mode": "tweets",
   "tweetIds": ["1846987139428634858"],
   "maxItems": 10,
   "outputVariant": "rich",
@@ -51,6 +56,7 @@ Run multiple searches:
 
 ```json
 {
+  "mode": "search",
   "searchTerms": ["from:nasa space", "#opensource lang:en"],
   "maxItems": 20,
   "queryType": "Latest",
@@ -59,8 +65,9 @@ Run multiple searches:
 }
 ```
 
-Use `mode` for `thread`, `replies`, `quotes`, `retweeters`, `favoriters`, or
-`article`.
+Supported modes are `legacy`, `tweet`, `tweets`, `search`, `profileTweets`,
+`profileReplies`, `profileMedia`, `profileLikes`, `listTweets`, `article`,
+`replies`, `quotes`, `thread`, `retweeters`, and `favoriters`.
 
 After approval, run:
 

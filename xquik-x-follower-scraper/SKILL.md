@@ -8,6 +8,10 @@ description: Run Xquik's Apify Actor for X followers, following, verified follow
 Collect public X relationship data through the
 [X Follower Scraper Actor](https://apify.com/xquik/x-follower-scraper).
 
+Use Store identifier `xquik/x-follower-scraper`.
+Use REST selector `xquik~x-follower-scraper`.
+Use stable Actor ID `AaT0BcKU5GQh97wdt`.
+
 ## Capabilities
 
 - Followers and following
@@ -62,6 +66,9 @@ Fetch several relationships:
 
 Use `listIds` with `list_members` or `list_followers`. Use `communityIds` with
 `community_members`.
+
+Supported relations are `followers`, `following`, `verified_followers`,
+`list_members`, `list_followers`, and `community_members`.
 
 After approval, run:
 
